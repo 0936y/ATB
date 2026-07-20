@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { CrafterProfession } from './types'
 import { loadAllEntries } from './data/loadExports'
 import { buildIndex, searchRecipes } from './search'
@@ -7,17 +7,42 @@ import { RecipeTable } from './components/RecipeTable'
 import { ImportPanel } from './components/ImportPanel'
 
 export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }) {
-  const [entries, setEntries] = useState<CrafterProfession[]>(
-    () => initialEntries ?? loadAllEntries(),
-  )
+  const [entries, setEntries] = useState<CrafterProfession[]>(initialEntries ?? [])
+  const [loading, setLoading] = useState(initialEntries === undefined)
   const [query, setQuery] = useState('')
   const [profession, setProfession] = useState('')
   const [crafter, setCrafter] = useState('')
 
+  // The recipe data is a lazy chunk (see loadExports.ts), so it arrives after
+  // first paint. Tests pass `initialEntries` and skip the fetch entirely.
+  useEffect(() => {
+    if (initialEntries) return
+    let cancelled = false
+    loadAllEntries().then((loaded) => {
+      if (cancelled) return
+      setEntries(loaded)
+      setLoading(false)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [initialEntries])
+
   const index = useMemo(() => buildIndex(entries), [entries])
+
+  /**
+   * Nothing is rendered until the user narrows the list.
+   *
+   * Rendering all 1126 recipes means ~3400 anchors, and `refreshLinks()` then
+   * has Wowhead's power.js fetch an icon for every one of them on each paint.
+   * A two-letter minimum keeps a stray keystroke from dumping the whole table.
+   */
+  const [showAll, setShowAll] = useState(false)
+  const visible = query.trim().length >= 2 || profession !== '' || crafter !== '' || showAll
+
   const results = useMemo(
-    () => searchRecipes(index, { query, profession, crafter }),
-    [index, query, profession, crafter],
+    () => (visible ? searchRecipes(index, { query, profession, crafter }) : []),
+    [visible, index, query, profession, crafter],
   )
 
   const professions = useMemo(
@@ -48,7 +73,9 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
       <header>
         <h1>Guild Recipe Registry</h1>
         <p className="stats">
-          {index.length} recipes · {crafters.length} crafters · {professions.length} professions
+          {loading
+            ? 'Loading recipe data…'
+            : `${index.length} recipes · ${crafters.length} crafters · ${professions.length} professions`}
         </p>
       </header>
 
@@ -65,11 +92,21 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
         crafters={crafters}
       />
 
-      <p className="count">
-        Showing {results.length} of {index.length}
-      </p>
-
-      <RecipeTable matches={results} />
+      {visible ? (
+        <>
+          <p className="count">
+            Showing {results.length} of {index.length}
+          </p>
+          <RecipeTable matches={results} />
+        </>
+      ) : (
+        <div className="empty">
+          <p>Search for a recipe, or pick a profession or crafter, to see who can craft it.</p>
+          <button type="button" onClick={() => setShowAll(true)} disabled={loading}>
+            Show all {index.length} recipes
+          </button>
+        </div>
+      )}
     </main>
   )
 }

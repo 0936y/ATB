@@ -26,15 +26,52 @@ function rows() {
   return within(table).getAllByRole('row').slice(1) // drop the header row
 }
 
+/**
+ * The table is gated behind a filter so a visit does not render every recipe
+ * (and make power.js fetch an icon per link). Tests that want the whole table
+ * take the explicit opt-out.
+ */
+async function showAll(user: ReturnType<typeof userEvent.setup>) {
+  await user.click(screen.getByRole('button', { name: /Show all/ }))
+}
+
 describe('App', () => {
-  it('renders every recipe and a stats summary', () => {
+  it('renders a stats summary, and every recipe once revealed', async () => {
+    const user = userEvent.setup()
     render(<App initialEntries={entries} />)
     expect(screen.getByText('3 recipes · 2 crafters · 2 professions')).toBeInTheDocument()
+
+    await showAll(user)
     expect(rows()).toHaveLength(3)
   })
 
-  it('links each recipe to Wowhead with the right entity kind', () => {
+  it('renders no table until the list is narrowed', async () => {
+    const user = userEvent.setup()
     render(<App initialEntries={entries} />)
+
+    // The whole point: a plain visit must not render 1126 rows of Wowhead links.
+    expect(screen.queryByRole('table')).not.toBeInTheDocument()
+
+    // A single letter is not enough — two is the threshold.
+    await user.type(screen.getByLabelText('Search recipes'), 'e')
+    expect(screen.queryByRole('table')).not.toBeInTheDocument()
+
+    await user.type(screen.getByLabelText('Search recipes'), 'n')
+    expect(screen.getByRole('table')).toBeInTheDocument()
+  })
+
+  it('reveals the table when only a dropdown is used, with no search text', async () => {
+    const user = userEvent.setup()
+    render(<App initialEntries={entries} />)
+
+    await user.selectOptions(screen.getByLabelText('Filter by crafter'), 'Slavongiga')
+    expect(rows()).toHaveLength(2)
+  })
+
+  it('links each recipe to Wowhead with the right entity kind', async () => {
+    const user = userEvent.setup()
+    render(<App initialEntries={entries} />)
+    await showAll(user)
 
     // Jewelcrafting exports item IDs …
     expect(screen.getByRole('link', { name: 'Brilliant Glass' })).toHaveAttribute(
@@ -48,8 +85,10 @@ describe('App', () => {
     )
   })
 
-  it('links every crafter name to their Classic Armory profile', () => {
+  it('links every crafter name to their Classic Armory profile', async () => {
+    const user = userEvent.setup()
     render(<App initialEntries={entries} />)
+    await showAll(user)
 
     expect(screen.getAllByRole('link', { name: 'Slavongiga' })[0]).toHaveAttribute(
       'href',
@@ -62,7 +101,8 @@ describe('App', () => {
     )
   })
 
-  it('links each crafter separately when several share a recipe', () => {
+  it('links each crafter separately when several share a recipe', async () => {
+    const user = userEvent.setup()
     render(
       <App
         initialEntries={[
@@ -71,6 +111,7 @@ describe('App', () => {
         ]}
       />,
     )
+    await showAll(user)
 
     expect(rows()).toHaveLength(1) // one recipe row …
     expect(screen.getByRole('link', { name: 'Alpha' })).toBeInTheDocument() // … two links
@@ -121,6 +162,8 @@ describe('App', () => {
     await user.click(screen.getByRole('button', { name: 'Add to session' }))
 
     expect(screen.getByText('4 recipes · 3 crafters · 3 professions')).toBeInTheDocument()
+
+    await showAll(user)
     expect(screen.getByRole('link', { name: 'Bolt of Linen' })).toBeInTheDocument()
   })
 
@@ -131,18 +174,20 @@ describe('App', () => {
     const user = userEvent.setup()
     render(<App initialEntries={entries} />)
 
-    expect(refreshLinks).toHaveBeenCalled() // initial render
-    refreshLinks.mockClear()
+    // No table on first paint now, so nothing to scan — that is the saving.
+    expect(refreshLinks).not.toHaveBeenCalled()
 
     await user.type(screen.getByLabelText('Search recipes'), 'sunfire')
 
-    expect(refreshLinks).toHaveBeenCalled() // re-scanned after filtering
+    expect(refreshLinks).toHaveBeenCalled() // re-scanned once rows appear
     delete window.$WowheadPower
   })
 
-  it('renders fine when power.js is absent (blocked or offline)', () => {
+  it('renders fine when power.js is absent (blocked or offline)', async () => {
     delete window.$WowheadPower
+    const user = userEvent.setup()
     expect(() => render(<App initialEntries={entries} />)).not.toThrow()
+    await showAll(user)
     expect(screen.getAllByRole('table')).toHaveLength(1)
   })
 

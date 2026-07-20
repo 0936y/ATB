@@ -2,9 +2,11 @@ import { describe, expect, it } from 'vitest'
 import { loadAllEntries, loadCommittedExports, loadRegistryChunks } from './loadExports'
 import { buildIndex } from '../search'
 
-const exports = loadCommittedExports()
-const registry = loadRegistryChunks()
-const all = loadAllEntries()
+// The loaders are async now that the data globs are lazy chunks rather than
+// eager inlines — see loadExports.ts.
+const exports = await loadCommittedExports()
+const registry = await loadRegistryChunks()
+const all = await loadAllEntries()
 
 describe('the committed recipes.json registry', () => {
   it('loads and covers all seven professions', () => {

@@ -196,9 +196,29 @@ pointing at wowhead.com and reads the TBC branch from the `/tbc/` path in our hr
 Change `WOWHEAD_BASE` in `src/search.ts` for a different expansion — `/wotlk/`,
 `/classic/`, or `https://www.wowhead.com/` for retail.
 
+## Nothing renders until you narrow the list
+
+`App` holds the table behind a `visible` gate: **2+ characters of search text, OR a
+profession, OR a crafter** (a one-letter query is deliberately not enough). Until then
+it shows a prompt plus a "Show all N recipes" button — browsing is still possible, just
+opt-in.
+
+This is not cosmetic. Rendering all 1126 recipes means roughly **3400 anchors**, and
+`refreshLinks()` then has power.js resolve every one of them — with `iconizeLinks` on,
+that is an icon request per link, on every visit, most of them for rows nobody looked
+at.
+
+Two consequences to know before changing it:
+
+- The profession and crafter dropdowns reveal the table **on their own**. Gating on the
+  search box alone would make picking "Alchemy" show nothing, which reads as a bug.
+- `refreshLinks()` is no longer called on first paint, because there is no table to
+  scan. `App.test.tsx` asserts this — that assertion *is* the saving, so a failure
+  there means the gate has regressed, not that the test is wrong.
+
 ## Testing
 
-73 tests across 8 files. The suite deliberately mixes synthetic fixtures with **real
+75 tests across 8 files. The suite deliberately mixes synthetic fixtures with **real
 addon payloads** (`src/test/fixtures.ts`) so encoding regressions surface immediately.
 
 `merge.test.ts` asserts exact recipe counts against the committed exports:
@@ -223,5 +243,10 @@ When you add or update a data file, update the counts in `merge.test.ts` and
   versions, not casting.
 - `vite.config.ts` imports `defineConfig` from **`vitest/config`**, not `vite`, so the
   `test` key typechecks.
+- The `import.meta.glob` calls in `loadExports.ts` are deliberately **not** `eager`.
+  Eager inlines all the recipe data into the main bundle (337 kB / 84 kB gzip); lazy
+  splits it into its own chunk fetched after first paint (initial bundle drops to
+  205 kB / 65 kB gzip). This is why every loader there is async — if you make them
+  sync again you have undone the split.
 - `import.meta.glob` in `loadExports.ts` uses an absolute path (`/data/exports/*.txt`)
   because the data directory sits outside `src/`.

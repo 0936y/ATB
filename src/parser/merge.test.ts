@@ -51,8 +51,10 @@ describe('mergeChunks', () => {
   })
 })
 
+// Async since the data globs became lazy chunks — see loadExports.ts.
+const entries = await loadCommittedExports()
+
 describe('the committed guild exports', () => {
-  const entries = loadCommittedExports()
 
   it('loads all three profession files', () => {
     expect(entries.map((e) => e.profession).sort()).toEqual([

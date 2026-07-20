@@ -9,8 +9,7 @@ import { registryToChunks, type JsonRegistry } from './jsonRegistry'
 const rawExports = import.meta.glob('/data/exports/*.txt', {
   query: '?raw',
   import: 'default',
-  eager: true,
-}) as Record<string, string>
+}) as Record<string, () => Promise<string>>
 
 /**
  * Guild-wide registry JSON. Accepted at the repo root or in `data/`, since the
@@ -18,20 +17,32 @@ const rawExports = import.meta.glob('/data/exports/*.txt', {
  */
 const jsonRegistries = import.meta.glob(['/recipes.json', '/data/*.json'], {
   import: 'default',
-  eager: true,
-}) as Record<string, JsonRegistry>
+}) as Record<string, () => Promise<JsonRegistry>>
 
-export function loadExportChunks(): ParsedChunk[] {
-  return Object.values(rawExports).flatMap((raw) => parseExport(raw))
+/**
+ * The globs are deliberately NOT `eager` — that would inline every export and
+ * `recipes.json` into the main bundle, so a visitor downloads ~190 kB of recipe
+ * data before the page can paint. Non-eager, Vite emits them as a separate chunk
+ * the app fetches after first paint (see `App`), keeping the initial load to the
+ * shell. The trade-off is that every loader here is async.
+ */
+async function loadAll<T>(glob: Record<string, () => Promise<T>>): Promise<T[]> {
+  return Promise.all(Object.values(glob).map((load) => load()))
 }
 
-export function loadRegistryChunks(): ParsedChunk[] {
-  return Object.values(jsonRegistries).flatMap((registry) => registryToChunks(registry))
+export async function loadExportChunks(): Promise<ParsedChunk[]> {
+  const raws = await loadAll(rawExports)
+  return raws.flatMap((raw) => parseExport(raw))
+}
+
+export async function loadRegistryChunks(): Promise<ParsedChunk[]> {
+  const registries = await loadAll(jsonRegistries)
+  return registries.flatMap((registry) => registryToChunks(registry))
 }
 
 /** Addon exports only — used by tests that assert on the committed .txt files. */
-export function loadCommittedExports(): CrafterProfession[] {
-  return mergeChunks(loadExportChunks())
+export async function loadCommittedExports(): Promise<CrafterProfession[]> {
+  return mergeChunks(await loadExportChunks())
 }
 
 /**
@@ -42,6 +53,7 @@ export function loadCommittedExports(): CrafterProfession[] {
  * dedupes by spell ID per (crafter, profession), so unioning is safe and
  * loses nothing.
  */
-export function loadAllEntries(): CrafterProfession[] {
-  return mergeChunks([...loadExportChunks(), ...loadRegistryChunks()])
+export async function loadAllEntries(): Promise<CrafterProfession[]> {
+  const [exports, registry] = await Promise.all([loadExportChunks(), loadRegistryChunks()])
+  return mergeChunks([...exports, ...registry])
 }
