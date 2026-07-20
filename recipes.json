@@ -1,0 +1,10062 @@
+{
+  "22835": {
+    "name": "Elixir of Major Shadow Power",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22834": {
+    "name": "Elixir of Major Defense",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "22831": {
+    "name": "Elixir of Major Agility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "32067": {
+    "name": "Elixir of Draenic Wisdom",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22825": {
+    "name": "Elixir of Healing Power",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "32062": {
+    "name": "Elixir of Major Fortitude",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13454": {
+    "name": "Greater Arcane Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22823": {
+    "name": "Elixir of Camouflage",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22824": {
+    "name": "Elixir of Major Strength",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13452": {
+    "name": "Elixir of the Mongoose",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "21546": {
+    "name": "Elixir of Greater Firepower",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Zoremet"
+    ]
+  },
+  "9187": {
+    "name": "Elixir of Greater Agility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9154": {
+    "name": "Elixir of Detect Undead",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "8951": {
+    "name": "Elixir of Greater Defense",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "8949": {
+    "name": "Elixir of Agility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "6373": {
+    "name": "Elixir of Firepower",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "2454": {
+    "name": "Elixir of Lion's Strength",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "5997": {
+    "name": "Elixir of Minor Defense",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22851": {
+    "name": "Flask of Fortification",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "22854": {
+    "name": "Flask of Relentless Assault",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "22850": {
+    "name": "Super Rejuvenation Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "22849": {
+    "name": "Ironshield Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Quasolia"
+    ]
+  },
+  "22841": {
+    "name": "Major Fire Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "22842": {
+    "name": "Major Frost Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes"
+    ]
+  },
+  "22846": {
+    "name": "Major Shadow Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "22836": {
+    "name": "Major Dreamless Sleep Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22832": {
+    "name": "Super Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22829": {
+    "name": "Super Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "28100": {
+    "name": "Volatile Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13446": {
+    "name": "Major Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13443": {
+    "name": "Superior Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3928": {
+    "name": "Superior Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "1710": {
+    "name": "Greater Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3385": {
+    "name": "Lesser Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "929": {
+    "name": "Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "858": {
+    "name": "Lesser Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "118": {
+    "name": "Minor Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "25868": {
+    "name": "Transmute: Skyfire Diamond",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9149": {
+    "name": "Philosopher's Stone",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "23571": {
+    "name": "Transmute: Primal Might",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "12360": {
+    "name": "Transmute: Arcanite",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "6037": {
+    "name": "Transmute: Mithril to Truesilver",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "31080": {
+    "name": "Mercurial Stone",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "6371": {
+    "name": "Fire Oil",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog",
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "25883": {
+    "name": "Dense Stone Statue",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "25880": {
+    "name": "Coarse Stone Statue",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "25498": {
+    "name": "Rough Stone Statue",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "23120": {
+    "name": "Stormy Azure Moonstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva"
+    ]
+  },
+  "23118": {
+    "name": "Solid Azure Moonstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24066": {
+    "name": "Radiant Talasite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva"
+    ]
+  },
+  "32409": {
+    "name": "Relentless Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "25894": {
+    "name": "Swift Skyfire Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "32836": {
+    "name": "Purified Shadow Pearl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23111": {
+    "name": "Sovereign Shadow Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "32833": {
+    "name": "Purified Jaggal Pearl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24078": {
+    "name": "Heavy Adamantite Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "32772": {
+    "name": "Brilliant Pearl Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21775": {
+    "name": "Onslaught Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21754": {
+    "name": "The Aquamarine Ward",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "21765": {
+    "name": "Truesilver Healing Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20964": {
+    "name": "Aquamarine Signet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20959": {
+    "name": "The Jade Eye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "20950": {
+    "name": "Pendant of the Agate Shield",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20828": {
+    "name": "Ring of Twilight Shadows",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20827": {
+    "name": "Ring of Silver Might",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20820": {
+    "name": "Simple Pearl Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20818": {
+    "name": "Elegant Silver Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20821": {
+    "name": "Inlaid Malachite Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20906": {
+    "name": "Braided Copper Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "21931": {
+    "name": "Woven Copper Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "31079": {
+    "name": "Mercurial Adamantite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "21752": {
+    "name": "Thorium Setting",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20963": {
+    "name": "Mithril Filigree",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20817": {
+    "name": "Bronze Setting",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20816": {
+    "name": "Delicate Copper Wire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "33997": {
+    "name": "Enchant Gloves - Major Spellpower",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Benteha"
+    ]
+  },
+  "33994": {
+    "name": "Enchant Gloves - Spell Strike",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Killoone",
+      "Slavongiga",
+      "Arnsgar",
+      "Cassyette"
+    ]
+  },
+  "27924": {
+    "name": "Enchant Ring - Spellpower",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Benteha"
+    ]
+  },
+  "27920": {
+    "name": "Enchant Ring - Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Killoone",
+      "Lightpower"
+    ]
+  },
+  "32667": {
+    "name": "Runed Eternium Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "27951": {
+    "name": "Enchant Boots - Dexterity",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Royarni",
+      "Killoone",
+      "Lightpower"
+    ]
+  },
+  "33992": {
+    "name": "Enchant Chest - Major Resilience",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Benteha"
+    ]
+  },
+  "33999": {
+    "name": "Enchant Gloves - Major Healing",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "33995": {
+    "name": "Enchant Gloves - Major Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "32665": {
+    "name": "Runed Adamantite Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "28028": {
+    "name": "Void Sphere",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13937": {
+    "name": "Enchant 2H Weapon - Greater Impact",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13695": {
+    "name": "Enchant 2H Weapon - Impact",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13529": {
+    "name": "Enchant 2H Weapon - Lesser Impact",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7745": {
+    "name": "Enchant 2H Weapon - Minor Impact",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13935": {
+    "name": "Enchant Boots - Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "27950": {
+    "name": "Enchant Boots - Fortitude",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower"
+    ]
+  },
+  "20023": {
+    "name": "Enchant Boots - Greater Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13637": {
+    "name": "Enchant Boots - Lesser Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13644": {
+    "name": "Enchant Boots - Lesser Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13890": {
+    "name": "Enchant Boots - Minor Speed",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7863": {
+    "name": "Enchant Boots - Minor Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13836": {
+    "name": "Enchant Boots - Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "34002": {
+    "name": "Enchant Bracer - Assault",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "27899": {
+    "name": "Enchant Bracer - Brawn",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20008": {
+    "name": "Enchant Bracer - Greater Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13945": {
+    "name": "Enchant Bracer - Greater Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "13939": {
+    "name": "Enchant Bracer - Greater Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13822": {
+    "name": "Enchant Bracer - Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13622": {
+    "name": "Enchant Bracer - Lesser Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13501": {
+    "name": "Enchant Bracer - Lesser Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13536": {
+    "name": "Enchant Bracer - Lesser Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "34001": {
+    "name": "Enchant Bracer - Major Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7779": {
+    "name": "Enchant Bracer - Minor Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7428": {
+    "name": "Enchant Bracer - Minor Deflection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7418": {
+    "name": "Enchant Bracer - Minor Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7457": {
+    "name": "Enchant Bracer - Minor Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13642": {
+    "name": "Enchant Bracer - Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13648": {
+    "name": "Enchant Bracer - Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "27905": {
+    "name": "Enchant Bracer - Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13661": {
+    "name": "Enchant Bracer - Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "27911": {
+    "name": "Enchant Bracer - Superior Healing",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "27957": {
+    "name": "Enchant Chest - Exceptional Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13640": {
+    "name": "Enchant Chest - Greater Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13663": {
+    "name": "Enchant Chest - Greater Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7857": {
+    "name": "Enchant Chest - Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13538": {
+    "name": "Enchant Chest - Lesser Absorption",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7748": {
+    "name": "Enchant Chest - Lesser Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13700": {
+    "name": "Enchant Chest - Lesser Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "20028": {
+    "name": "Enchant Chest - Major Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "33990": {
+    "name": "Enchant Chest - Major Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13607": {
+    "name": "Enchant Chest - Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7426": {
+    "name": "Enchant Chest - Minor Absorption",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7420": {
+    "name": "Enchant Chest - Minor Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7443": {
+    "name": "Enchant Chest - Minor Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13626": {
+    "name": "Enchant Chest - Minor Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "33991": {
+    "name": "Enchant Chest - Restore Mana Prime",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13941": {
+    "name": "Enchant Chest - Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13858": {
+    "name": "Enchant Chest - Superior Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13917": {
+    "name": "Enchant Chest - Superior Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13635": {
+    "name": "Enchant Cloak - Defense",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "25086": {
+    "name": "Enchant Cloak - Dodge",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "13657": {
+    "name": "Enchant Cloak - Fire Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "34004": {
+    "name": "Enchant Cloak - Greater Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13746": {
+    "name": "Enchant Cloak - Greater Defense",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20014": {
+    "name": "Enchant Cloak - Greater Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7861": {
+    "name": "Enchant Cloak - Lesser Fire Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13421": {
+    "name": "Enchant Cloak - Lesser Protection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13522": {
+    "name": "Enchant Cloak - Lesser Shadow Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Benteha",
+      "Gorzbalxua",
+      "Arnsgar"
+    ]
+  },
+  "27961": {
+    "name": "Enchant Cloak - Major Armor",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13419": {
+    "name": "Enchant Cloak - Minor Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Slavongiga",
+      "Kholistyka"
+    ]
+  },
+  "7771": {
+    "name": "Enchant Cloak - Minor Protection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7454": {
+    "name": "Enchant Cloak - Minor Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13794": {
+    "name": "Enchant Cloak - Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13841": {
+    "name": "Enchant Gloves - Advanced Mining",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Cassyette",
+      "Benteha"
+    ]
+  },
+  "13815": {
+    "name": "Enchant Gloves - Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "33996": {
+    "name": "Enchant Gloves - Assault",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "33993": {
+    "name": "Enchant Gloves - Blasting",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20012": {
+    "name": "Enchant Gloves - Greater Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "20013": {
+    "name": "Enchant Gloves - Greater Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13948": {
+    "name": "Enchant Gloves - Minor Haste",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13887": {
+    "name": "Enchant Gloves - Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "25080": {
+    "name": "Enchant Gloves - Superior Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Arnsgar"
+    ]
+  },
+  "13905": {
+    "name": "Enchant Shield - Greater Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20017": {
+    "name": "Enchant Shield - Greater Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "27945": {
+    "name": "Enchant Shield - Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13485": {
+    "name": "Enchant Shield - Lesser Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13631": {
+    "name": "Enchant Shield - Lesser Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "34009": {
+    "name": "Enchant Shield - Major Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "13378": {
+    "name": "Enchant Shield - Minor Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "44383": {
+    "name": "Enchant Shield - Resilience",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13659": {
+    "name": "Enchant Shield - Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20016": {
+    "name": "Enchant Shield - Superior Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "27944": {
+    "name": "Enchant Shield - Tough Shield",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20034": {
+    "name": "Enchant Weapon - Crusader",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "13943": {
+    "name": "Enchant Weapon - Greater Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "20029": {
+    "name": "Enchant Weapon - Icy Chill",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "13503": {
+    "name": "Enchant Weapon - Lesser Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Zoremet",
+      "Quasolia",
+      "Alakay",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "7788": {
+    "name": "Enchant Weapon - Minor Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "13693": {
+    "name": "Enchant Weapon - Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "17181": {
+    "name": "Enchanted Leather",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "17180": {
+    "name": "Enchanted Thorium",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "14807": {
+    "name": "Greater Magic Wand",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "14810": {
+    "name": "Greater Mystic Wand",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "28022": {
+    "name": "Large Prismatic Shard",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "14293": {
+    "name": "Lesser Magic Wand",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "25127": {
+    "name": "Lesser Mana Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Cassyette",
+      "Slavongiga",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "14809": {
+    "name": "Lesser Mystic Wand",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "25126": {
+    "name": "Lesser Wizard Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "25125": {
+    "name": "Minor Mana Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "25124": {
+    "name": "Minor Wizard Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "42613": {
+    "name": "Nexus Transformation",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "28027": {
+    "name": "Prismatic Sphere",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "20051": {
+    "name": "Runed Arcanite Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7421": {
+    "name": "Runed Copper Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "32664": {
+    "name": "Runed Fel Iron Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13628": {
+    "name": "Runed Golden Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "7795": {
+    "name": "Runed Silver Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "13702": {
+    "name": "Runed Truesilver Rod",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "42615": {
+    "name": "Small Prismatic Shard",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "28016": {
+    "name": "Superior Mana Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "28019": {
+    "name": "Superior Wizard Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Xinlao",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "25128": {
+    "name": "Wizard Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Cassyette",
+      "Gorzbalxua",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "24268": {
+    "name": "Netherweave Net",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21843": {
+    "name": "Imbued Netherweave Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14155": {
+    "name": "Mooncloth Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "21841": {
+    "name": "Netherweave Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "22246": {
+    "name": "Enchanted Mageweave Pouch",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21871": {
+    "name": "Frozen Shadoweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24262": {
+    "name": "Spellstrike Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni"
+    ]
+  },
+  "21870": {
+    "name": "Frozen Shadoweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "21861": {
+    "name": "Imbued Netherweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Benteha"
+    ]
+  },
+  "21862": {
+    "name": "Imbued Netherweave Tunic",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Benteha"
+    ]
+  },
+  "21869": {
+    "name": "Frozen Shadoweave Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "30831": {
+    "name": "Cloak of Arcane Evasion",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21855": {
+    "name": "Netherweave Tunic",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21854": {
+    "name": "Netherweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21853": {
+    "name": "Netherweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14104": {
+    "name": "Brightcloth Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "13856": {
+    "name": "Runecloth Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10041": {
+    "name": "Dreamweave Circlet",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10024": {
+    "name": "Black Mageweave Headband",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10003": {
+    "name": "Black Mageweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7062": {
+    "name": "Crimson Silk Pantaloons",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7057": {
+    "name": "Green Silken Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7058": {
+    "name": "Crimson Silk Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7052": {
+    "name": "Azure Silk Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7055": {
+    "name": "Crimson Silk Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4320": {
+    "name": "Spidersilk Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7050": {
+    "name": "Silk Headband",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4315": {
+    "name": "Reinforced Woolen Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "4314": {
+    "name": "Double-stitched Woolen Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7048": {
+    "name": "Azure Silk Hood",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10047": {
+    "name": "Simple Kilt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2580": {
+    "name": "Reinforced Linen Cape",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7026": {
+    "name": "Linen Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10045": {
+    "name": "Simple Linen Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2570": {
+    "name": "Linen Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10056": {
+    "name": "Orange Mageweave Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4334": {
+    "name": "Formal White Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4344": {
+    "name": "Brown Linen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2576": {
+    "name": "White Linen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21845": {
+    "name": "Primal Mooncloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "24272": {
+    "name": "Shadowcloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24271": {
+    "name": "Spellcloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "21842": {
+    "name": "Bolt of Imbued Netherweave",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21840": {
+    "name": "Bolt of Netherweave",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14342": {
+    "name": "Mooncloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14048": {
+    "name": "Bolt of Runecloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4339": {
+    "name": "Bolt of Mageweave",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4305": {
+    "name": "Bolt of Silk Cloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2997": {
+    "name": "Bolt of Woolen Cloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2996": {
+    "name": "Bolt of Linen Cloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "8956": {
+    "name": "Oil of Immolation",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "25867": {
+    "name": "Transmute: Earthstorm Diamond",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Bulletdog",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22452": {
+    "name": "Transmute: Primal Life to Earth",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Bulletdog",
+      "Quasolia"
+    ]
+  },
+  "21885": {
+    "name": "Transmute: Primal Shadow to Water",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Bulletdog",
+      "Quasolia"
+    ]
+  },
+  "21884": {
+    "name": "Transmute: Primal Air to Fire",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Bulletdog",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22451": {
+    "name": "Transmute: Primal Water to Air",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13423": {
+    "name": "Stonescale Oil",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "6370": {
+    "name": "Blackmouth Oil",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "32063": {
+    "name": "Earthen Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "28104": {
+    "name": "Elixir of Mastery",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "28103": {
+    "name": "Adept's Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "28102": {
+    "name": "Onslaught Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13453": {
+    "name": "Elixir of Brute Force",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13447": {
+    "name": "Elixir of the Sages",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13445": {
+    "name": "Elixir of Superior Defense",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9224": {
+    "name": "Elixir of Demonslaying",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "9233": {
+    "name": "Elixir of Detect Demon",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9206": {
+    "name": "Elixir of Giants",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "9088": {
+    "name": "Gift of Arthas",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "9155": {
+    "name": "Arcane Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9179": {
+    "name": "Elixir of Greater Intellect",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "18294": {
+    "name": "Elixir of Greater Water Breathing",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "10592": {
+    "name": "Catseye Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3825": {
+    "name": "Elixir of Fortitude",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3389": {
+    "name": "Elixir of Defense",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3383": {
+    "name": "Elixir of Wisdom",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "5996": {
+    "name": "Elixir of Water Breathing",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "2458": {
+    "name": "Elixir of Minor Fortitude",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "22866": {
+    "name": "Flask of Pure Death",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "13513": {
+    "name": "Flask of Chromatic Resistance",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "13511": {
+    "name": "Flask of Distilled Wisdom",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "22844": {
+    "name": "Major Nature Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "22839": {
+    "name": "Destruction Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes"
+    ]
+  },
+  "22838": {
+    "name": "Haste Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes"
+    ]
+  },
+  "34440": {
+    "name": "Mad Alchemist's Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13457": {
+    "name": "Greater Fire Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "28101": {
+    "name": "Unstable Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13462": {
+    "name": "Purification Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13442": {
+    "name": "Mighty Rage Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "12190": {
+    "name": "Dreamless Sleep Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9144": {
+    "name": "Wildvine Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "9036": {
+    "name": "Magic Resistance Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet"
+    ]
+  },
+  "6149": {
+    "name": "Greater Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "6052": {
+    "name": "Nature Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "3826": {
+    "name": "Mighty Troll's Blood Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "3823": {
+    "name": "Lesser Invisibility Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3827": {
+    "name": "Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "5634": {
+    "name": "Free Action Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3388": {
+    "name": "Strong Troll's Blood Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "6372": {
+    "name": "Swim Speed Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "2456": {
+    "name": "Minor Rejuvenation Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "2455": {
+    "name": "Minor Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "3382": {
+    "name": "Weak Troll's Blood Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Viletimes",
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "27971": {
+    "name": "Enchant 2H Weapon - Savagery",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Royarni",
+      "Slavongiga"
+    ]
+  },
+  "27960": {
+    "name": "Enchant Chest - Exceptional Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Encroachment",
+      "Cheaprevo",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar",
+      "Kholistyka",
+      "Benteha"
+    ]
+  },
+  "34010": {
+    "name": "Enchant Weapon - Major Healing",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Cheaprevo",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "34003": {
+    "name": "Enchant Cloak - Spell Penetration",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Cheaprevo",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "7793": {
+    "name": "Enchant 2H Weapon - Lesser Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "7776": {
+    "name": "Enchant Chest - Lesser Mana",
+    "profession": "Enchanting",
+    "crafters": [
+      "Xinlao",
+      "Gorzbalxua",
+      "Royarni",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower"
+    ]
+  },
+  "24055": {
+    "name": "Shifting Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "24028": {
+    "name": "Delicate Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "7969": {
+    "name": "Mithril Spurs",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "23529": {
+    "name": "Adamantite Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "28421": {
+    "name": "Adamantite Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "25521": {
+    "name": "Greater Rune of Warding",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "23575": {
+    "name": "Lesser Ward of Shielding",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "23559": {
+    "name": "Lesser Rune of Warding",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "28420": {
+    "name": "Fel Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "12404": {
+    "name": "Dense Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "15870": {
+    "name": "Golden Skeleton Key",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "2871": {
+    "name": "Heavy Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "3241": {
+    "name": "Heavy Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "15869": {
+    "name": "Silver Skeleton Key",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "2863": {
+    "name": "Coarse Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "2862": {
+    "name": "Rough Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "3239": {
+    "name": "Rough Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "23542": {
+    "name": "Fel Edged Battleaxe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7941": {
+    "name": "Heavy Mithril Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax",
+      "Killoone"
+    ]
+  },
+  "28437": {
+    "name": "Drakefist Hammer",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12781": {
+    "name": "Serenity",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7945": {
+    "name": "Big Black Mace",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3855": {
+    "name": "Massive Iron Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "28440": {
+    "name": "Thunder",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12776": {
+    "name": "Enchanted Battlehammer",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3853": {
+    "name": "Moonsteel Broadsword",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23490": {
+    "name": "Fel Iron Chain Tunic",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23491": {
+    "name": "Fel Iron Chain Gloves",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "6040": {
+    "name": "Golden Scale Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3835": {
+    "name": "Green Iron Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3840": {
+    "name": "Green Iron Shoulders",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3485": {
+    "name": "Green Iron Gauntlets",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3842": {
+    "name": "Green Iron Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2868": {
+    "name": "Patterned Bronze Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2865": {
+    "name": "Rough Bronze Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2857": {
+    "name": "Runed Copper Belt",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2852": {
+    "name": "Copper Chain Pants",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2853": {
+    "name": "Copper Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "10421": {
+    "name": "Rough Copper Vest",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23519": {
+    "name": "Felsteel Helm",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "33173": {
+    "name": "Ragesteel Shoulders",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23517": {
+    "name": "Felsteel Gloves",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23518": {
+    "name": "Felsteel Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23510": {
+    "name": "Enchanted Adamantite Belt",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23487": {
+    "name": "Fel Iron Plate Boots",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23484": {
+    "name": "Fel Iron Plate Belt",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12426": {
+    "name": "Imperial Plate Boots",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12409": {
+    "name": "Thorium Boots",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12425": {
+    "name": "Imperial Plate Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7922": {
+    "name": "Steel Plate Helm",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7919": {
+    "name": "Heavy Mithril Gauntlet",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "25844": {
+    "name": "Adamantite Rod",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "25843": {
+    "name": "Fel Iron Rod",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "16206": {
+    "name": "Arcanite Rod",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "11128": {
+    "name": "Golden Rod",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "6338": {
+    "name": "Silver Rod",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12644": {
+    "name": "Dense Grinding Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7966": {
+    "name": "Solid Grinding Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3486": {
+    "name": "Heavy Grinding Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3478": {
+    "name": "Coarse Grinding Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "3470": {
+    "name": "Rough Grinding Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "7071": {
+    "name": "Iron Buckle",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23793": {
+    "name": "Heavy Knothide Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "21887": {
+    "name": "Knothide Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "15407": {
+    "name": "Cured Rugged Hide",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8170": {
+    "name": "Rugged Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4304": {
+    "name": "Thick Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8172": {
+    "name": "Cured Thick Hide",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4236": {
+    "name": "Cured Heavy Hide",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4234": {
+    "name": "Heavy Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4233": {
+    "name": "Cured Medium Hide",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "2319": {
+    "name": "Medium Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4231": {
+    "name": "Cured Light Hide",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "2318": {
+    "name": "Light Leather",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Xinlao",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "22830": {
+    "name": "Elixir of the Searching Eye",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "22827": {
+    "name": "Elixir of Major Frost Power",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "9264": {
+    "name": "Elixir of Shadow Power",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "9197": {
+    "name": "Elixir of Dream Vision",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "3828": {
+    "name": "Elixir of Detect Lesser Invisibility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "3391": {
+    "name": "Elixir of Ogre's Strength",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "3390": {
+    "name": "Elixir of Lesser Agility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "3386": {
+    "name": "Potion of Curing",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "6662": {
+    "name": "Elixir of Giant Growth",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "2457": {
+    "name": "Elixir of Minor Agility",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13506": {
+    "name": "Flask of Petrification",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "13512": {
+    "name": "Flask of Supreme Power",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "13510": {
+    "name": "Flask of the Titans",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "3829": {
+    "name": "Frost Oil",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "3824": {
+    "name": "Shadow Oil",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "31677": {
+    "name": "Fel Mana Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Bulletdog",
+      "Alakay"
+    ]
+  },
+  "22826": {
+    "name": "Sneaking Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia",
+      "Alakay"
+    ]
+  },
+  "13461": {
+    "name": "Greater Arcane Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "13456": {
+    "name": "Greater Frost Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "13458": {
+    "name": "Greater Nature Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "13459": {
+    "name": "Greater Shadow Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "13455": {
+    "name": "Greater Stoneshield Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "3387": {
+    "name": "Limited Invulnerability Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "9172": {
+    "name": "Invisibility Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "4623": {
+    "name": "Lesser Stoneshield Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "6049": {
+    "name": "Fire Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "6050": {
+    "name": "Frost Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "3384": {
+    "name": "Minor Magic Resistance Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "6051": {
+    "name": "Holy Protection Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "2459": {
+    "name": "Swiftness Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "5631": {
+    "name": "Rage Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "4596": {
+    "name": "Discolored Healing Potion",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "7076": {
+    "name": "Transmute: Fire to Earth",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "12808": {
+    "name": "Transmute: Water to Undeath",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "3577": {
+    "name": "Transmute: Iron to Gold",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Alakay"
+    ]
+  },
+  "27917": {
+    "name": "Enchant Bracer - Spellpower",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni"
+    ]
+  },
+  "27914": {
+    "name": "Enchant Bracer - Fortitude",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Gorzbalxua",
+      "Royarni",
+      "Killoone",
+      "Slavongiga"
+    ]
+  },
+  "27975": {
+    "name": "Enchant Weapon - Major Spellpower",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "27972": {
+    "name": "Enchant Weapon - Potency",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment"
+    ]
+  },
+  "20035": {
+    "name": "Enchant 2H Weapon - Major Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Killoone",
+      "Slavongiga"
+    ]
+  },
+  "20020": {
+    "name": "Enchant Boots - Greater Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Kholistyka",
+      "Benteha"
+    ]
+  },
+  "13687": {
+    "name": "Enchant Boots - Lesser Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Benteha",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "7867": {
+    "name": "Enchant Boots - Minor Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Gorzbalxua",
+      "Benteha",
+      "Killoone",
+      "Slavongiga"
+    ]
+  },
+  "20024": {
+    "name": "Enchant Boots - Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Killoone",
+      "Slavongiga",
+      "Kholistyka"
+    ]
+  },
+  "23121": {
+    "name": "Lustrous Azure Moonstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva"
+    ]
+  },
+  "25897": {
+    "name": "Bracing Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "25890": {
+    "name": "Destructive Skyfire Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "25901": {
+    "name": "Insightful Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva"
+    ]
+  },
+  "25896": {
+    "name": "Powerful Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24061": {
+    "name": "Glinting Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "24058": {
+    "name": "Inscribed Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "31867": {
+    "name": "Veiled Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "31868": {
+    "name": "Wicked Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "23099": {
+    "name": "Luminous Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24056": {
+    "name": "Glowing Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24054": {
+    "name": "Sovereign Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23110": {
+    "name": "Shifting Shadow Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24027": {
+    "name": "Bold Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva"
+    ]
+  },
+  "24030": {
+    "name": "Runed Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "24029": {
+    "name": "Teardrop Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23097": {
+    "name": "Delicate Blood Garnet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23115": {
+    "name": "Thick Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23119": {
+    "name": "Sparkling Azure Moonstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "23104": {
+    "name": "Jagged Deep Peridot",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "23103": {
+    "name": "Radiant Deep Peridot",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "23100": {
+    "name": "Glinting Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "23098": {
+    "name": "Inscribed Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "23108": {
+    "name": "Glowing Shadow Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "23095": {
+    "name": "Bold Blood Garnet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "28595": {
+    "name": "Bright Blood Garnet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "23094": {
+    "name": "Teardrop Blood Garnet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24048": {
+    "name": "Smooth Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "23116": {
+    "name": "Rigid Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "28290": {
+    "name": "Smooth Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "23113": {
+    "name": "Brilliant Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "7285": {
+    "name": "Nimble Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "2314": {
+    "name": "Toughened Leather Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "5961": {
+    "name": "Dark Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "5958": {
+    "name": "Fine Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "7282": {
+    "name": "Light Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "2315": {
+    "name": "Dark Leather Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "5780": {
+    "name": "Murloc Scale Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "4243": {
+    "name": "Fine Leather Tunic",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4246": {
+    "name": "Fine Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "4242": {
+    "name": "Embossed Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "7281": {
+    "name": "Light Leather Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "2309": {
+    "name": "Embossed Leather Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4239": {
+    "name": "Embossed Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "2300": {
+    "name": "Embossed Leather Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4237": {
+    "name": "Handstitched Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "2303": {
+    "name": "Handstitched Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "7277": {
+    "name": "Handstitched Leather Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "2302": {
+    "name": "Handstitched Leather Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "5957": {
+    "name": "Handstitched Leather Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29515": {
+    "name": "Ebon Netherscale Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "29519": {
+    "name": "Netherstrike Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "29516": {
+    "name": "Ebon Netherscale Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "29520": {
+    "name": "Netherstrike Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "29521": {
+    "name": "Netherstrike Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "29517": {
+    "name": "Ebon Netherscale Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "25697": {
+    "name": "Felstalker Bracer",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "25696": {
+    "name": "Felstalker Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "25695": {
+    "name": "Felstalker Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze"
+    ]
+  },
+  "25681": {
+    "name": "Stylin' Adventure Hat",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega"
+    ]
+  },
+  "29975": {
+    "name": "Golden Dragonstrike Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25657": {
+    "name": "Felscale Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25659": {
+    "name": "Scaled Draenic Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "25660": {
+    "name": "Scaled Draenic Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25656": {
+    "name": "Felscale Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25655": {
+    "name": "Felscale Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25661": {
+    "name": "Scaled Draenic Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "20295": {
+    "name": "Blue Dragonscale Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "25654": {
+    "name": "Felscale Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "25662": {
+    "name": "Scaled Draenic Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Dmze",
+      "Streamer"
+    ]
+  },
+  "27984": {
+    "name": "Enchant Weapon - Mongoose",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Gorzbalxua",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "27982": {
+    "name": "Enchant Weapon - Soulfrost",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Encroachment",
+      "Cassyette"
+    ]
+  },
+  "13898": {
+    "name": "Enchant Weapon - Fiery Weapon",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Benteha"
+    ]
+  },
+  "24275": {
+    "name": "Silver Spellthread",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Gorzbalxua"
+    ]
+  },
+  "24259": {
+    "name": "Vengeance Wrap",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "22861": {
+    "name": "Flask of Blinding Light",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet",
+      "Quasolia"
+    ]
+  },
+  "22853": {
+    "name": "Flask of Mighty Restoration",
+    "profession": "Alchemy",
+    "crafters": [
+      "Zoremet"
+    ]
+  },
+  "34005": {
+    "name": "Enchant Cloak - Greater Arcane Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Encroachment",
+      "Cassyette",
+      "Gorzbalxua",
+      "Killoone"
+    ]
+  },
+  "24274": {
+    "name": "Runic Spellthread",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni"
+    ]
+  },
+  "24273": {
+    "name": "Mystic Spellthread",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha"
+    ]
+  },
+  "10051": {
+    "name": "Red Mageweave Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10050": {
+    "name": "Mageweave Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4245": {
+    "name": "Small Silk Pack",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "5763": {
+    "name": "Red Woolen Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4240": {
+    "name": "Woolen Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4238": {
+    "name": "Linen Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "24270": {
+    "name": "Bag of Jewels",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Cheaprevo",
+      "Gorzbalxua"
+    ]
+  },
+  "21340": {
+    "name": "Soul Pouch",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment"
+    ]
+  },
+  "24267": {
+    "name": "Battlecast Hood",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24263": {
+    "name": "Battlecast Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24264": {
+    "name": "Whitemend Hood",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni"
+    ]
+  },
+  "21868": {
+    "name": "Arcanoweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Cheaprevo",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21866": {
+    "name": "Arcanoweave Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Cheaprevo",
+      "Gorzbalxua"
+    ]
+  },
+  "21852": {
+    "name": "Netherweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14112": {
+    "name": "Felcloth Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14106": {
+    "name": "Felcloth Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13867": {
+    "name": "Runecloth Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14130": {
+    "name": "Wizardweave Turban",
+    "profession": "Tailoring",
+    "crafters": [
+      "Encroachment",
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "27906": {
+    "name": "Enchant Bracer - Major Defense",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette",
+      "Gorzbalxua"
+    ]
+  },
+  "25084": {
+    "name": "Enchant Cloak - Subtlety",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Cheaprevo",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "13868": {
+    "name": "Enchant Gloves - Advanced Herbalism",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "13620": {
+    "name": "Enchant Gloves - Fishing",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette",
+      "Gorzbalxua",
+      "Slavongiga"
+    ]
+  },
+  "13698": {
+    "name": "Enchant Gloves - Skinning",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "25130": {
+    "name": "Brilliant Mana Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "25129": {
+    "name": "Brilliant Wizard Oil",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "27926": {
+    "name": "Enchant Ring - Healing Power",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo",
+      "Cassyette",
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga",
+      "Arnsgar",
+      "Benteha"
+    ]
+  },
+  "21865": {
+    "name": "Soulcloth Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo",
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24256": {
+    "name": "Girdle of Ruination",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "31679": {
+    "name": "Fel Strength Elixir",
+    "profession": "Alchemy",
+    "crafters": [
+      "Quasolia"
+    ]
+  },
+  "32068": {
+    "name": "Elixir of Ironskin",
+    "profession": "Alchemy",
+    "crafters": [
+      "Quasolia"
+    ]
+  },
+  "21886": {
+    "name": "Transmute: Primal Earth to Life",
+    "profession": "Alchemy",
+    "crafters": [
+      "Quasolia",
+      "Bulletdog"
+    ]
+  },
+  "22457": {
+    "name": "Transmute: Primal Fire to Mana",
+    "profession": "Alchemy",
+    "crafters": [
+      "Quasolia",
+      "Bulletdog"
+    ]
+  },
+  "19931": {
+    "name": "Gurubashi Mojo Madness",
+    "profession": "Alchemy",
+    "crafters": [
+      "Quasolia"
+    ]
+  },
+  "35945": {
+    "name": "Brilliant Glass",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "25882": {
+    "name": "Solid Stone Statue",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "25881": {
+    "name": "Heavy Stone Statue",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20954": {
+    "name": "Heavy Iron Knuckles",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24033": {
+    "name": "Solid Star of Elune",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24035": {
+    "name": "Sparkling Star of Elune",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "33135": {
+    "name": "Falling Star",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog"
+    ]
+  },
+  "24067": {
+    "name": "Jagged Talasite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "23105": {
+    "name": "Enduring Deep Peridot",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "25895": {
+    "name": "Enigmatic Skyfire Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "25893": {
+    "name": "Mystical Skyfire Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24060": {
+    "name": "Luminous Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "23101": {
+    "name": "Potent Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog",
+      "Slavong\u00eega"
+    ]
+  },
+  "31865": {
+    "name": "Infused Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog"
+    ]
+  },
+  "33134": {
+    "name": "Kailee's Rose",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24050": {
+    "name": "Gleaming Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24053": {
+    "name": "Mystic Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog"
+    ]
+  },
+  "33140": {
+    "name": "Blood of Amber",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "33144": {
+    "name": "Facet of Eternity",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "23114": {
+    "name": "Gleaming Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24122": {
+    "name": "Coronet of the Verdant Flame",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "20832": {
+    "name": "Moonsoul Crown",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "31398": {
+    "name": "The Frozen Eye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24124": {
+    "name": "Figurine - Felsteel Boar",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24093": {
+    "name": "Pendant of Thawing",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "30825": {
+    "name": "Ring of Arcane Shielding",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24082": {
+    "name": "Khorium Inferno Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24088": {
+    "name": "Delicate Eternium Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24087": {
+    "name": "Heavy Felsteel Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "24077": {
+    "name": "Thick Adamantite Necklace",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "32774": {
+    "name": "The Black Pearl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24076": {
+    "name": "Azure Moonstone Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24075": {
+    "name": "Golden Draenite Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "24074": {
+    "name": "Fel Iron Blood Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21779": {
+    "name": "Band of Natural Fire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21792": {
+    "name": "Necklace of the Diamond Tower",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog"
+    ]
+  },
+  "29160": {
+    "name": "Emerald Lion Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21791": {
+    "name": "Living Emerald Pendant",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21778": {
+    "name": "Ring of Bitter Shadows",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "21777": {
+    "name": "Figurine - Emerald Owl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Bulletdog"
+    ]
+  },
+  "29159": {
+    "name": "Glowing Thorium Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21790": {
+    "name": "Sapphire Pendant of Winter Night",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "21768": {
+    "name": "Sapphire Signet",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "30422": {
+    "name": "Diamond Focus Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21753": {
+    "name": "Gem Studded Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "21766": {
+    "name": "Opal Necklace of Impact",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21769": {
+    "name": "Figurine - Ruby Serpent",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "21767": {
+    "name": "Simple Opal Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21764": {
+    "name": "Ruby Pendant of Fire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "30421": {
+    "name": "Red Ring of Destruction",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21760": {
+    "name": "Figurine - Truesilver Crab",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva"
+    ]
+  },
+  "21755": {
+    "name": "Aquamarine Pendant of the Warrior",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21748": {
+    "name": "Figurine - Jade Owl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20961": {
+    "name": "Citrine Ring of Rapid Healing",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "29158": {
+    "name": "Truesilver Commander's Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20960": {
+    "name": "Engraved Truesilver Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "29157": {
+    "name": "Golden Ring of Power",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20831": {
+    "name": "Heavy Golden Necklace of Battle",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20955": {
+    "name": "Golden Dragon Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "20830": {
+    "name": "Amulet of the Moon",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20909": {
+    "name": "Barbaric Iron Collar",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "30420": {
+    "name": "Heavy Jade Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20826": {
+    "name": "Heavy Silver Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "31154": {
+    "name": "Bronze Torc",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "30419": {
+    "name": "Brilliant Necklace",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20823": {
+    "name": "Gloom Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "30804": {
+    "name": "Bronze Band of Force",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "20907": {
+    "name": "Solid Bronze Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21933": {
+    "name": "Thick Bronze Necklace",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21934": {
+    "name": "Ornate Tigerseye Necklace",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "25438": {
+    "name": "Malachite Pendant",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "25439": {
+    "name": "Tigerseye Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "21932": {
+    "name": "Heavy Copper Ring",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Slavong\u00eega"
+    ]
+  },
+  "7078": {
+    "name": "Transmute: Air to Fire",
+    "profession": "Alchemy",
+    "crafters": [
+      "Alakay"
+    ]
+  },
+  "27977": {
+    "name": "Enchant 2H Weapon - Major Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Royarni",
+      "Encroachment",
+      "Killoone"
+    ]
+  },
+  "34006": {
+    "name": "Enchant Cloak - Greater Shadow Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Lightpower"
+    ]
+  },
+  "27968": {
+    "name": "Enchant Weapon - Major Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Royarni",
+      "Arnsgar"
+    ]
+  },
+  "13646": {
+    "name": "Enchant Bracer - Lesser Deflection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Slavongiga",
+      "Killoone"
+    ]
+  },
+  "20011": {
+    "name": "Enchant Bracer - Superior Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Benteha",
+      "Slavongiga",
+      "Lightpower",
+      "Kholistyka"
+    ]
+  },
+  "20026": {
+    "name": "Enchant Chest - Major Health",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga"
+    ]
+  },
+  "25083": {
+    "name": "Enchant Cloak - Stealth",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "20015": {
+    "name": "Enchant Cloak - Superior Defense",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Arnsgar",
+      "Kholistyka"
+    ]
+  },
+  "25072": {
+    "name": "Enchant Gloves - Threat",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua",
+      "Royarni",
+      "Slavongiga",
+      "Lightpower",
+      "Arnsgar"
+    ]
+  },
+  "23771": {
+    "name": "Green Smoke Flare",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "25886": {
+    "name": "Purple Smoke Flare",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
+  "23768": {
+    "name": "White Smoke Flare",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "33092": {
+    "name": "Healing Potion Injector",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
+  "23774": {
+    "name": "Fel Iron Toolbox",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23746": {
+    "name": "Adamantite Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23742": {
+    "name": "Fel Iron Musket",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15995": {
+    "name": "Thorium Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10508": {
+    "name": "Mithril Blunderbuss",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4379": {
+    "name": "Silver-plated Shotgun",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4369": {
+    "name": "Deadly Blunderbuss",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4362": {
+    "name": "Rough Boomstick",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "6219": {
+    "name": "Arclight Spanner",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "35581": {
+    "name": "Rocket Boots Xtreme Lite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
+  "23762": {
+    "name": "Ultra-Spectropic Detection Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "16008": {
+    "name": "Master Engineer's Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15999": {
+    "name": "Spellpower Goggles Xtreme Plus",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10504": {
+    "name": "Green Lens",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10503": {
+    "name": "Rose Colored Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10502": {
+    "name": "Spellpower Goggles Xtreme",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10500": {
+    "name": "Fire Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4385": {
+    "name": "Green Tinted Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4368": {
+    "name": "Flying Tiger Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23836": {
+    "name": "Goblin Rocket Launcher",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "30542": {
+    "name": "Dimensional Ripper - Area 52",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10587": {
+    "name": "Goblin Bomb Dispenser",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23772": {
+    "name": "Fel Iron Shells",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15997": {
+    "name": "Thorium Shells",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10513": {
+    "name": "Mithril Gyro-Shot",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10512": {
+    "name": "Hi-Impact Mithril Slugs",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "8069": {
+    "name": "Crafted Solid Shot",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "8068": {
+    "name": "Crafted Heavy Shot",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "8067": {
+    "name": "Crafted Light Shot",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23766": {
+    "name": "Stabilized Eternium Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "34061": {
+    "name": "Turbo-Charged Flying Machine",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "34113": {
+    "name": "Field Repair Bot 110G",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "34060": {
+    "name": "Flying Machine",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23821": {
+    "name": "Zapthrottle Mote Extractor",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15846": {
+    "name": "Salt Shaker",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "11590": {
+    "name": "Mechanical Repair Kit",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4392": {
+    "name": "Advanced Target Dummy",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4391": {
+    "name": "Compact Harvest Reaper Kit",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "5507": {
+    "name": "Ornate Spyglass",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "6533": {
+    "name": "Aquadynamic Fish Attractor",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4406": {
+    "name": "Standard Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4366": {
+    "name": "Target Dummy",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4405": {
+    "name": "Crude Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "32413": {
+    "name": "Frost Grenades",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23819": {
+    "name": "Elemental Seaforium Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
+  "23827": {
+    "name": "Super Sapper Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23737": {
+    "name": "Adamantite Grenade",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23826": {
+    "name": "The Bigger One",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23736": {
+    "name": "Fel Iron Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15993": {
+    "name": "Thorium Grenade",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10562": {
+    "name": "Hi-Explosive Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "18641": {
+    "name": "Dense Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10514": {
+    "name": "Mithril Frag Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4394": {
+    "name": "Big Iron Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4390": {
+    "name": "Iron Grenade",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4384": {
+    "name": "Explosive Sheep",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10507": {
+    "name": "Solid Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4380": {
+    "name": "Big Bronze Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4374": {
+    "name": "Small Bronze Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4370": {
+    "name": "Large Copper Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4378": {
+    "name": "Heavy Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4365": {
+    "name": "Coarse Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4360": {
+    "name": "Rough Copper Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4358": {
+    "name": "Rough Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23787": {
+    "name": "Felsteel Stabilizer",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23785": {
+    "name": "Hardened Adamantite Tube",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23786": {
+    "name": "Khorium Power Core",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "32423": {
+    "name": "Icy Blasting Primers",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23784": {
+    "name": "Adamantite Frame",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23781": {
+    "name": "Elemental Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23782": {
+    "name": "Fel Iron Casing",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "16000": {
+    "name": "Thorium Tube",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "23783": {
+    "name": "Handful of Fel Iron Bolts",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15994": {
+    "name": "Thorium Widget",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "18631": {
+    "name": "Truesilver Transformer",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "15992": {
+    "name": "Dense Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10561": {
+    "name": "Mithril Casing",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10560": {
+    "name": "Unstable Trigger",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10559": {
+    "name": "Mithril Tube",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10498": {
+    "name": "Gyromatic Micro-Adjustor",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4389": {
+    "name": "Gyrochronatom",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10505": {
+    "name": "Solid Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4382": {
+    "name": "Bronze Framework",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "10558": {
+    "name": "Gold Power Core",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4387": {
+    "name": "Iron Strut",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4375": {
+    "name": "Whirring Bronze Gizmo",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4371": {
+    "name": "Bronze Tube",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4377": {
+    "name": "Heavy Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4404": {
+    "name": "Silver Contact",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4363": {
+    "name": "Copper Modulator",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4361": {
+    "name": "Copper Tube",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4364": {
+    "name": "Coarse Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4359": {
+    "name": "Handful of Copper Bolts",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "4357": {
+    "name": "Rough Blasting Powder",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "6712": {
+    "name": "Practice Lock",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino",
+      "Bonyfacy"
+    ]
+  },
+  "34008": {
+    "name": "Enchant Boots - Boar's Speed",
+    "profession": "Enchanting",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "7859": {
+    "name": "Enchant Bracer - Lesser Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Royarni",
+      "Benteha"
+    ]
+  },
+  "7766": {
+    "name": "Enchant Bracer - Minor Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Royarni",
+      "Slavongiga"
+    ]
+  },
+  "27913": {
+    "name": "Enchant Bracer - Restore Mana Prime",
+    "profession": "Enchanting",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "20009": {
+    "name": "Enchant Bracer - Superior Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Royarni",
+      "Kholistyka"
+    ]
+  },
+  "21876": {
+    "name": "Primal Mooncloth Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "21858": {
+    "name": "Spellfire Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "38225": {
+    "name": "Mycah's Botanical Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24261": {
+    "name": "Whitemend Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "21864": {
+    "name": "Soulcloth Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "21867": {
+    "name": "Arcanoweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21863": {
+    "name": "Soulcloth Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24249": {
+    "name": "Unyielding Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "21860": {
+    "name": "Imbued Netherweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21859": {
+    "name": "Imbued Netherweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14128": {
+    "name": "Wizardweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21851": {
+    "name": "Netherweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13866": {
+    "name": "Runecloth Headband",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14111": {
+    "name": "Felcloth Hood",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14144": {
+    "name": "Ghostweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21850": {
+    "name": "Netherweave Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21849": {
+    "name": "Netherweave Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14108": {
+    "name": "Felcloth Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13865": {
+    "name": "Runecloth Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13871": {
+    "name": "Frostweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13864": {
+    "name": "Runecloth Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14103": {
+    "name": "Brightcloth Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14141": {
+    "name": "Ghostweave Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13863": {
+    "name": "Runecloth Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14132": {
+    "name": "Wizardweave Leggings",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14101": {
+    "name": "Brightcloth Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14100": {
+    "name": "Brightcloth Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14142": {
+    "name": "Ghostweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13870": {
+    "name": "Frostweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "14143": {
+    "name": "Ghostweave Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13860": {
+    "name": "Runecloth Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13857": {
+    "name": "Runecloth Tunic",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "13869": {
+    "name": "Frostweave Tunic",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "38277": {
+    "name": "Haliscan Jacket",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "10044": {
+    "name": "Cindercloth Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10025": {
+    "name": "Shadoweave Mask",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "6836": {
+    "name": "Dress Shoes",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "10026": {
+    "name": "Black Mageweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10027": {
+    "name": "Black Mageweave Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10042": {
+    "name": "Cindercloth Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10019": {
+    "name": "Dreamweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10021": {
+    "name": "Dreamweave Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "38278": {
+    "name": "Haliscan Pantaloons",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "10001": {
+    "name": "Black Mageweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7064": {
+    "name": "Crimson Silk Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "9999": {
+    "name": "Black Mageweave Leggings",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "9998": {
+    "name": "Black Mageweave Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7054": {
+    "name": "Robe of Power",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4326": {
+    "name": "Long Silken Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "7051": {
+    "name": "Earthen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4324": {
+    "name": "Azure Silk Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "5770": {
+    "name": "Robes of Arcana",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "7046": {
+    "name": "Azure Silk Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "5766": {
+    "name": "Lesser Wizard's Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4318": {
+    "name": "Gloves of Meditation",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4316": {
+    "name": "Heavy Woolen Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6787": {
+    "name": "White Woolen Dress",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4313": {
+    "name": "Red Woolen Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha"
+    ]
+  },
+  "2583": {
+    "name": "Woolen Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "5542": {
+    "name": "Pearl-clasped Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2582": {
+    "name": "Green Woolen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4310": {
+    "name": "Heavy Woolen Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4312": {
+    "name": "Soft-soled Linen Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2584": {
+    "name": "Woolen Cape",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2578": {
+    "name": "Barbaric Linen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4309": {
+    "name": "Handstitched Linen Britches",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2569": {
+    "name": "Linen Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4308": {
+    "name": "Green Linen Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6239": {
+    "name": "Red Linen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni"
+    ]
+  },
+  "4307": {
+    "name": "Heavy Linen Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4343": {
+    "name": "Brown Linen Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6238": {
+    "name": "Brown Linen Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6241": {
+    "name": "White Linen Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10046": {
+    "name": "Simple Linen Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2568": {
+    "name": "Brown Linen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "10053": {
+    "name": "Simple Black Dress",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6796": {
+    "name": "Red Swashbuckler's Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6795": {
+    "name": "White Swashbuckler's Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "4330": {
+    "name": "Stylish Red Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2587": {
+    "name": "Gray Woolen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2579": {
+    "name": "Green Linen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2577": {
+    "name": "Blue Linen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "2575": {
+    "name": "Red Linen Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6786": {
+    "name": "Simple Dress",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "21844": {
+    "name": "Bolt of Soulcloth",
+    "profession": "Tailoring",
+    "crafters": [
+      "Royarni",
+      "Gorzbalxua"
+    ]
+  },
+  "24266": {
+    "name": "Spellstrike Hood",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
+    ]
+  },
+  "28438": {
+    "name": "Dragonmaw",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23544": {
+    "name": "Runic Hammer",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "11607": {
+    "name": "Dark Iron Sunderer",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "28441": {
+    "name": "Deep Thunder",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "11608": {
+    "name": "Dark Iron Pulverizer",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23526": {
+    "name": "Swiftsteel Gloves",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "12420": {
+    "name": "Radiant Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "2864": {
+    "name": "Runed Copper Breastplate",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "31369": {
+    "name": "Iceguard Breastplate",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "31368": {
+    "name": "Wildguard Helm",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "31367": {
+    "name": "Wildguard Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "31371": {
+    "name": "Iceguard Helm",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "31370": {
+    "name": "Iceguard Leggings",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23522": {
+    "name": "Ragesteel Breastplate",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "23537": {
+    "name": "Black Felsteel Bracers",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Dantalionax"
+    ]
+  },
+  "16007": {
+    "name": "Flawless Arcanite Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16004": {
+    "name": "Dark Iron Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10510": {
+    "name": "Mithril Heavy-bore Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4383": {
+    "name": "Moonsight Rifle",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10588": {
+    "name": "Goblin Rocket Helmet",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10506": {
+    "name": "Deepdive Helmet",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "7189": {
+    "name": "Goblin Rocket Boots",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10518": {
+    "name": "Parachute Cloak",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10501": {
+    "name": "Catseye Ultra Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10543": {
+    "name": "Goblin Construction Helmet",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4393": {
+    "name": "Craftsman's Monocle",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10499": {
+    "name": "Bright-Eye Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4373": {
+    "name": "Shadow Goggles",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16006": {
+    "name": "Delicate Arcanite Converter",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "7191": {
+    "name": "Fused Wiring",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10644": {
+    "name": "Goblin Rocket Fuel Recipe",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "21570": {
+    "name": "Firework Cluster Launcher",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "21714": {
+    "name": "Large Blue Rocket Cluster",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "21716": {
+    "name": "Large Green Rocket Cluster",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "21718": {
+    "name": "Large Red Rocket Cluster",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "15996": {
+    "name": "Lifelike Mechanical Toad",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4401": {
+    "name": "Mechanical Squirrel",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "23824": {
+    "name": "Rocket Boots Xtreme",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10542": {
+    "name": "Goblin Mining Helmet",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16022": {
+    "name": "Arcanite Dragonling",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18639": {
+    "name": "Ultra-Flash Shadow Reflector",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16009": {
+    "name": "Voice Amplification Modulator",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18984": {
+    "name": "Dimensional Ripper - Everlook",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18634": {
+    "name": "Gyrofreeze Ice Reflector",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18637": {
+    "name": "Major Recombobulator",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10576": {
+    "name": "Mithril Mechanical Dragonling",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10727": {
+    "name": "Goblin Dragon Gun",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10577": {
+    "name": "Goblin Mortar",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4397": {
+    "name": "Gnomish Cloaking Device",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "7148": {
+    "name": "Goblin Jumper Cables",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4381": {
+    "name": "Minor Recombobulator",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "7506": {
+    "name": "Gnomish Universal Remote",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18232": {
+    "name": "Field Repair Bot 74A",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16023": {
+    "name": "Masterwork Target Dummy",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18587": {
+    "name": "Goblin Jumper Cables XL",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10548": {
+    "name": "Sniper Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10546": {
+    "name": "Deadly Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "17716": {
+    "name": "Snowmaster 9000",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4407": {
+    "name": "Accurate Scope",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4403": {
+    "name": "Portable Bronze Mortar",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4386": {
+    "name": "Ice Deflector",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "16005": {
+    "name": "Dark Iron Bomb",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18594": {
+    "name": "Powerful Seaforium Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10586": {
+    "name": "The Big One",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "10646": {
+    "name": "Goblin Sapper Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4398": {
+    "name": "Large Seaforium Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4395": {
+    "name": "Goblin Land Mine",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "18588": {
+    "name": "EZ-Thro Dynamite II",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "4367": {
+    "name": "Small Seaforium Charge",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "6714": {
+    "name": "EZ-Thro Dynamite",
+    "profession": "Engineering",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "24031": {
+    "name": "Bright Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "33131": {
+    "name": "Crimson Sun",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "31861": {
+    "name": "Great Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "24051": {
+    "name": "Rigid Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "33143": {
+    "name": "Stone of Blades",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Cassyette"
+    ]
+  },
+  "24128": {
+    "name": "Figurine - Nightseye Panther",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Slavong\u00eega"
+    ]
+  },
+  "24116": {
+    "name": "Eye of the Night",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "24114": {
+    "name": "Braided Eternium Chain",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog",
+      "Slavong\u00eega",
+      "Cassyette"
+    ]
+  },
+  "24106": {
+    "name": "Thick Felsteel Necklace",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "22456": {
+    "name": "Transmute: Primal Water to Shadow",
+    "profession": "Alchemy",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "13655": {
+    "name": "Enchant Weapon - Lesser Elemental Slayer",
+    "profession": "Enchanting",
+    "crafters": [
+      "Benteha",
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "7786": {
+    "name": "Enchant Weapon - Minor Beastslayer",
+    "profession": "Enchanting",
+    "crafters": [
+      "Benteha",
+      "Slavongiga"
+    ]
+  },
+  "20033": {
+    "name": "Enchant Weapon - Unholy Weapon",
+    "profession": "Enchanting",
+    "crafters": [
+      "Benteha",
+      "Slavongiga"
+    ]
+  },
+  "21875": {
+    "name": "Primal Mooncloth Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha"
+    ]
+  },
+  "21874": {
+    "name": "Primal Mooncloth Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha"
+    ]
+  },
+  "21873": {
+    "name": "Primal Mooncloth Belt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha"
+    ]
+  },
+  "10008": {
+    "name": "White Bandit Mask",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha"
+    ]
+  },
+  "6263": {
+    "name": "Blue Overalls",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "6240": {
+    "name": "Blue Linen Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Benteha",
+      "Gorzbalxua"
+    ]
+  },
+  "24121": {
+    "name": "Chain of the Twilight Owl",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
+  "34207": {
+    "name": "Glove Reinforcements",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "34330": {
+    "name": "Heavy Knothide Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29488": {
+    "name": "Arcane Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29485": {
+    "name": "Flame Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29486": {
+    "name": "Frost Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29487": {
+    "name": "Nature Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29483": {
+    "name": "Shadow Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "29533": {
+    "name": "Cobrahide Leg Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "25650": {
+    "name": "Knothide Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "15564": {
+    "name": "Rugged Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "8173": {
+    "name": "Thick Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "4265": {
+    "name": "Heavy Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "2313": {
+    "name": "Medium Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "2304": {
+    "name": "Light Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "29529": {
+    "name": "Drums of Battle",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "29528": {
+    "name": "Drums of War",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "34482": {
+    "name": "Leatherworker's Satchel",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7377": {
+    "name": "Frost Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "3719": {
+    "name": "Hillman's Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "2316": {
+    "name": "Dark Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "2308": {
+    "name": "Fine Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "2310": {
+    "name": "Embossed Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "7276": {
+    "name": "Handstitched Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "29506": {
+    "name": "Gloves of the Living Touch",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29505": {
+    "name": "Hood of Primal Life",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29504": {
+    "name": "Windscale Hood",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29507": {
+    "name": "Windslayer Wraps",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "25682": {
+    "name": "Stylin' Jungle Hat",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "25680": {
+    "name": "Stylin' Purple Hat",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "25671": {
+    "name": "Thick Draenic Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "25676": {
+    "name": "Wild Draenish Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "25668": {
+    "name": "Thick Draenic Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "25675": {
+    "name": "Wild Draenish Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "25670": {
+    "name": "Thick Draenic Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer",
+      "Slavong\u00eega"
+    ]
+  },
+  "23530": {
+    "name": "Felsteel Shield Spike",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "23528": {
+    "name": "Fel Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "15872": {
+    "name": "Arcanite Skeleton Key",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "12643": {
+    "name": "Dense Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "15871": {
+    "name": "Truesilver Skeleton Key",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "7964": {
+    "name": "Solid Sharpening Stone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "7965": {
+    "name": "Solid Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "3240": {
+    "name": "Coarse Weightstone",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "23504": {
+    "name": "Adamantite Dagger",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "12259": {
+    "name": "Glinting Steel Dagger",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "5540": {
+    "name": "Pearl-handled Dagger",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "3848": {
+    "name": "Big Bronze Knife",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "7166": {
+    "name": "Copper Dagger",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "23497": {
+    "name": "Fel Iron Hatchet",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "30072": {
+    "name": "Light Skyforged Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "2849": {
+    "name": "Bronze Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "3489": {
+    "name": "Thick War Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "2845": {
+    "name": "Copper Axe",
+    "profession": "Blacksmithing",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "13380": {
+    "name": "Enchant 2H Weapon - Lesser Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "20036": {
+    "name": "Enchant 2H Weapon - Major Intellect",
+    "profession": "Enchanting",
+    "crafters": [
+      "Killoone",
+      "Slavongiga"
+    ]
+  },
+  "18662": {
+    "name": "Heavy Leather Ball",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "29500": {
+    "name": "Blastguard Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "25685": {
+    "name": "Fel Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "15094": {
+    "name": "Runic Leather Headband",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "15087": {
+    "name": "Wicked Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "15093": {
+    "name": "Runic Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "15086": {
+    "name": "Wicked Leather Headband",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "15092": {
+    "name": "Runic Leather Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "15091": {
+    "name": "Runic Leather Gauntlets",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "15084": {
+    "name": "Wicked Leather Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8197": {
+    "name": "Nightscape Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8193": {
+    "name": "Nightscape Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8176": {
+    "name": "Nightscape Headband",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8175": {
+    "name": "Nightscape Tunic",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7387": {
+    "name": "Dusky Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "5739": {
+    "name": "Barbaric Harness",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "5966": {
+    "name": "Guardian Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7378": {
+    "name": "Dusky Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4259": {
+    "name": "Green Leather Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "5964": {
+    "name": "Barbaric Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7374": {
+    "name": "Dusky Leather Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "7375": {
+    "name": "Green Whelp Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Arnsgar"
+    ]
+  },
+  "4257": {
+    "name": "Green Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "5962": {
+    "name": "Guardian Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4247": {
+    "name": "Hillman's Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4253": {
+    "name": "Toughened Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4251": {
+    "name": "Hillman's Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "4249": {
+    "name": "Dark Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7348": {
+    "name": "Fletcher's Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "2312": {
+    "name": "Fine Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "29494": {
+    "name": "Flamescale Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "25683": {
+    "name": "Stylin' Crimson Hat",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "8185": {
+    "name": "Turtle Scale Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "8191": {
+    "name": "Turtle Scale Helm",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8198": {
+    "name": "Turtle Scale Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8189": {
+    "name": "Turtle Scale Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "8218": {
+    "name": "Thick Leather Ammo Pouch",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7372": {
+    "name": "Heavy Leather Ammo Pouch",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7279": {
+    "name": "Small Leather Ammo Pouch",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "8217": {
+    "name": "Quickdraw Quiver",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7371": {
+    "name": "Heavy Quiver",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer",
+      "Arnsgar"
+    ]
+  },
+  "7278": {
+    "name": "Light Leather Quiver",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavong\u00eega",
+      "Streamer"
+    ]
+  },
+  "27981": {
+    "name": "Enchant Weapon - Sunfire",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga",
+      "Gorzbalxua"
+    ]
+  },
+  "13931": {
+    "name": "Enchant Bracer - Deflection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "23802": {
+    "name": "Enchant Bracer - Healing Power",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "23801": {
+    "name": "Enchant Bracer - Mana Regeneration",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "7782": {
+    "name": "Enchant Bracer - Minor Strength",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "13882": {
+    "name": "Enchant Cloak - Lesser Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "13464": {
+    "name": "Enchant Shield - Lesser Protection",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga",
+      "Arnsgar"
+    ]
+  },
+  "13817": {
+    "name": "Enchant Shield - Stamina",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "13653": {
+    "name": "Enchant Weapon - Lesser Beastslayer",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
+  "24047": {
+    "name": "Brilliant Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Sladkakurva",
+      "Cassyette"
+    ]
+  },
+  "13846": {
+    "name": "Enchant Bracer - Greater Spirit",
+    "profession": "Enchanting",
+    "crafters": [
+      "Killoone"
+    ]
+  },
+  "24062": {
+    "name": "Enduring Talasite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "24123": {
+    "name": "Circlet of Arcane Might",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "24086": {
+    "name": "Arcane Khorium Band",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Slavong\u00eega"
+    ]
+  },
+  "13915": {
+    "name": "Enchant Weapon - Demonslaying",
+    "profession": "Enchanting",
+    "crafters": [
+      "Lightpower"
+    ]
+  },
+  "25674": {
+    "name": "Wild Draenish Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15090": {
+    "name": "Runic Leather Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15096": {
+    "name": "Runic Leather Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15085": {
+    "name": "Wicked Leather Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15062": {
+    "name": "Devilsaur Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15095": {
+    "name": "Runic Leather Pants",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15088": {
+    "name": "Wicked Leather Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "25669": {
+    "name": "Thick Draenic Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "25673": {
+    "name": "Wild Draenish Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15066": {
+    "name": "Ironfeather Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15060": {
+    "name": "Living Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "30040": {
+    "name": "Belt of Deep Shadow",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "30046": {
+    "name": "Belt of the Black Eagle",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29512": {
+    "name": "Earthen Netherscale Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29508": {
+    "name": "Living Dragonscale Helm",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29511": {
+    "name": "Netherdrake Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29510": {
+    "name": "Netherdrake Helm",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29514": {
+    "name": "Thick Netherscale Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29509": {
+    "name": "Windstrike Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15052": {
+    "name": "Black Dragonscale Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15051": {
+    "name": "Black Dragonscale Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15049": {
+    "name": "Blue Dragonscale Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "20296": {
+    "name": "Green Dragonscale Gauntlets",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "15046": {
+    "name": "Green Dragonscale Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "29971": {
+    "name": "Dragonstrike Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "8367": {
+    "name": "Dragonscale Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "8347": {
+    "name": "Dragonscale Gauntlets",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "8204": {
+    "name": "Tough Scorpid Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Streamer"
+    ]
+  },
+  "24276": {
+    "name": "Golden Spellthread",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "5762": {
+    "name": "Red Linen Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "21872": {
+    "name": "Ebon Shadowbag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30038": {
+    "name": "Belt of Blasting",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30036": {
+    "name": "Belt of the Long Road",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30839": {
+    "name": "Flameheart Vest",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30838": {
+    "name": "Flameheart Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30837": {
+    "name": "Flameheart Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "24254": {
+    "name": "White Remedy Cape",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10036": {
+    "name": "Tuxedo Jacket",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10030": {
+    "name": "Admiral's Hat",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10031": {
+    "name": "Shadoweave Boots",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10028": {
+    "name": "Shadoweave Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10023": {
+    "name": "Shadoweave Gloves",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10040": {
+    "name": "White Wedding Dress",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10009": {
+    "name": "Red Mageweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10004": {
+    "name": "Shadoweave Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10035": {
+    "name": "Tuxedo Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10002": {
+    "name": "Shadoweave Pants",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "7063": {
+    "name": "Crimson Silk Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "7056": {
+    "name": "Crimson Silk Cloak",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "4322": {
+    "name": "Enchanter's Cowl",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "6264": {
+    "name": "Greater Adept's Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "6242": {
+    "name": "Blue Linen Robe",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10034": {
+    "name": "Tuxedo Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10055": {
+    "name": "Pink Mageweave Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10054": {
+    "name": "Lavender Mageweave Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "10052": {
+    "name": "Orange Martial Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "4333": {
+    "name": "Dark Silk Shirt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "27954": {
+    "name": "Enchant Boots - Surefooted",
+    "profession": "Enchanting",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29536": {
+    "name": "Nethercleft Leg Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29535": {
+    "name": "Nethercobra Leg Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29534": {
+    "name": "Clefthide Leg Armor",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29532": {
+    "name": "Drums of Panic",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29531": {
+    "name": "Drums of Restoration",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29530": {
+    "name": "Drums of Speed",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "5081": {
+    "name": "Kodo Hide Bag",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29540": {
+    "name": "Reinforced Mining Bag",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8215": {
+    "name": "Wild Leather Cloak",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29522": {
+    "name": "Windhawk Hauberk",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29524": {
+    "name": "Windhawk Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29523": {
+    "name": "Windhawk Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "25689": {
+    "name": "Heavy Clefthoof Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "25691": {
+    "name": "Heavy Clefthoof Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "25690": {
+    "name": "Heavy Clefthoof Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29974": {
+    "name": "Living Crystal Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "15069": {
+    "name": "Frostsaber Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "29970": {
+    "name": "Wildfeather Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8349": {
+    "name": "Feathered Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8212": {
+    "name": "Wild Leather Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8213": {
+    "name": "Wild Leather Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8214": {
+    "name": "Wild Leather Helmet",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8211": {
+    "name": "Wild Leather Vest",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8345": {
+    "name": "Wolfshead Helm",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8210": {
+    "name": "Wild Leather Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "7391": {
+    "name": "Swift Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "7386": {
+    "name": "Green Whelp Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "4248": {
+    "name": "Dark Leather Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "30043": {
+    "name": "Hurricane Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8206": {
+    "name": "Tough Scorpid Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8207": {
+    "name": "Tough Scorpid Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8209": {
+    "name": "Tough Scorpid Boots",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8205": {
+    "name": "Tough Scorpid Bracers",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8203": {
+    "name": "Tough Scorpid Breastplate",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "8187": {
+    "name": "Turtle Scale Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "25653": {
+    "name": "Riding Crop",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "31869": {
+    "name": "Wicked Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "31862": {
+    "name": "Balanced Shadow Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "31860": {
+    "name": "Great Golden Draenite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "24039": {
+    "name": "Stormy Star of Elune",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "24057": {
+    "name": "Royal Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "24052": {
+    "name": "Thick Dawnstone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "24065": {
+    "name": "Dazzling Talasite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32410": {
+    "name": "Thundering Skyfire Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "24059": {
+    "name": "Potent Noble Topaz",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "31866": {
+    "name": "Veiled Flame Spessarite",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "31863": {
+    "name": "Balanced Nightseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "33133": {
+    "name": "Don Julio's Heart",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  }
+}

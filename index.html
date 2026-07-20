@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guild Recipe Registry</title>
+
+    <!--
+      Wowhead tooltips. `power.js` scans for links to wowhead.com and attaches a
+      hover tooltip; it reads the TBC database from the `/tbc/` path already in
+      our hrefs. `renameLinks` is off deliberately — the recipe names come from
+      the addon export and stay authoritative.
+    -->
+    <script>
+      const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: false }
+    </script>
+    <script src="https://wow.zamimg.com/widgets/power.js" defer></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

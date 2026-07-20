@@ -1,0 +1,172 @@
+:root {
+  --bg: #14161c;
+  --panel: #1c1f28;
+  --border: #2c3140;
+  --text: #e4e6eb;
+  --muted: #8b93a7;
+  --accent: #f0c674;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.stats,
+.count,
+.hint,
+.status {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.import {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+}
+
+.import summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.import textarea {
+  width: 100%;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.8rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.import-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+button {
+  background: var(--border);
+  color: var(--text);
+  border: none;
+  border-radius: 6px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.filters input,
+.filters select {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.9rem;
+}
+
+.filters input {
+  flex: 1 1 260px;
+}
+
+table.recipes {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+table.recipes th,
+table.recipes td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+table.recipes th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* The cell carries the fallback colour and the link inherits it, so Wowhead's
+   injected quality classes (.q1–.q5) win when power.js loads, and we still get a
+   readable gold link when it is blocked or offline. */
+table.recipes td:first-child {
+  color: var(--accent);
+}
+
+table.recipes a {
+  color: inherit;
+  text-decoration: none;
+}
+
+table.recipes a:hover {
+  text-decoration: underline;
+}
+
+/* Crafter names link to their Classic Armory profile. Kept visually quieter than
+   the recipe link so the recipe stays the primary target in each row. */
+table.recipes td.crafters a {
+  color: var(--text);
+  border-bottom: 1px dotted var(--border);
+}
+
+table.recipes td.crafters a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
+/* `iconizeLinks` injects an icon before each link; keep it aligned and stop it
+   from changing the row height. */
+table.recipes .iconsmall,
+table.recipes .icontinyl,
+table.recipes .icontinyr {
+  vertical-align: middle;
+  margin-right: 0.35em;
+}
+
+.empty {
+  color: var(--muted);
+  padding: 2rem 0;
+  text-align: center;
+}
