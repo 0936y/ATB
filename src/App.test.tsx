@@ -3,7 +3,6 @@ import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { App } from './App'
 import type { CrafterProfession } from './types'
-import { importLine } from './test/fixtures'
 
 const entries: CrafterProfession[] = [
   {
@@ -49,7 +48,7 @@ describe('App', () => {
     const user = userEvent.setup()
     render(<App initialEntries={entries} />)
 
-    // The whole point: a plain visit must not render 1126 rows of Wowhead links.
+    // The whole point: a plain visit must not render ~1130 rows of Wowhead links.
     expect(screen.queryByRole('table')).not.toBeInTheDocument()
 
     // A single letter is not enough — two is the threshold.
@@ -147,26 +146,6 @@ describe('App', () => {
     expect(screen.getByText('No recipes match those filters.')).toBeInTheDocument()
   })
 
-  it('imports a pasted export into the session', async () => {
-    const user = userEvent.setup()
-    render(<App initialEntries={entries} />)
-
-    await user.type(
-      screen.getByLabelText('Export text'),
-      importLine('Newguy', 'Tailoring', ['Bolt of Linen#2963']),
-    )
-    await user.click(screen.getByRole('button', { name: 'Parse' }))
-
-    expect(screen.getByText(/1 crafter\/profession, 1 recipes/)).toBeInTheDocument()
-
-    await user.click(screen.getByRole('button', { name: 'Add to session' }))
-
-    expect(screen.getByText('4 recipes · 3 crafters · 3 professions')).toBeInTheDocument()
-
-    await showAll(user)
-    expect(screen.getByRole('link', { name: 'Bolt of Linen' })).toBeInTheDocument()
-  })
-
   it('refreshes Wowhead tooltips when the visible rows change', async () => {
     const refreshLinks = vi.fn()
     window.$WowheadPower = { refreshLinks }
@@ -189,15 +168,5 @@ describe('App', () => {
     expect(() => render(<App initialEntries={entries} />)).not.toThrow()
     await showAll(user)
     expect(screen.getAllByRole('table')).toHaveLength(1)
-  })
-
-  it('reports unparseable paste text instead of failing silently', async () => {
-    const user = userEvent.setup()
-    render(<App initialEntries={entries} />)
-
-    await user.type(screen.getByLabelText('Export text'), 'not an export')
-    await user.click(screen.getByRole('button', { name: 'Parse' }))
-
-    expect(screen.getByText(/No valid .* payload found/)).toBeInTheDocument()
   })
 })

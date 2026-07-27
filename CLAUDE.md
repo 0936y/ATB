@@ -1,16 +1,18 @@
 # WoW Guild Recipe Registry
 
 A client-side web app that answers **"who in the guild can craft X?"** Guild members
-export their profession lists with an in-game addon; this app decodes, merges, and
-indexes those exports into one searchable table.
+export their profession lists with an in-game addon; those exports are folded into one
+committed registry (`recipes.json`) that the app indexes into a searchable table.
 
-No backend, no database, no API keys. Recipe data lives as committed text files.
+No backend, no database, no API keys. The recipe database is a single committed JSON
+file.
 
 ## Commands
 
 | Command | Purpose |
 |---|---|
 | `npm run dev` | Dev server at http://localhost:5173 |
+| `npm run import` | Fold `data/exports/*.txt` into `recipes.json`, then empty the folder |
 | `npm test` | Run the test suite once |
 | `npm run test:watch` | Tests in watch mode |
 | `npm run build` | Typecheck (`tsc -b`) then production build to `dist/` |
@@ -47,11 +49,11 @@ Enchant Gloves - Major Spellpower#33997
 3. **Multibyte names.** Character names contain non-ASCII (e.g. `Slavongîga`), so
    decoding goes through `TextDecoder('utf-8')`, not a byte-per-char shortcut.
 
-## The registry JSON format
+## The registry JSON format — the single source of truth
 
-`recipes.json` is a second, independent data source — a guild-wide registry keyed by
-spell ID, which is the **inverse** of the addon format (recipe→crafters rather than
-crafter→recipes):
+`recipes.json` is the master database and the **only** source the app reads at
+runtime. It is a guild-wide registry keyed by spell/item ID — the **inverse** of the
+addon format (recipe→crafters rather than crafter→recipes):
 
 ```json
 { "22835": { "name": "Elixir of Major Shadow Power",
@@ -59,30 +61,40 @@ crafter→recipes):
              "crafters": ["Bulletdog", "Zoremet"] } }
 ```
 
-`registryToChunks` transposes it back into per-crafter chunks so both sources flow
-through the same `mergeChunks` path. It is picked up from the repo root or `data/`.
+`registryToChunks` transposes it back into per-crafter chunks so it flows through the
+same `mergeChunks` path the parser produces. It is picked up from the repo root or
+`data/`.
 
-### The two sources overlap but neither contains the other
-
-This is the single most important fact about the data. Do **not** "simplify" by
-dropping one source:
-
-- `recipes.json` holds 1118 recipes across 24 crafters and 7 professions.
-- The addon exports hold 360, of which **352 overlap**.
-- **8 spell IDs exist only in the addon exports** (e.g. `Crown of the Sea Witch`
-  #32776, `Fel Leather Boots` #25686) — the registry does not know them at all.
-- A further **27** are in the registry but not credited to Slavongîga there.
-
-`loadAllEntries()` unions both; `mergeChunks` dedupes by spell ID, so the union is
-lossless and idempotent. Total after union: **1126 distinct recipes**.
-`loadExports.test.ts` asserts all of this and will fail loudly if a future change
+It currently holds **1131 recipes across 25 crafters and 7 professions**. That count
+is load-bearing: `loadExports.test.ts` asserts it and will fail loudly if a change
 starts dropping data.
+
+### Addon exports are a staging area, not a runtime source
+
+`data/exports/*.txt` is where you drop raw addon exports before folding them in. It is
+**consumed at build/tooling time by `npm run import`, never read by the browser.** The
+folder is normally empty (only a `README.md` keeps it in git); a `.txt` file is
+transient — it exists only between "paste it here" and "run the import".
+
+`npm run import` (→ `scripts/import-exports.ts`) parses every `.txt`, folds anything
+new into `recipes.json` via `consolidate()`, then **deletes the `.txt` files**. The
+addon dumps a character's *entire* recipe book each time, so most lines already exist;
+`consolidate` adds only:
+
+- **new recipe IDs** the registry has never seen, and
+- **new crafters** for an ID that is already present.
+
+Everything else is skipped as a duplicate. The merge is idempotent — running import
+twice on the same data is a no-op — so a re-export of a mostly-known book only adds its
+handful of genuinely new recipes.
 
 ## Architecture
 
 ```
-data/exports/*.txt       Addon exports — one file per character+profession
-recipes.json             Guild-wide registry (root or data/; both are globbed)
+recipes.json             Master registry — the single runtime source (root or data/)
+data/exports/*.txt       Staging area for raw addon exports; emptied by `npm run import`
+scripts/
+  import-exports.ts      CLI: parse exports → consolidate into recipes.json → clear folder
 src/
   types.ts               Recipe, CrafterProfession, ParsedChunk, RecipeMatch
   parser/
@@ -91,11 +103,16 @@ src/
     merge.ts             Union chunks by (crafter, profession); dedupe by spell ID
   data/
     jsonRegistry.ts      recipes.json → ParsedChunk[] (transposes the index)
-    loadExports.ts       Globs both sources; loadAllEntries() unions them
+    consolidate.ts       Fold parsed exports into a registry; add only what's new
+    loadExports.ts       Globs recipes.json; loadAllEntries() merges it
   search.ts              buildIndex (recipe → crafters), searchRecipes, wowheadUrl
-  components/            Filters, RecipeTable, ImportPanel
-  App.tsx                State, filtering, session imports
+  components/            Filters, RecipeTable
+  App.tsx                State, filtering
 ```
+
+`scripts/import-exports.ts` runs under **vite-node** (`npm run import`) so it can
+import the app's TypeScript parser directly; it is intentionally outside the `tsc -b`
+project (`tsconfig.json` includes only `src`), so it never blocks the app build.
 
 ### Parser rules (do not regress these)
 
@@ -111,16 +128,18 @@ src/
 ## Adding a guild member's export
 
 1. Have them run the addon and copy every `!profession import` line it produces.
-2. Create `data/exports/<crafter>-<profession>.txt`. Optional `#` comment lines at the
-   top are ignored by the parser.
-3. Paste all chunks into that file, one per line.
-4. `npm test` — `merge.test.ts` asserts against the committed data and will catch a
-   truncated or corrupted paste.
+2. Create `data/exports/<crafter>-<profession>.txt` and paste all chunks into it, one
+   per line. Optional `#` comment lines at the top are ignored by the parser. The file
+   name is cosmetic — crafter and profession come from the header *inside* each
+   payload, so a typo'd filename or the wrong case still imports correctly.
+3. `npm run import` — folds the new recipes into `recipes.json`, prints a summary of
+   what was added vs. already known, and deletes the `.txt` files it consumed.
+4. `npm test`, then commit the changed `recipes.json`. Committing the JSON is what
+   makes the data permanent and shared; the `.txt` is disposable staging.
 
-The in-app **Import an export** panel does the same thing without a rebuild: paste,
-Parse, then "Download for commit" to get a file to drop into `data/exports/`. Session
-imports are in-memory only and vanish on refresh — committing the file is what makes
-data permanent and shared.
+Because re-importing is idempotent, it is safe to drop a member's *entire* fresh export
+in each time — only their genuinely new recipes land in the registry. When the registry
+count legitimately grows, update the assertion in `loadExports.test.ts` to match.
 
 ## Armory links
 
@@ -171,7 +190,8 @@ first: both IDs usually exist, they just name different things.
 
 `wowheadKind()` in `src/search.ts` encodes the rule. It was validated by querying
 Wowhead's TBC tooltip API (`nether.wowhead.com/tbc/tooltip/{item,spell}/<id>`) for
-**all 1126 committed recipes — every one resolves.** If you add a profession that
+**all 1131 committed recipes — every one resolves**, including Engineering, which
+follows the item-ID rule like every non-Enchanting profession. If you add a profession that
 breaks the pattern, that is where to fix it.
 
 The `Recipe.id` field is deliberately named `id`, not `spellId`, for this reason.
@@ -184,8 +204,8 @@ Diamond` → `Skyfire Diamond`), which is the more useful tooltip. That is inten
 `index.html` loads Wowhead's `power.js`, which attaches hover tooltips to any link
 pointing at wowhead.com and reads the TBC branch from the `/tbc/` path in our hrefs.
 
-- `renameLinks` is **off** — recipe names come from the addon export and stay
-  authoritative.
+- `renameLinks` is **off** — recipe names come from the registry (originally the addon
+  export) and stay authoritative.
 - `colorLinks` and `iconizeLinks` are on. The CSS puts the fallback colour on the
   `td` and sets `a { color: inherit }` so Wowhead's injected `.q1`–`.q5` quality
   classes win when the script loads, and links stay readable gold when it does not.
@@ -203,7 +223,7 @@ profession, OR a crafter** (a one-letter query is deliberately not enough). Unti
 it shows a prompt plus a "Show all N recipes" button — browsing is still possible, just
 opt-in.
 
-This is not cosmetic. Rendering all 1126 recipes means roughly **3400 anchors**, and
+This is not cosmetic. Rendering all 1131 recipes means roughly **3400 anchors**, and
 `refreshLinks()` then has power.js resolve every one of them — with `iconizeLinks` on,
 that is an icon request per link, on every visit, most of them for rows nobody looked
 at.
@@ -218,22 +238,20 @@ Two consequences to know before changing it:
 
 ## Testing
 
-75 tests across 8 files. The suite deliberately mixes synthetic fixtures with **real
+72 tests across 9 files. The suite deliberately mixes synthetic fixtures with **real
 addon payloads** (`src/test/fixtures.ts`) so encoding regressions surface immediately.
 
-`merge.test.ts` asserts exact recipe counts against the committed exports:
+- `parser/*.test.ts` cover decode/parse/merge against synthetic fixtures and real
+  payloads.
+- `data/consolidate.test.ts` covers the fold-in rules: new IDs added, existing IDs
+  credited to a new crafter, re-exports skipped, input registry never mutated,
+  case-insensitive/accent-sensitive crafter matching.
+- `data/loadExports.test.ts` asserts the committed `recipes.json` loads to **1131
+  distinct recipes across 25 crafters and 7 professions**. That count is the guard
+  against a bad `npm run import` (truncated paste, lossy merge).
 
-| File | Chunks | Recipes |
-|---|---|---|
-| `slavongiga-enchanting.txt` | 4 | 148 |
-| `slavongiga-jewelcrafting.txt` | 3 | 105 |
-| `slavongiga-leatherworking.txt` | 3 | 107 |
-| `recipes.json` | — | 1118 (24 crafters) |
-| **union** | | **1126** |
-
-Those numbers are load-bearing — they are what catches a bad paste or a lossy merge.
-When you add or update a data file, update the counts in `merge.test.ts` and
-`loadExports.test.ts` to match.
+The count is load-bearing. When you legitimately grow the registry via `npm run
+import`, update the assertion in `loadExports.test.ts` to match.
 
 ## Gotchas
 
@@ -243,10 +261,15 @@ When you add or update a data file, update the counts in `merge.test.ts` and
   versions, not casting.
 - `vite.config.ts` imports `defineConfig` from **`vitest/config`**, not `vite`, so the
   `test` key typechecks.
-- The `import.meta.glob` calls in `loadExports.ts` are deliberately **not** `eager`.
-  Eager inlines all the recipe data into the main bundle (337 kB / 84 kB gzip); lazy
-  splits it into its own chunk fetched after first paint (initial bundle drops to
-  205 kB / 65 kB gzip). This is why every loader there is async — if you make them
-  sync again you have undone the split.
-- `import.meta.glob` in `loadExports.ts` uses an absolute path (`/data/exports/*.txt`)
-  because the data directory sits outside `src/`.
+- The `import.meta.glob` for `recipes.json` in `loadExports.ts` is deliberately **not**
+  `eager`. Eager inlines the recipe data into the main bundle; lazy splits it into its
+  own chunk fetched after first paint (`recipes-*.js`, ~15 kB gzip), keeping the initial
+  bundle to the shell. This is why the loader is async — make it sync and you undo the
+  split.
+- That glob uses absolute paths (`/recipes.json`, `/data/*.json`) so it resolves from
+  the repo root, not relative to `src/`.
+- `scripts/import-exports.ts` runs under **vite-node**, not plain `node`, because it
+  imports the app's extensionless-import TypeScript (`../src/parser`). Node's native
+  loader can't resolve those; vite-node reuses Vite's resolver. It is invoked by path
+  (`node node_modules/vite-node/vite-node.mjs …`) since npm doesn't symlink a bin for a
+  transitive dep — `vite-node` is listed as a direct devDependency to pin it.

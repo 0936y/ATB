@@ -4,7 +4,6 @@ import { loadAllEntries } from './data/loadExports'
 import { buildIndex, searchRecipes } from './search'
 import { Filters } from './components/Filters'
 import { RecipeTable } from './components/RecipeTable'
-import { ImportPanel } from './components/ImportPanel'
 
 export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }) {
   const [entries, setEntries] = useState<CrafterProfession[]>(initialEntries ?? [])
@@ -33,7 +32,7 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
   /**
    * Nothing is rendered until the user narrows the list.
    *
-   * Rendering all 1126 recipes means ~3400 anchors, and `refreshLinks()` then
+   * Rendering all ~1130 recipes means ~3400 anchors, and `refreshLinks()` then
    * has Wowhead's power.js fetch an icon for every one of them on each paint.
    * A two-letter minimum keeps a stray keystroke from dumping the whole table.
    */
@@ -51,23 +50,6 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
   )
   const crafters = useMemo(() => [...new Set(entries.map((e) => e.crafter))].sort(), [entries])
 
-  /** Session imports replace a matching (crafter, profession) rather than duplicating it. */
-  function handleImport(imported: CrafterProfession[]) {
-    setEntries((current) => {
-      const next = [...current]
-      for (const entry of imported) {
-        const i = next.findIndex(
-          (e) =>
-            e.crafter.toLowerCase() === entry.crafter.toLowerCase() &&
-            e.profession.toLowerCase() === entry.profession.toLowerCase(),
-        )
-        if (i >= 0) next[i] = entry
-        else next.push(entry)
-      }
-      return next
-    })
-  }
-
   return (
     <main>
       <header>
@@ -78,8 +60,6 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
             : `${index.length} recipes · ${crafters.length} crafters · ${professions.length} professions`}
         </p>
       </header>
-
-      <ImportPanel onImport={handleImport} />
 
       <Filters
         query={query}
