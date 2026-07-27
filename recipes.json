@@ -6043,7 +6043,8 @@
     "name": "Figurine - Truesilver Crab",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Sladkakurva"
+      "Sladkakurva",
+      "Slavongîga"
     ]
   },
   "21764": {
@@ -7628,6 +7629,13 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
+      "Slavongîga"
+    ]
+  },
+  "24080": {
+    "name": "Khorium Band of Frost",
+    "profession": "Jewelcrafting",
+    "crafters": [
       "Slavongîga"
     ]
   },
@@ -9241,7 +9249,8 @@
     "name": "Nethercleft Leg Armor",
     "profession": "Leatherworking",
     "crafters": [
-      "Arnsgar"
+      "Arnsgar",
+      "Slavongîga"
     ]
   },
   "29540": {

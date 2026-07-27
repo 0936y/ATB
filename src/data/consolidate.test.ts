@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { consolidate, serializeRegistry } from './consolidate'
+import { consolidate, registryStats, serializeRegistry, serializeStats } from './consolidate'
 import type { JsonRegistry } from './jsonRegistry'
 import type { CrafterProfession } from '../types'
 
@@ -63,5 +63,41 @@ describe('consolidate', () => {
     expect(out.endsWith('\n')).toBe(true)
     expect(out.indexOf('"100"')).toBeLessThan(out.indexOf('"200"'))
     expect(out).toContain('\n  "100": {')
+  })
+})
+
+describe('registryStats', () => {
+  it('counts distinct recipe IDs and distinct crafters', () => {
+    expect(registryStats(base)).toEqual({ recipes: 2, crafters: 2 }) // Alpha, Beta
+  })
+
+  it('counts crafters case-insensitively', () => {
+    const stats = registryStats({
+      '1': { name: 'X', profession: 'Alchemy', crafters: ['Bob', 'bob', 'BOB'] },
+    })
+    expect(stats.crafters).toBe(1)
+  })
+
+  it('ignores non-numeric keys (they never reach the loader as recipes)', () => {
+    const stats = registryStats({
+      '1': { name: 'X', profession: 'Alchemy', crafters: ['Bob'] },
+      bogus: { name: 'Y', profession: 'Alchemy', crafters: ['Eve'] },
+    } as unknown as JsonRegistry)
+    expect(stats.recipes).toBe(1)
+    expect(stats.crafters).toBe(1)
+  })
+
+  it('reflects a growing registry after consolidate', () => {
+    const { registry } = consolidate(base, [
+      { crafter: 'Gamma', profession: 'Alchemy', recipes: [{ name: 'New', id: 300 }] },
+    ])
+    expect(registryStats(registry)).toEqual({ recipes: 3, crafters: 3 })
+  })
+
+  it('serializes a hand-editing-proof snapshot module', () => {
+    const out = serializeStats({ recipes: 42, crafters: 7 })
+    expect(out).toContain('export const REGISTRY_STATS = { recipes: 42, crafters: 7 } as const')
+    expect(out).toContain('AUTO-GENERATED')
+    expect(out.endsWith('\n')).toBe(true)
   })
 })

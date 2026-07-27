@@ -65,7 +65,7 @@ addon format (recipe→crafters rather than crafter→recipes):
 same `mergeChunks` path the parser produces. It is picked up from the repo root or
 `data/`.
 
-It currently holds **1131 recipes across 25 crafters and 7 professions**. That count
+It currently holds **1132 recipes across 25 crafters and 7 professions**. That count
 is load-bearing: `loadExports.test.ts` asserts it and will fail loudly if a change
 starts dropping data.
 
@@ -104,6 +104,7 @@ src/
   data/
     jsonRegistry.ts      recipes.json → ParsedChunk[] (transposes the index)
     consolidate.ts       Fold parsed exports into a registry; add only what's new
+    registry.stats.ts    AUTO-GENERATED count snapshot ({recipes, crafters}) — see below
     loadExports.ts       Globs recipes.json; loadAllEntries() merges it
   search.ts              buildIndex (recipe → crafters), searchRecipes, wowheadUrl
   components/            Filters, RecipeTable
@@ -132,14 +133,17 @@ project (`tsconfig.json` includes only `src`), so it never blocks the app build.
    per line. Optional `#` comment lines at the top are ignored by the parser. The file
    name is cosmetic — crafter and profession come from the header *inside* each
    payload, so a typo'd filename or the wrong case still imports correctly.
-3. `npm run import` — folds the new recipes into `recipes.json`, prints a summary of
-   what was added vs. already known, and deletes the `.txt` files it consumed.
-4. `npm test`, then commit the changed `recipes.json`. Committing the JSON is what
-   makes the data permanent and shared; the `.txt` is disposable staging.
+3. `npm run import` — folds the new recipes into `recipes.json`, regenerates
+   `src/data/registry.stats.ts` (the count snapshot the test checks), prints a summary
+   of what was added vs. already known, and deletes the `.txt` files it consumed.
+4. `npm test`, then commit the changed `recipes.json` **and** `registry.stats.ts`.
+   Committing the JSON is what makes the data permanent and shared; the `.txt` is
+   disposable staging.
 
 Because re-importing is idempotent, it is safe to drop a member's *entire* fresh export
-in each time — only their genuinely new recipes land in the registry. When the registry
-count legitimately grows, update the assertion in `loadExports.test.ts` to match.
+in each time — only their genuinely new recipes land in the registry. The test count
+updates itself (via `registry.stats.ts`), so there is nothing to hand-edit when the
+registry legitimately grows.
 
 ## Armory links
 
@@ -190,7 +194,7 @@ first: both IDs usually exist, they just name different things.
 
 `wowheadKind()` in `src/search.ts` encodes the rule. It was validated by querying
 Wowhead's TBC tooltip API (`nether.wowhead.com/tbc/tooltip/{item,spell}/<id>`) for
-**all 1131 committed recipes — every one resolves**, including Engineering, which
+**all 1132 committed recipes — every one resolves**, including Engineering, which
 follows the item-ID rule like every non-Enchanting profession. If you add a profession that
 breaks the pattern, that is where to fix it.
 
@@ -223,7 +227,7 @@ profession, OR a crafter** (a one-letter query is deliberately not enough). Unti
 it shows a prompt plus a "Show all N recipes" button — browsing is still possible, just
 opt-in.
 
-This is not cosmetic. Rendering all 1131 recipes means roughly **3400 anchors**, and
+This is not cosmetic. Rendering all 1132 recipes means roughly **3400 anchors**, and
 `refreshLinks()` then has power.js resolve every one of them — with `iconizeLinks` on,
 that is an icon request per link, on every visit, most of them for rows nobody looked
 at.
@@ -238,20 +242,25 @@ Two consequences to know before changing it:
 
 ## Testing
 
-72 tests across 9 files. The suite deliberately mixes synthetic fixtures with **real
+77 tests across 9 files. The suite deliberately mixes synthetic fixtures with **real
 addon payloads** (`src/test/fixtures.ts`) so encoding regressions surface immediately.
 
 - `parser/*.test.ts` cover decode/parse/merge against synthetic fixtures and real
   payloads.
-- `data/consolidate.test.ts` covers the fold-in rules: new IDs added, existing IDs
+- `data/consolidate.test.ts` covers the fold-in rules (new IDs added, existing IDs
   credited to a new crafter, re-exports skipped, input registry never mutated,
-  case-insensitive/accent-sensitive crafter matching.
-- `data/loadExports.test.ts` asserts the committed `recipes.json` loads to **1131
-  distinct recipes across 25 crafters and 7 professions**. That count is the guard
-  against a bad `npm run import` (truncated paste, lossy merge).
+  case-insensitive/accent-sensitive crafter matching) and the count snapshot helpers.
+- `data/loadExports.test.ts` asserts the committed `recipes.json` loads to exactly the
+  counts recorded in `registry.stats.ts` (currently **1132 recipes / 25 crafters**).
 
-The count is load-bearing. When you legitimately grow the registry via `npm run
-import`, update the assertion in `loadExports.test.ts` to match.
+### The count is self-updating but still load-bearing
+
+`npm run import` regenerates `src/data/registry.stats.ts` from the freshly written
+registry, so the expected number tracks the data — there is nothing to hand-edit when a
+member's export adds recipes. Because **only** the import path rewrites that snapshot,
+it still catches the failure that matters: a lossy or corrupt edit to `recipes.json`
+made *without* running import leaves the snapshot stale, and `loadExports.test.ts` fails
+loudly. Do not edit `registry.stats.ts` by hand.
 
 ## Gotchas
 

@@ -17,11 +17,17 @@ import { readFileSync, writeFileSync, readdirSync, rmSync, existsSync } from 'no
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { mergeChunks, parseExport } from '../src/parser'
-import { consolidate, serializeRegistry } from '../src/data/consolidate'
+import {
+  consolidate,
+  registryStats,
+  serializeRegistry,
+  serializeStats,
+} from '../src/data/consolidate'
 import type { JsonRegistry } from '../src/data/jsonRegistry'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_PATH = join(ROOT, 'recipes.json')
+const STATS_PATH = join(ROOT, 'src', 'data', 'registry.stats.ts')
 const EXPORTS_DIR = join(ROOT, 'data', 'exports')
 
 function loadRegistry(): JsonRegistry {
@@ -49,6 +55,11 @@ function main(): void {
 
   writeFileSync(REGISTRY_PATH, serializeRegistry(registry))
 
+  // Refresh the committed count snapshot the test asserts on, so the expected
+  // number tracks the data automatically instead of being hand-edited.
+  const stats = registryStats(registry)
+  writeFileSync(STATS_PATH, serializeStats(stats))
+
   // The export data now lives in recipes.json; clear the staging folder.
   for (const file of files) rmSync(join(EXPORTS_DIR, file))
 
@@ -59,6 +70,7 @@ function main(): void {
       `(+${summary.newRecipes.length} new, +${summary.newCredits.length} crafter credits, ` +
       `${summary.duplicates} already known)`,
   )
+  console.log(`  registry.stats.ts: ${stats.recipes} recipes / ${stats.crafters} crafters`)
   if (warnings > 0) console.log(`  ${warnings} unreadable line(s) skipped`)
   for (const r of summary.newRecipes) {
     console.log(`  + recipe ${r.id} ${r.name} (${r.profession}) — ${r.crafter}`)
