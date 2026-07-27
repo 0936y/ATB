@@ -53,7 +53,7 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
   return (
     <main>
       <header>
-        <h1>Guild Recipe Registry</h1>
+        <h1> ATB - Spineshatter Guild Recipe Registry</h1>
         <p className="stats">
           {loading
             ? 'Loading recipe data…'
