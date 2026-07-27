@@ -162,6 +162,21 @@ hardcoded per character.
 Names are percent-encoded (`Slavongîga` → `Slavong%C3%AEga`) and used with the exact
 casing stored in the data.
 
+## Alt/main groups
+
+A recipe is credited to the character who has it learned, but that character is often
+an alt the player rarely logs in on. `src/alts.ts` maps each player's whole roster so
+the table can show a crafter's *other* characters in brackets — e.g.
+`Slavongîga [Slavongiga, Slavon]` — letting you whisper an online alt instead. Each
+bracketed name is itself an armory link.
+
+- `ALT_GROUPS` is the editable roster list — one array per player. Add or extend a
+  group to wire a member up everywhere; no other change is needed.
+- `relatedAlts(name)` returns the *other* names in that name's group, matched
+  case-insensitively but **accent-sensitively** (so `Slavongiga` and `Slavongîga` are
+  separate entries that both resolve to the same roster). It is purely presentational —
+  it does **not** merge crafters in the data or the search index.
+
 ## Known data quirk
 
 The Enchanting export is under **`Slavongiga`**; Jewelcrafting and Leatherworking are
@@ -172,6 +187,8 @@ transliterated or two genuinely distinct alts.
 Search folds accents, so typing `slavongiga` finds both. If they are meant to be one
 character, normalize the header inside the export files rather than adding
 accent-folding to `merge.ts` — the merge key should stay faithful to the source data.
+The two spellings are also grouped in `ALT_GROUPS` (see "Alt/main groups"), so each is
+shown as the other's alt in the table regardless of how the data keys them.
 
 ## Wowhead links and tooltips
 

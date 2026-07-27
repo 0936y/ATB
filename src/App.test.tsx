@@ -93,11 +93,40 @@ describe('App', () => {
       'href',
       'https://classic-armory.org/character/eu/tbc-anniversary/spineshatter/Slavongiga',
     )
-    // Non-ASCII names must be encoded, not emitted raw.
-    expect(screen.getByRole('link', { name: 'Slavongîga' })).toHaveAttribute(
+    // Non-ASCII names must be encoded, not emitted raw. (Slavongîga is also listed
+    // as an alt of Slavongiga now, so there can be several such links.)
+    expect(screen.getAllByRole('link', { name: 'Slavongîga' })[0]).toHaveAttribute(
       'href',
       'https://classic-armory.org/character/eu/tbc-anniversary/spineshatter/Slavong%C3%AEga',
     )
+  })
+
+  it("shows a crafter's other characters in brackets, each linked to armory", async () => {
+    const user = userEvent.setup()
+    render(<App initialEntries={entries} />)
+    await showAll(user)
+
+    // 'Slavon' is only ever an alt (never a crafter), so its link proves the
+    // bracketed alt list renders and links each entry.
+    expect(screen.getAllByRole('link', { name: 'Slavon' })[0]).toHaveAttribute(
+      'href',
+      'https://classic-armory.org/character/eu/tbc-anniversary/spineshatter/Slavon',
+    )
+  })
+
+  it('adds no brackets for a crafter with no known alts', async () => {
+    const user = userEvent.setup()
+    render(
+      <App
+        initialEntries={[
+          { crafter: 'Loner', profession: 'Alchemy', recipes: [{ name: 'Potion', id: 1 }] },
+        ]}
+      />,
+    )
+    await showAll(user)
+
+    expect(screen.getByRole('link', { name: 'Loner' })).toBeInTheDocument()
+    expect(screen.queryByText(/\[/)).not.toBeInTheDocument()
   })
 
   it('links each crafter separately when several share a recipe', async () => {

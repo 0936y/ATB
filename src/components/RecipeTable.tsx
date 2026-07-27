@@ -1,6 +1,7 @@
 import type { RecipeMatch } from '../types'
 import { wowheadUrl } from '../search'
 import { armoryUrl } from '../armory'
+import { relatedAlts } from '../alts'
 import { useWowheadTooltips } from '../wowhead'
 
 export function RecipeTable({ matches }: { matches: RecipeMatch[] }) {
@@ -30,14 +31,31 @@ export function RecipeTable({ matches }: { matches: RecipeMatch[] }) {
             </td>
             <td>{match.profession}</td>
             <td className="crafters">
-              {match.crafters.map((crafter, i) => (
-                <span key={crafter}>
-                  {i > 0 && ', '}
-                  <a href={armoryUrl(crafter)} target="_blank" rel="noreferrer">
-                    {crafter}
-                  </a>
-                </span>
-              ))}
+              {match.crafters.map((crafter, i) => {
+                const alts = relatedAlts(crafter)
+                return (
+                  <span key={crafter}>
+                    {i > 0 && ', '}
+                    <a href={armoryUrl(crafter)} target="_blank" rel="noreferrer">
+                      {crafter}
+                    </a>
+                    {alts.length > 0 && (
+                      <span className="alts">
+                        {' ['}
+                        {alts.map((alt, j) => (
+                          <span key={alt}>
+                            {j > 0 && ', '}
+                            <a href={armoryUrl(alt)} target="_blank" rel="noreferrer">
+                              {alt}
+                            </a>
+                          </span>
+                        ))}
+                        {']'}
+                      </span>
+                    )}
+                  </span>
+                )
+              })}
             </td>
           </tr>
         ))}

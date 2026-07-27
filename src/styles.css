@@ -124,6 +124,24 @@ table.recipes td.crafters a:hover {
   text-decoration: none;
 }
 
+/* A crafter's other characters, shown in brackets so you can whisper an alt when
+   the listed one is offline. Quieter still than the crafter link. */
+table.recipes td.crafters .alts {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+table.recipes td.crafters .alts a {
+  color: var(--muted);
+  border-bottom: none;
+}
+
+table.recipes td.crafters .alts a:hover {
+  color: var(--accent);
+  border-bottom: none;
+  text-decoration: underline;
+}
+
 /* `iconizeLinks` injects an icon before each link; keep it aligned and stop it
    from changing the row height. */
 table.recipes .iconsmall,
