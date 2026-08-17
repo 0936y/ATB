@@ -1,9 +1,5 @@
 import type { CrafterProfession, RecipeMatch } from './types'
-
-/** Fold accents so `Slavongîga` is findable by typing `slavongiga`. */
-function fold(text: string): string {
-  return text.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
-}
+import { fold } from './text'
 
 /**
  * Collapse every crafter's list into one row per (id, profession),
@@ -71,4 +67,15 @@ export function wowheadKind(profession: string): 'spell' | 'item' {
 
 export function wowheadUrl(id: number, profession: string): string {
   return `${WOWHEAD_BASE}${wowheadKind(profession)}=${id}`
+}
+
+/**
+ * Link to an item by ID, with no profession rule involved.
+ *
+ * The loot prio list is raid drops, so every entry is unambiguously an item —
+ * the spell/item split above only exists because the *addon* export is
+ * inconsistent.
+ */
+export function wowheadItemUrl(itemId: number): string {
+  return `${WOWHEAD_BASE}item=${itemId}`
 }

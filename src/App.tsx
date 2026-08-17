@@ -4,6 +4,7 @@ import { loadAllEntries } from './data/loadExports'
 import { buildIndex, searchRecipes } from './search'
 import { Filters } from './components/Filters'
 import { RecipeTable } from './components/RecipeTable'
+import { SiteNav } from './components/SiteNav'
 
 export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }) {
   const [entries, setEntries] = useState<CrafterProfession[]>(initialEntries ?? [])
@@ -53,6 +54,7 @@ export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }
   return (
     <main>
       <header>
+        <SiteNav current="recipes" />
         <h1> ATB - Spineshatter Guild Recipe Registry</h1>
         <p className="stats">
           {loading

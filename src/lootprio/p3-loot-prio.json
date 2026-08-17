@@ -1,0 +1,2621 @@
+[
+ {
+  "name": "Blessed Band of Karabor",
+  "itemId": 32528,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Resto Dru (if non LW/Tailor)",
+   "Resto Sha, Holy Pri",
+   "Resto Dru",
+   "Holy Pal"
+  ],
+  "notes": "Leatherworking and tailoring have bop haste shoulders which are a good alternative to this ring for reaching 5gcd haste level."
+ },
+ {
+  "name": "Cuffs of Devastation",
+  "itemId": 30870,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "Arcane",
+   "Balance",
+   "Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bracers of Martyrdom",
+  "itemId": 30871,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Deadly Cuffs",
+  "itemId": 30863,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "DPS Warrior",
+   "Enh"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Rejuvenating Bracers",
+  "itemId": 30868,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bracers of the Pathfinder",
+  "itemId": 30864,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Howling Wind Bracers",
+  "itemId": 30869,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Stillwater Boots",
+  "itemId": 30873,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Blood-Stained Pauldrons",
+  "itemId": 30866,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Blessed Adamantite Bracers",
+  "itemId": 30862,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Furious Shackles",
+  "itemId": 30861,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Tracker's Blade",
+  "itemId": 30865,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Chronicle of Dark Secrets",
+  "itemId": 30872,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Rage Winterchill",
+  "prio": [
+   "Arcane, Destro",
+   "Balance, Ele",
+   "Shadow"
+  ],
+  "notes": "Give it to whoever is waiting on ToC/OH first"
+ },
+ {
+  "name": "Hatefury Mantle",
+  "itemId": 30884,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Anetheron's Noose",
+  "itemId": 30888,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "Arcane",
+   "Balance",
+   "Destro"
+  ],
+  "notes": "Locks can use Belt of Blasting until near bis when they want to drop hit. Locks start having hit overcap issues when they get4pc T6."
+ },
+ {
+  "name": "Archbishop's Slippers",
+  "itemId": 30885,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Don Alejandro's Money Belt",
+  "itemId": 30879,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "Survival",
+   "BM",
+   "Feral",
+   "Rogue"
+  ],
+  "notes": "Rogue pvp bis-ish belt (prio after pve context)"
+ },
+ {
+  "name": "Enchanted Leather Sandals",
+  "itemId": 30886,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Golden Links of Restoration",
+  "itemId": 30887,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Quickstrider Moccasins",
+  "itemId": 30880,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Glimmering Steel Mantle",
+  "itemId": 30878,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "The Unbreakable Will",
+  "itemId": 30874,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Blade of Infamy",
+  "itemId": 30881,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "Survival",
+   "BM",
+   "Rogue",
+   "DPS Warrior"
+  ],
+  "notes": "Can prio higher to sword melee users who are still missing Talon of Azshara. For hunter prio you could also alternate surv > bm > surv."
+ },
+ {
+  "name": "Pillar of Ferocity",
+  "itemId": 30883,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "Bear",
+   "Cat"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bastion of Light",
+  "itemId": 30882,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Anetheron",
+  "prio": [
+   "Resto Sha",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Angelista's Sash",
+  "itemId": 30895,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Leggings of Channeled Elements",
+  "itemId": 30916,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Shadow",
+   "Ele",
+   "Balance"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Blue Suede Shoes",
+  "itemId": 30894,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Razorfury Mantle",
+  "itemId": 30917,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Belt of the Crescent Moon",
+  "itemId": 30914,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Balance",
+   "Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Black Featherlight Boots",
+  "itemId": 30891,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Beast-Tamer's Shoulders",
+  "itemId": 30892,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Valestalker Girdle",
+  "itemId": 30919,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Sun-Touched Chain Leggings",
+  "itemId": 30893,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Resto Sha, Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Belt of Seething Fury",
+  "itemId": 30915,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Hammer of Atonement",
+  "itemId": 30918,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Holy Pal",
+   "Resto Sha",
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Kaz'rogal's Hardened Heart",
+  "itemId": 30889,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Kaz'rogal",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Don Rodrigo's Poncho",
+  "itemId": 30899,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Shady Dealer's Pantaloon",
+  "itemId": 30898,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Bow-Stitched Leggings",
+  "itemId": 30900,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "Survival",
+   "Ret, Enh",
+   "BM"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Glory of the Defender",
+  "itemId": 30896,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Girdle of Hope",
+  "itemId": 30897,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Boundless Agony",
+  "itemId": 30901,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "BM"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Gloves of the Forgotten Conqueror",
+  "itemId": 31092,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "Prot",
+   "Destro",
+   "Shadow",
+   "Holy Pri"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Gloves of the Forgotten Protector",
+  "itemId": 31094,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "BM",
+   "Survival",
+   "Ele",
+   "Arms (4 piece)",
+   "Resto",
+   "Fury (4 piece)",
+   "Kebab (4 piece)"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Gloves of the Forgotten Vanquisher",
+  "itemId": 31093,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Azgalor",
+  "prio": [
+   "Bear",
+   "Rogue",
+   "Cat",
+   "Balance"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Robes of Rhonin",
+  "itemId": 30913,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Leggings of Eternity",
+  "itemId": 30912,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Midnight Chestguard",
+  "itemId": 30905,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Ret",
+   "Enh",
+   "Rogue",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Mail of Fevered Pursuit",
+  "itemId": 30907,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Savior's Grasp",
+  "itemId": 30904,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Legguards of Endless Rage",
+  "itemId": 30903,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Scepter of Purification",
+  "itemId": 30911,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Holy Pri, Resto Dru"
+  ],
+  "notes": "Slightly better for priest but will 100% take book in swp. Might be tbc bis for druid b/c of how many other haste options there are in swp."
+ },
+ {
+  "name": "Tempest of Chaos",
+  "itemId": 30910,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Prot",
+   "Arcane, Destro"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Cataclysm's Edge",
+  "itemId": 30902,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Arms",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Apostle of Argus",
+  "itemId": 30908,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Resto Dru",
+   "Holy",
+   "Resto Sha"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Antonida's Aegis of Rapt Concentration",
+  "itemId": 30909,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Ele",
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bristleblitz Striker",
+  "itemId": 30906,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "BM",
+   "Survival"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Helm of the Forgotten Conqueror",
+  "itemId": 31097,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Prot",
+   "Destro",
+   "Shadow",
+   "Holy Pal",
+   "Holy Pri"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Helm of the Forgotten Protector",
+  "itemId": 31095,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Survival",
+   "Arms (4 piece)",
+   "Ele",
+   "Resto Sha",
+   "BM (4 piece), Fury (4 piece)",
+   "Kebab (4 piece)"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Helm of the Forgotten Vanquisher",
+  "itemId": 31096,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Archimonde",
+  "prio": [
+   "Bear",
+   "Rogue",
+   "Cat",
+   "Balance",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Nethervoid Cloak",
+  "itemId": 32590,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "Shadow",
+   "Destro"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pepe's Shroud of Pacification",
+  "itemId": 34010,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "Prot Warrior",
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Boots of the Divine Light",
+  "itemId": 32609,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "Holy Pri, Resto Dru (if missing Orca)",
+   "Resto Dru",
+   "Resto Sha"
+  ],
+  "notes": "Big upgrade for resto druid if orcas never dropped"
+ },
+ {
+  "name": "Chestguard of Relentless Storms",
+  "itemId": 32592,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Choker of the Serrated Blades",
+  "itemId": 32591,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "BM",
+   "DPS Warrior",
+   "Enh",
+   "Cat, Rogue"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Hellfire-Encased Pendant",
+  "itemId": 32589,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Hammer of Judgement",
+  "itemId": 34009,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "Prot",
+   "Balance",
+   "Shadow, Ele"
+  ],
+  "notes": "Potentially Balance over Shadow since they can actually use the hit somewhat."
+ },
+ {
+  "name": "Claw of Molten Fury",
+  "itemId": 32946,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Fist of Molten Fury",
+  "itemId": 32945,
+  "quality": 4,
+  "raid": "Mount Hyjal",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Dawnsteel Bracers",
+  "itemId": 32571,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Dawnsteel Shoulders",
+  "itemId": 32573,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftsteel Bracers",
+  "itemId": 32568,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftsteel Shoulders",
+  "itemId": 32570,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bindings of Lightning Reflexes",
+  "itemId": 32574,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Ret",
+   "Enh",
+   "Hunter",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bracers of Renewed Life",
+  "itemId": 32582,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Living Earth Bindings",
+  "itemId": 32577,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Resto Sha"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Living Earth Shoulders",
+  "itemId": 32579,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shoulders of Lightning Reflexes",
+  "itemId": 32575,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shoulderpads of Renewed Life",
+  "itemId": 32583,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Resto Dru",
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftstrike Bracers",
+  "itemId": 32580,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftstrike Shoulders",
+  "itemId": 32581,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Enh",
+   "Ret",
+   "Hunter",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Bracers of Nimble Thought",
+  "itemId": 32586,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Shadow",
+   "Destro, Ele, Balance",
+   "Arcane"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Mantle of Nimble Thought",
+  "itemId": 32587,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftheal Mantle",
+  "itemId": 32585,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Swiftheal Wraps",
+  "itemId": 32584,
+  "quality": 4,
+  "raid": "Crafted",
+  "boss": "",
+  "prio": [
+   "Resto Dru",
+   "Holy Pri"
+  ],
+  "notes": "Cloth vs. leather doesn't matter, just depends on what crafting profs are available sooner. Crafted haste shoulder/wrist are critical pieces for resto druid 5 GCD setup."
+ },
+ {
+  "name": "Slippers of the Seacaller",
+  "itemId": 32239,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Arcane",
+   "Destro",
+   "Shadow",
+   "Ele, Balance"
+  ],
+  "notes": "Potentially Mage > Lock purely because mages benefit slightly more, are less likely to need hit from Blasting and are prio'd on less pieces of gear total. Mage > Lock potentially until lock has 4pc T6 (or ToC/OH) then Mage = Lock after."
+ },
+ {
+  "name": "Guise of the Tidal Lurker",
+  "itemId": 32240,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Mantle of Darkness",
+  "itemId": 32377,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Helm of Soothing Currents",
+  "itemId": 32241,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Fist of Mukoa",
+  "itemId": 32234,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Enh",
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Boots of Oceanic Fury",
+  "itemId": 32242,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Eternium Shell Bracers",
+  "itemId": 32232,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pearl Inlaid Boots",
+  "itemId": 32243,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Tide-Stomper's Greaves",
+  "itemId": 32245,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Ring of Calming Waves",
+  "itemId": 32238,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Holy Pal",
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Ring of Captured Storms",
+  "itemId": 32247,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "The Maelstrom's Fury",
+  "itemId": 32237,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Ele, Shadow",
+   "Balance"
+  ],
+  "notes": "Possibly balance lower prio because they are more likely to use the hit from Hammer of Judgement due to less hit from talent tree. Ele have a tailor made OH in archi shield. Priest only lose 16 dps single target compared to ZD, which is the same ballpark as what sword users lose by using ToC."
+ },
+ {
+  "name": "Rising Tide",
+  "itemId": 32236,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Hunter"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Halberd of Desolation",
+  "itemId": 32248,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "High Warlord Naj'entus",
+  "prio": [
+   "Hunter"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Waistwrap of Infinity",
+  "itemId": 32256,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Shadow",
+   "Destro",
+   "Arcane, Balance",
+   "Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Nether Shadow Tunic",
+  "itemId": 32252,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Bands of the Coming Storm",
+  "itemId": 32259,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Wraps of Precise Flight",
+  "itemId": 32251,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "non bis item"
+ },
+ {
+  "name": "Naturalist's Preserving Cinch",
+  "itemId": 32258,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Resto Sha",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pauldrons of Abyssal Fury",
+  "itemId": 32250,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Choker of Endless Nightmares",
+  "itemId": 32260,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "DPS Warrior",
+   "Enh, Rogue",
+   "BM, Ret"
+  ],
+  "notes": "Rogue/Enh will swap out neck to use JC neck on CD"
+ },
+ {
+  "name": "Band of the Abyssal Lord",
+  "itemId": 32261,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Idol of the White Stag",
+  "itemId": 32257,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "The Brutalizer",
+  "itemId": 32254,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Syphon of the Nathrezim",
+  "itemId": 32262,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Enh",
+   "DPS Warrior",
+   "Rogue"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Felstone Bulwark",
+  "itemId": 32255,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Holy Pal",
+   "Resto Sha"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Legionkiller",
+  "itemId": 32253,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Supremus",
+  "prio": [
+   "Hunter",
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Amice of Brilliant Light",
+  "itemId": 32273,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Focused Mana Bindings",
+  "itemId": 32270,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Wristbands of Divine Influence",
+  "itemId": 32513,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shadow-walker's Cord",
+  "itemId": 32265,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Kilt of Immortal Nature",
+  "itemId": 32271,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Resto Dru",
+   "Resto Sha, Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shoulders of the Hidden Predator",
+  "itemId": 32264,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Spiritwalker Gauntlets",
+  "itemId": 32275,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Resto Sha",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Flashfire Girdle",
+  "itemId": 32276,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "The Seeker's Wristguards",
+  "itemId": 32279,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Grips of Silent Justice",
+  "itemId": 32278,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Fury",
+   "Arms"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Praetorian's Legguards",
+  "itemId": 32263,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Myrmidon's Treads",
+  "itemId": 32268,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Ring of Deceitful Intent",
+  "itemId": 32266,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "Bear",
+   "BM",
+   "Rogue",
+   "Enh, Survival"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Blind-Seers Icon",
+  "itemId": 32361,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Shade of Akama",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Shroud of Forgiveness",
+  "itemId": 32337,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Non-Sunshower",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Blood-cursed Shoulderpads",
+  "itemId": 32338,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Garments of Temperance",
+  "itemId": 32340,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Belt of Primal Majesty",
+  "itemId": 32339,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Resto Dru",
+   "Resto Sha",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Vest of Mounting Assault",
+  "itemId": 32334,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Girdle of Mighty Resolve",
+  "itemId": 32342,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Girdle of Stability",
+  "itemId": 32333,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Leggings of Divine Retribution",
+  "itemId": 32341,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "DPS Warrior",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Unstoppable Aggressor's Ring",
+  "itemId": 32335,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "DPS Warrior",
+   "Ret, Enh"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shadowmoon Insignia",
+  "itemId": 32501,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Bear, Prot Warrior, Prot"
+  ],
+  "notes": "Good for all tanks - prio to tanks who actually need and will use it well first"
+ },
+ {
+  "name": "Messenger of Fate",
+  "itemId": 32269,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Staff of Immaculate Recovery",
+  "itemId": 32344,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Wand of Prismatic Focus",
+  "itemId": 32343,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Gurtogg Bloodboil",
+  "prio": [
+   "Shadow",
+   "Destro",
+   "Arcane"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Gloves of Unfailing Faith",
+  "itemId": 32353,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Elunite Empowered Bracers",
+  "itemId": 32351,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Balance"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Grips of Damnation",
+  "itemId": 32347,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Enh",
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Naturewarden's Treads",
+  "itemId": 32352,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Balance, Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "The Wavemender's Mantle",
+  "itemId": 32517,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Boneweave Girdle",
+  "itemId": 32346,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Hunter",
+   "Enh",
+   "Ret",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Crown of Empowered Fate",
+  "itemId": 32354,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Dreadboots of the Legion",
+  "itemId": 32345,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "DPS Warrior",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Translucent Spellthread Necklace",
+  "itemId": 32349,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Destro",
+   "Arcane, Shadow"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pendant of Titans",
+  "itemId": 32362,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Prot Warrior",
+   "Bear"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Touch of Inspiration",
+  "itemId": 32350,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Holy Pri, Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Torch of the Damned",
+  "itemId": 32332,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Ret",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Naaru-Blessed Life Rod",
+  "itemId": 32363,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Reliquary of the Lost",
+  "prio": [
+   "Holy Pri"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shadowmoon Destroyer's Drape",
+  "itemId": 32323,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "DPS Warrior, Rogue, Enh, BM"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Cowl of Benevolence",
+  "itemId": 32329,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Robe of the Shadow Council",
+  "itemId": 32327,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Insidious Bands",
+  "itemId": 32324,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Survival, BM",
+   "Rogue",
+   "Enh",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Botanist's Gloves of Growth",
+  "itemId": 32328,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Resto Dru",
+   "Resto Sha",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Softstep Boots of Tracking",
+  "itemId": 32510,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Enh",
+   "BM",
+   "Ret",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Gauntlets of Enforcement",
+  "itemId": 32280,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Girdle of Lordaeron's Fallen",
+  "itemId": 32512,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Totem of Ancestral Guidance",
+  "itemId": 32330,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Ele"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Soul Cleaver",
+  "itemId": 32348,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Twisted Blade of Zarak",
+  "itemId": 32326,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "DPS Warrior",
+   "Rogue"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Rifle of the Stoic Guardian",
+  "itemId": 32325,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Teron Gorefiend",
+  "prio": [
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Leggings of Devastation",
+  "itemId": 32367,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shadowmaster's Boots",
+  "itemId": 32366,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Survival",
+   "Ret",
+   "BM, Enh, Rogue, Cat"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Heartshatter Breastplate",
+  "itemId": 32365,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Nadina's Pendant of Purity",
+  "itemId": 32370,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Holy Pal",
+   "Resto Sha",
+   "Holy Pri",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Tome of the Lightbringer",
+  "itemId": 32368,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Blade of Savagery",
+  "itemId": 32369,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Rogue",
+   "Prot Warrior",
+   "DPS Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pauldrons of the Forgotten Conqueror",
+  "itemId": 31101,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Prot",
+   "Destro",
+   "Shadow",
+   "Holy Pri",
+   "Holy Pri",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pauldrons of the Forgotten Protector",
+  "itemId": 31103,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Fury",
+   "BM",
+   "Survival",
+   "Arms",
+   "Ele",
+   "Resto Sha",
+   "Prot Warrior"
+  ],
+  "notes": "Prot warriors take dps shoulders"
+ },
+ {
+  "name": "Pauldrons of the Forgotten Vanquisher",
+  "itemId": 31102,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Mother Shahraz",
+  "prio": [
+   "Bear",
+   "Rogue",
+   "Cat",
+   "Balance",
+   "Resto Dru",
+   "Mage"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Cloak of the Illidari Council",
+  "itemId": 32331,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Destro, Arcane, Ele, Balance",
+   "Shadow"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Belt of Divine Guidance",
+  "itemId": 32519,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Holy Pri, Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Veil of Turning Leaves",
+  "itemId": 32518,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Forest Prowler's Helm",
+  "itemId": 32376,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "BM, Ret",
+   "Enh"
+  ],
+  "notes": "Ret/Ench second bis, HIGHLY advise BM's to get S3 helm for gearing options while waiting for CVoS"
+ },
+ {
+  "name": "Helm of the Illidari Shatterer",
+  "itemId": 32373,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Fury",
+   "Arms",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Madness of the Betrayer",
+  "itemId": 32505,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Fury",
+   "Arms",
+   "Survival",
+   "BM",
+   "Enh",
+   "Cat"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Leggings of the Forgotten Conqueror",
+  "itemId": 31098,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Prot",
+   "Destro",
+   "Holy Pal",
+   "Shadow",
+   "Holy Pri",
+   "Ret"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Leggings of the Forgotten Protector",
+  "itemId": 31100,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "BM",
+   "Prot Warrior",
+   "Resto Sha",
+   "Ele"
+  ],
+  "notes": "Prot wars take tanking version of pants"
+ },
+ {
+  "name": "Leggings of the Forgotten Vanquisher",
+  "itemId": 31099,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "The Illidari Council",
+  "prio": [
+   "Bear",
+   "Rogue",
+   "Arcane",
+   "Cat",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shroud of the Highborne (dps)",
+  "itemId": 32524,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Arcane, Destro",
+   "Ele",
+   "Balance"
+  ],
+  "notes": "Besides mages and lock no DPS class should have a vested interest in this cloak, Illidari is same or better in ST and no class besides Arcane/Lock has spammable AoE."
+ },
+ {
+  "name": "Shroud of the Highborne (healer)",
+  "itemId": 32524,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Holy Pri, Resto Sha",
+   "Resto Dru",
+   "Holy Pal"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Cowl of the Illidari High Lord",
+  "itemId": 32525,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Balance",
+   "Lock, Ele, Mage"
+  ],
+  "notes": "Only real reason you'd consider a lock there is if they don't have vash chest and you want to give channeled elements to other people for some reason. Also T6 head can be game bis for locks."
+ },
+ {
+  "name": "Cursed Vision of Sargeras (speedrun)",
+  "itemId": 32235,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Enh, Fury",
+   "BM, Kebab",
+   "Ret",
+   "Rogue, Arms"
+  ],
+  "notes": "Assuming 2H Arms is going 4 piece T6"
+ },
+ {
+  "name": "Cursed Vision of Sargeras (average guild)",
+  "itemId": 32235,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Enh, BM, Ret",
+   "Fury",
+   "Kebab",
+   "Rogue",
+   "Arms"
+  ],
+  "notes": "Assuming 2H Arms is going 4 piece T6"
+ },
+ {
+  "name": "Faceplate of the Impenetrable",
+  "itemId": 32521,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Prot Warrior",
+   "Prot"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Stormrage Signet Ring (speedrun)",
+  "itemId": 32497,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Fury",
+   "Arms",
+   "Enh, BM, Rogue"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Stormrage Signet Ring (average guild)",
+  "itemId": 32497,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Rogue",
+   "Enh",
+   "BM, Fury, Arms"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "The Skull of Gul'dan",
+  "itemId": 32483,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Destro",
+   "Arcane, Balance",
+   "Ele",
+   "Shadow"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Memento of Tyrande",
+  "itemId": 32496,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Resto Sha",
+   "Holy Pal",
+   "Holy Pri, Resto Dru"
+  ],
+  "notes": "Good idea to prioritize this trinket to healers missing [Direbrew Hops]"
+ },
+ {
+  "name": "Shard of Azzinoth",
+  "itemId": 32471,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Non bis item"
+ },
+ {
+  "name": "Crystal Spire of Karabor",
+  "itemId": 32500,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Holy Pri",
+   "Resto Sha",
+   "Holy Pal",
+   "Resto Dru"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Zhar'doom, Greatstaff of the Devourer (speedrunning)",
+  "itemId": 32374,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Destro, Arcane",
+   "Shadow",
+   "Ele",
+   "Balance"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Zhar'doom, Greatstaff of the Devourer (average guild)",
+  "itemId": 32374,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Balance, Ele, Shadow, Destro, Arcane"
+  ],
+  "notes": "Player over class prio"
+ },
+ {
+  "name": "Bulwark of Azzinoth",
+  "itemId": 32375,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Prot",
+   "Prot Warrior"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Black Bow of the Betrayer",
+  "itemId": 32336,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Survival",
+   "BM"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Chestguard of the Forgotten Conqueror",
+  "itemId": 31089,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Prot",
+   "Shadow",
+   "Holy Pal",
+   "Holy Pri",
+   "Destro"
+  ],
+  "notes": "Consider prio'ing warlocks that don't have vestments after Prot Pal. Holy Pal could have a stronger case to chest over priest due to priest swapping between t5/t6"
+ },
+ {
+  "name": "Chestguard of the Forgotten Protector",
+  "itemId": 31091,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Fury",
+   "BM",
+   "Survival",
+   "Arms",
+   "Ele",
+   "Resto",
+   "Prot Warrior"
+  ],
+  "notes": "Prot war takes dps chest here"
+ },
+ {
+  "name": "Chestguard of the Forgotten Vanquisher",
+  "itemId": 31090,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "Bear",
+   "Rogue",
+   "Cat",
+   "Balance",
+   "Resto Dru",
+   "Mage"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Warglaive of Azzinoth (MH/OH Set)",
+  "itemId": 32837,
+  "quality": 5,
+  "raid": "Black Temple",
+  "boss": "Illidan Stormrage",
+  "prio": [
+   "DPS Warrior, Rogue"
+  ],
+  "notes": "Player over class. Speedrun guilds would prio warriors first (potentially run no rogue anyway)"
+ },
+ {
+  "name": "Nethervoid Cloak",
+  "itemId": 32590,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Shadow",
+   "Destro"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Shroud of the Final Stand",
+  "itemId": 34012,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Holy Pal, Resto Sha"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Boots of the Divine Light",
+  "itemId": 32609,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Holy Pri",
+   "Resto Dru",
+   "Resto Sha"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Treads of the Den Mother",
+  "itemId": 32593,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Bear"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Chestguard of Relentless Storms",
+  "itemId": 32592,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Pillager's Gauntlets",
+  "itemId": 32608,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Girdle of the Lightbearer",
+  "itemId": 32606,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Choker of Serrated Blades",
+  "itemId": 32591,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "BM",
+   "DPS Warrior",
+   "Enh",
+   "Cat, Rogue"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Hellfire-Encased Pendant",
+  "itemId": 32589,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Band of Devastation",
+  "itemId": 32526,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Ret",
+   "DPS Warrior, Enh"
+  ],
+  "notes": ""
+ },
+ {
+  "name": "Ring of Ancient Knowledge",
+  "itemId": 32527,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Destro",
+   "Shadow",
+   "Ele",
+   "Balance",
+   "Arcane"
+  ],
+  "notes": "Let everyone get one before giving two to one person. Consider prioing the warlock that is lowest prio on ZD/TOC/Skull before others"
+ },
+ {
+  "name": "Hammer of Judgement",
+  "itemId": 34009,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Prot",
+   "Balance",
+   "Shadow, Ele"
+  ],
+  "notes": "Potentially Balance over Shadow since they can actually use the hit somewhat."
+ },
+ {
+  "name": "Swiftsteel Bludgeon",
+  "itemId": 32943,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "MS > OS"
+  ],
+  "notes": "Good option for Prot Wars until Blade of Savagery/Brutalizer"
+ },
+ {
+  "name": "Illidari Runeshield",
+  "itemId": 34011,
+  "quality": 4,
+  "raid": "Black Temple",
+  "boss": "Trash",
+  "prio": [
+   "Prot",
+   "Ele"
+  ],
+  "notes": ""
+ }
+]

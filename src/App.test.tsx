@@ -44,6 +44,16 @@ describe('App', () => {
     expect(rows()).toHaveLength(3)
   })
 
+  // Relative, because the site is served both at a domain root and under a
+  // GitHub Pages subpath — a leading slash would break the latter.
+  it('links to the P3 loot prio page from the header', () => {
+    render(<App initialEntries={entries} />)
+    expect(screen.getByRole('link', { name: 'P3 Loot Prio' })).toHaveAttribute(
+      'href',
+      './p3-loot-prio/',
+    )
+  })
+
   it('renders no table until the list is narrowed', async () => {
     const user = userEvent.setup()
     render(<App initialEntries={entries} />)

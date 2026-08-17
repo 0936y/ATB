@@ -7,6 +7,9 @@ committed registry (`recipes.json`) that the app indexes into a searchable table
 No backend, no database, no API keys. The recipe database is a single committed JSON
 file.
 
+The site has grown a second page — a **P3 loot priority table** (see "The P3 loot prio
+page") — so it is a two-entry Vite MPA, not a single-page app.
+
 ## Commands
 
 | Command | Purpose |
@@ -91,12 +94,15 @@ handful of genuinely new recipes.
 ## Architecture
 
 ```
+index.html               Page 1 entry — the recipe registry
+p3-loot-prio/index.html  Page 2 entry — the P3 loot prio table (its own URL)
 recipes.json             Master registry — the single runtime source (root or data/)
 data/exports/*.txt       Staging area for raw addon exports; emptied by `npm run import`
 scripts/
   import-exports.ts      CLI: parse exports → consolidate into recipes.json → clear folder
 src/
   types.ts               Recipe, CrafterProfession, ParsedChunk, RecipeMatch
+  text.ts                fold() — accent/case folding shared by both searches
   parser/
     decode.ts            Extract base64 payloads from pasted text; decode to UTF-8
     parse.ts             Decoded text → { crafter, profession, recipes, warnings }
@@ -107,8 +113,15 @@ src/
     registry.stats.ts    AUTO-GENERATED count snapshot ({recipes, crafters}) — see below
     loadExports.ts       Globs recipes.json; loadAllEntries() merges it
   search.ts              buildIndex (recipe → crafters), searchRecipes, wowheadUrl
-  components/            Filters, RecipeTable
+  components/            Filters, RecipeTable, SiteNav (header links, both pages)
   App.tsx                State, filtering
+  lootprio/
+    p3-loot-prio.json    Committed snapshot of the tbcguides.gg P3 prio table
+    types.ts             LootPrioItem
+    lootData.ts          loadLootPrio(), filterLoot(), raidsOf(), bossesOf()
+    LootPrio.tsx         State, filtering
+    LootPrioTable.tsx    The table itself
+    main.tsx             Page 2 mount point
 ```
 
 `scripts/import-exports.ts` runs under **vite-node** (`npm run import`) so it can
@@ -257,9 +270,53 @@ Two consequences to know before changing it:
   scan. `App.test.tsx` asserts this — that assertion *is* the saving, so a failure
   there means the gate has regressed, not that the test is wrong.
 
+## The P3 loot prio page
+
+The second page (`/p3-loot-prio/`) is a searchable copy of the Phase 3 loot priority
+table from <https://www.tbcguides.gg/p3-loot-prio/> — the one below "Last update made
+as of Jan 26th." on that page. 217 rows: Black Temple, Mount Hyjal, and crafted gear.
+
+`src/lootprio/p3-loot-prio.json` is a **committed snapshot**, not a live fetch. The
+source is a WordPress "Ninja Tables" widget with no API, so refreshing it means
+re-scraping the rendered HTML.
+
+### The item IDs are ours, not the source's
+
+The source table renders item names as **plain text** — there is nothing to link. Each
+name was resolved to a Wowhead TBC item ID via
+`https://www.wowhead.com/tbc/search/suggestions-template?q=<name>`, and every resulting
+ID was then verified to return a tooltip from `nether.wowhead.com/tbc/tooltip/item/<id>`
+(all 207 unique IDs resolve). That is what turns the table into hoverable, quality-
+coloured item links.
+
+Fourteen names needed a manual mapping, because the guide's spelling is not the
+database's:
+
+- typos and near-misses — `Fist of Mukoa` → *Fists of Mukoa*, `Twisted Blade of Zarak` →
+  *Twisted Blades of Zarak*, `Choker of the Serrated Blades` → *Choker of Serrated
+  Blades*, `Antonida's …` → *Antonidas's …*, `Shady Dealer's Pantaloon` → *…Pantaloons*;
+- rows the guide splits by context — `Stormrage Signet Ring (average guild)` and
+  `(speedrun)` are the same item 32497, as are the two `Cursed Vision of Sargeras`,
+  `Zhar'doom` and `Shroud of the Highborne` rows.
+
+**Displayed names keep the guide's wording**, brackets and typos included — `renameLinks`
+is off, so the text is ours to own, and the bracketed context is the whole point of
+those duplicate rows. `LootPrio.test.tsx` asserts this.
+
+### Quality colours without power.js
+
+`quality` is stored per row, and `LootPrioTable` puts `q1`–`q5` on the **`<td>`**, with
+`a { color: inherit }`. Wowhead's injected classes land on the `<a>` and win once
+power.js loads; the cell class is the fallback for an ad blocker, an offline visit, or
+jsdom. Same trick the recipe table uses for its gold fallback — see "Tooltips".
+
+Unlike the recipe table there is **no visibility gate** here: 217 rows is one anchor
+each (~217 icon requests), not the ~3400 the registry would render, so the table is
+shown immediately and the filters only narrow it.
+
 ## Testing
 
-77 tests across 9 files. The suite deliberately mixes synthetic fixtures with **real
+109 tests across 12 files. The suite deliberately mixes synthetic fixtures with **real
 addon payloads** (`src/test/fixtures.ts`) so encoding regressions surface immediately.
 
 - `parser/*.test.ts` cover decode/parse/merge against synthetic fixtures and real
@@ -269,6 +326,9 @@ addon payloads** (`src/test/fixtures.ts`) so encoding regressions surface immedi
   case-insensitive/accent-sensitive crafter matching) and the count snapshot helpers.
 - `data/loadExports.test.ts` asserts the committed `recipes.json` loads to exactly the
   counts recorded in `registry.stats.ts` (currently **1132 recipes / 25 crafters**).
+- `lootprio/lootData.test.ts` covers filtering and asserts the committed loot snapshot
+  still holds **217 rows, each with a resolved item ID** — the same "did an edit drop
+  data?" guard the registry count test provides.
 
 ### The count is self-updating but still load-bearing
 
@@ -293,7 +353,20 @@ loudly. Do not edit `registry.stats.ts` by hand.
   bundle to the shell. This is why the loader is async — make it sync and you undo the
   split.
 - That glob uses absolute paths (`/recipes.json`, `/data/*.json`) so it resolves from
-  the repo root, not relative to `src/`.
+  the repo root, not relative to `src/`. It also means **`data/` is reserved for recipe
+  registries** — any other JSON dropped there is loaded as one and corrupts the index.
+  That is why the loot snapshot lives in `src/lootprio/`, not `data/`.
+- Both pages are listed in `build.rollupOptions.input` (`vite.config.ts`) as paths
+  **relative to Vite's root**. The usual `resolve(__dirname, …)` spelling would need
+  `@types/node`, which this project does not carry and `tsc -b` would reject.
+- Nav hrefs in `SiteNav.tsx` are relative and differ per page (`./p3-loot-prio/` going
+  down, `../` coming back) because `base: './'` has to survive a GitHub Pages subpath. A
+  leading `/` works locally and 404s in production.
+- macOS has a **case-insensitive filesystem**: a module named `lootPrio.ts` next to a
+  component named `LootPrio.tsx` makes `import … from './LootPrio'` resolve to the
+  *wrong* file (`.ts` is tried first), and React fails with "Element type is invalid …
+  got undefined". Hence `lootData.ts`. Don't reintroduce a name that differs only by
+  case.
 - `scripts/import-exports.ts` runs under **vite-node**, not plain `node`, because it
   imports the app's extensionless-import TypeScript (`../src/parser`). Node's native
   loader can't resolve those; vite-node reuses Vite's resolver. It is invoked by path

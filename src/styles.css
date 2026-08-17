@@ -25,10 +25,47 @@ main {
   padding: 2rem 1rem 4rem;
 }
 
+/* The loot table carries four columns of prose, so it gets more room than the
+   three-column recipe table. */
+main.wide {
+  max-width: 1400px;
+}
+
 h1 {
   margin: 0 0 0.25rem;
   font-size: 1.6rem;
   color: var(--accent);
+}
+
+.site-nav {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.site-nav a:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+header .stats a {
+  color: var(--muted);
 }
 
 .stats,
@@ -155,4 +192,156 @@ table.recipes .icontinyr {
   color: var(--muted);
   padding: 2rem 0;
   text-align: center;
+}
+
+/* ---------------------------------------------------------------- Loot prio */
+
+table.loot {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+table.loot th,
+table.loot td {
+  text-align: left;
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+table.loot th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 1;
+}
+
+table.loot tbody tr:hover {
+  background: var(--panel);
+}
+
+table.loot a {
+  color: inherit;
+  text-decoration: none;
+}
+
+table.loot a:hover {
+  text-decoration: underline;
+}
+
+table.loot td.item {
+  font-weight: 600;
+  width: 22%;
+}
+
+/* Wowhead's item-quality palette, applied to the *cell* so the link inherits it.
+   Once power.js loads it stamps its own .q1–.q5 on the anchor and those win —
+   these are the fallback for an ad blocker, an offline visit, or jsdom. The
+   quality comes from our own data (`quality` in p3-loot-prio.json), so the
+   colours are right before a single request to Wowhead has been made. */
+.q0 {
+  color: #9d9d9d;
+}
+.q1 {
+  color: #ffffff;
+}
+.q2 {
+  color: #1eff00;
+}
+.q3 {
+  color: #0070dd;
+}
+.q4 {
+  color: #a335ee;
+}
+.q5 {
+  color: #ff8000;
+}
+
+table.loot td.source {
+  width: 14%;
+  white-space: nowrap;
+}
+
+table.loot td.source .boss {
+  display: block;
+}
+
+/* The raid is the quieter half of the source — you usually already know which
+   instance you are in, and the boss is what identifies the drop. */
+table.loot td.source .raid {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+
+table.loot td.prio ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+table.loot td.prio li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+/* A numbered pip instead of an "→" chain: the ranks stay readable when a spec
+   entry is a whole sentence ("Resto Dru (if non LW/Tailor)"). */
+table.loot td.prio .rank {
+  flex: 0 0 auto;
+  min-width: 1.25rem;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--border);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0.05rem 0.25rem;
+}
+
+/* Rank 1 is the answer most people came for; the rest is tiebreak detail. */
+table.loot td.prio li:first-child .rank {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+table.loot td.prio .none {
+  color: var(--muted);
+}
+
+table.loot td.notes {
+  color: var(--muted);
+  font-size: 0.85em;
+  width: 26%;
+}
+
+/* `iconizeLinks` injects an icon before each link; keep it aligned and stop it
+   from changing the row height. */
+table.loot .iconsmall,
+table.loot .icontinyl,
+table.loot .icontinyr {
+  vertical-align: middle;
+  margin-right: 0.35em;
+}
+
+@media (max-width: 720px) {
+  table.loot td.source {
+    white-space: normal;
+  }
+
+  table.loot td.item,
+  table.loot td.source,
+  table.loot td.notes {
+    width: auto;
+  }
 }
