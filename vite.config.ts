@@ -7,15 +7,17 @@ export default defineConfig({
   base: './',
   plugins: [react()],
   build: {
-    // Two pages, two entries. Each ships only its own data chunk, and the loot
-    // page gets a real URL (`/p3-loot-prio/`) that GitHub Pages can serve as a
-    // file — no router and no SPA fallback needed.
+    // Three pages, three entries: a landing dispatcher at the site root, and
+    // two real services each at their own URL (`/Recipes/`, `/p3-loot-prio/`)
+    // that GitHub Pages can serve as files — no router and no SPA fallback
+    // needed. Each ships only its own data chunk.
     // Paths are relative to Vite's `root`, not absolute: the usual
     // `resolve(__dirname, …)` spelling would need `@types/node`, which this
     // project deliberately does not carry.
     rollupOptions: {
       input: {
         main: 'index.html',
+        recipes: 'Recipes/index.html',
         lootPrio: 'p3-loot-prio/index.html',
       },
     },
@@ -23,6 +25,6 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['./src/test/setup.ts'],
+    setupFiles: ['./src/shared/test/setup.ts'],
   },
 })

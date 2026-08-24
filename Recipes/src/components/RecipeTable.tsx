@@ -2,7 +2,7 @@ import type { RecipeMatch } from '../types'
 import { wowheadUrl } from '../search'
 import { armoryUrl } from '../armory'
 import { relatedAlts } from '../alts'
-import { useWowheadTooltips } from '../wowhead'
+import { useWowheadTooltips } from '../../../src/shared/wowhead'
 
 export function RecipeTable({ matches }: { matches: RecipeMatch[] }) {
   // Rows are swapped out on every filter change, so re-attach tooltips.

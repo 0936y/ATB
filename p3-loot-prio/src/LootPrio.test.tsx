@@ -147,6 +147,9 @@ describe('LootPrio', () => {
   it('links back to the recipe registry from the header', () => {
     render(<LootPrio initialItems={items} />)
 
-    expect(screen.getByRole('link', { name: 'Recipe Registry' })).toHaveAttribute('href', '../')
+    expect(screen.getByRole('link', { name: 'Recipe Registry' })).toHaveAttribute(
+      'href',
+      '../Recipes/',
+    )
   })
 })

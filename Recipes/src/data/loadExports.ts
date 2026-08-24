@@ -8,7 +8,7 @@ import { registryToChunks, type JsonRegistry } from './jsonRegistry'
  * `npm run import` (see `scripts/import-exports.ts`), so there is nothing to
  * parse or union in the browser. Accepted at the repo root or in `data/`.
  */
-const jsonRegistries = import.meta.glob(['/recipes.json', '/data/*.json'], {
+const jsonRegistries = import.meta.glob(['/Recipes/recipes.json', '/Recipes/data/*.json'], {
   import: 'default',
 }) as Record<string, () => Promise<JsonRegistry>>
 

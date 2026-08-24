@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { SiteNav } from '../components/SiteNav'
+import { SiteNav } from '../../src/shared/SiteNav'
 // `lootData`, not `lootPrio`: on a case-insensitive filesystem the latter would
 // resolve to this very component (`LootPrio.tsx`) and import undefined.
 import { bossesOf, filterLoot, loadLootPrio, raidsOf } from './lootData'

@@ -1,5 +1,6 @@
 import type { CrafterProfession, RecipeMatch } from './types'
-import { fold } from './text'
+import { fold } from '../../src/shared/text'
+import { WOWHEAD_BASE } from '../../src/shared/wowheadLinks'
 
 /**
  * Collapse every crafter's list into one row per (id, profession),
@@ -47,9 +48,6 @@ export function searchRecipes(index: RecipeMatch[], filters: SearchFilters): Rec
   })
 }
 
-/** Wowhead base path. The committed data is TBC-era, so default to that database. */
-export const WOWHEAD_BASE = 'https://www.wowhead.com/tbc/'
-
 /**
  * The addon does NOT export spell IDs uniformly.
  *
@@ -67,15 +65,4 @@ export function wowheadKind(profession: string): 'spell' | 'item' {
 
 export function wowheadUrl(id: number, profession: string): string {
   return `${WOWHEAD_BASE}${wowheadKind(profession)}=${id}`
-}
-
-/**
- * Link to an item by ID, with no profession rule involved.
- *
- * The loot prio list is raid drops, so every entry is unambiguously an item —
- * the spell/item split above only exists because the *addon* export is
- * inconsistent.
- */
-export function wowheadItemUrl(itemId: number): string {
-  return `${WOWHEAD_BASE}item=${itemId}`
 }

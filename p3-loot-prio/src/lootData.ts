@@ -1,4 +1,4 @@
-import { fold } from '../text'
+import { fold } from '../../src/shared/text'
 import type { LootPrioItem } from './types'
 
 /**

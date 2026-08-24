@@ -4,7 +4,7 @@ import { loadAllEntries } from './data/loadExports'
 import { buildIndex, searchRecipes } from './search'
 import { Filters } from './components/Filters'
 import { RecipeTable } from './components/RecipeTable'
-import { SiteNav } from './components/SiteNav'
+import { SiteNav } from '../../src/shared/SiteNav'
 
 export function App({ initialEntries }: { initialEntries?: CrafterProfession[] }) {
   const [entries, setEntries] = useState<CrafterProfession[]>(initialEntries ?? [])

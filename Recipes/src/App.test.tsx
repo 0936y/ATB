@@ -50,7 +50,7 @@ describe('App', () => {
     render(<App initialEntries={entries} />)
     expect(screen.getByRole('link', { name: 'P3 Loot Prio' })).toHaveAttribute(
       'href',
-      './p3-loot-prio/',
+      '../p3-loot-prio/',
     )
   })
 

@@ -1,5 +1,5 @@
-import { wowheadItemUrl } from '../search'
-import { useWowheadTooltips } from '../wowhead'
+import { wowheadItemUrl } from '../../src/shared/wowheadLinks'
+import { useWowheadTooltips } from '../../src/shared/wowhead'
 import type { LootPrioItem } from './types'
 
 export function LootPrioTable({ items }: { items: LootPrioItem[] }) {
