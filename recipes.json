@@ -346,6 +346,48 @@
       "Gorzbalxua"
     ]
   },
+  "2679": {
+    "name": "Charred Wolf Meat",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "2680": {
+    "name": "Spiced Wolf Meat",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "2681": {
+    "name": "Roasted Boar Meat",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "2683": {
+    "name": "Crab Cake",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "2684": {
+    "name": "Coyote Steak",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "2687": {
+    "name": "Dry Pork Ribs",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "2845": {
     "name": "Copper Axe",
     "profession": "Blacksmithing",
@@ -1485,6 +1527,13 @@
       "Bonyfacy"
     ]
   },
+  "5525": {
+    "name": "Boiled Clams",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "5540": {
     "name": "Pearl-handled Dagger",
     "profession": "Blacksmithing",
@@ -1883,6 +1932,13 @@
     "crafters": [
       "Royarni",
       "Gorzbalxua"
+    ]
+  },
+  "6888": {
+    "name": "Herb Baked Egg",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "7026": {
@@ -2334,6 +2390,13 @@
     "profession": "Engineering",
     "crafters": [
       "Bonyfacy"
+    ]
+  },
+  "7676": {
+    "name": "Thistle Tea",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "7745": {
@@ -5956,6 +6019,13 @@
       "Cassyette"
     ]
   },
+  "21072": {
+    "name": "Smoked Sagefish",
+    "profession": "Cooking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "21340": {
     "name": "Soul Pouch",
     "profession": "Tailoring",
@@ -7676,6 +7746,13 @@
       "Sladkakurva"
     ]
   },
+  "24097": {
+    "name": "Pendant of Shadow's End",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "24106": {
     "name": "Thick Felsteel Necklace",
     "profession": "Jewelcrafting",
@@ -7907,6 +7984,13 @@
       "Evonte"
     ]
   },
+  "25081": {
+    "name": "Enchant Cloak - Greater Fire Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Slavongiga"
+    ]
+  },
   "25083": {
     "name": "Enchant Cloak - Stealth",
     "profession": "Enchanting",
@@ -8072,6 +8156,13 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar"
+    ]
+  },
+  "25651": {
+    "name": "Vindicator's Armor Kit",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "25653": {
@@ -8635,7 +8726,8 @@
     "name": "Enchant Boots - Surefooted",
     "profession": "Enchanting",
     "crafters": [
-      "Arnsgar"
+      "Arnsgar",
+      "Gorzbalxua"
     ]
   },
   "27957": {
@@ -8707,7 +8799,8 @@
       "Cassyette",
       "Royarni",
       "Slavongiga",
-      "Evonte"
+      "Evonte",
+      "Gorzbalxua"
     ]
   },
   "27972": {
@@ -9307,11 +9400,19 @@
     "name": "Belt of Deep Shadow",
     "profession": "Leatherworking",
     "crafters": [
-      "Streamer"
+      "Streamer",
+      "Slavongîga"
     ]
   },
   "30041": {
     "name": "Boots of Natural Grace",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "30042": {
+    "name": "Belt of Natural Power",
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga"
@@ -9399,6 +9500,13 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
+      "Slavongîga"
+    ]
+  },
+  "30816": {
+    "name": "Spice Bread",
+    "profession": "Cooking",
+    "crafters": [
       "Slavongîga"
     ]
   },
@@ -9549,7 +9657,8 @@
     "name": "Balanced Shadow Draenite",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Slavongîga"
     ]
   },
   "31863": {
@@ -9572,7 +9681,8 @@
     "name": "Veiled Flame Spessarite",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Slavongîga"
     ]
   },
   "31867": {
@@ -9595,7 +9705,8 @@
     "name": "Wicked Flame Spessarite",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Slavongîga"
     ]
   },
   "32062": {
@@ -10180,6 +10291,13 @@
     "crafters": [
       "Streamer",
       "Arnsgar"
+    ]
+  },
+  "34490": {
+    "name": "Bag of Many Hides",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "35581": {
