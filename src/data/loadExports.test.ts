@@ -10,10 +10,11 @@ const registry = await loadRegistryChunks()
 const all = await loadAllEntries()
 
 describe('the committed recipes.json registry', () => {
-  it('covers all seven professions', () => {
+  it('covers all eight professions', () => {
     expect([...new Set(registry.map((c) => c.profession))].sort()).toEqual([
       'Alchemy',
       'Blacksmithing',
+      'Cooking',
       'Enchanting',
       'Engineering',
       'Jewelcrafting',

@@ -68,7 +68,7 @@ addon format (recipe→crafters rather than crafter→recipes):
 same `mergeChunks` path the parser produces. It is picked up from the repo root or
 `data/`.
 
-It currently holds **1132 recipes across 25 crafters and 7 professions**. That count
+It currently holds **1148 recipes across 25 crafters and 8 professions**. That count
 is load-bearing: `loadExports.test.ts` asserts it and will fail loudly if a change
 starts dropping data.
 
