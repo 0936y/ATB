@@ -1800,7 +1800,8 @@
     "profession": "Tailoring",
     "crafters": [
       "Benteha",
-      "Gorzbalxua"
+      "Gorzbalxua",
+      "Cheaprevo"
     ]
   },
   "6264": {
@@ -3311,6 +3312,13 @@
       "Royarni",
       "Benteha",
       "Gorzbalxua"
+    ]
+  },
+  "10048": {
+    "name": "Colorful Kilt",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
     ]
   },
   "10050": {
@@ -5601,7 +5609,8 @@
       "Benteha",
       "Slavongiga",
       "Lightpower",
-      "Kholistyka"
+      "Kholistyka",
+      "Cheaprevo"
     ]
   },
   "20012": {
@@ -6600,6 +6609,13 @@
       "Royarni",
       "Benteha",
       "Gorzbalxua"
+    ]
+  },
+  "22248": {
+    "name": "Enchanted Runecloth Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Cheaprevo"
     ]
   },
   "22451": {
@@ -7958,7 +7974,8 @@
     "name": "Golden Spellthread",
     "profession": "Tailoring",
     "crafters": [
-      "Gorzbalxua"
+      "Gorzbalxua",
+      "Cheaprevo"
     ]
   },
   "25072": {
@@ -7988,7 +8005,15 @@
     "name": "Enchant Cloak - Greater Fire Resistance",
     "profession": "Enchanting",
     "crafters": [
-      "Slavongiga"
+      "Slavongiga",
+      "Cheaprevo"
+    ]
+  },
+  "25082": {
+    "name": "Enchant Cloak - Greater Nature Resistance",
+    "profession": "Enchanting",
+    "crafters": [
+      "Cheaprevo"
     ]
   },
   "25083": {
@@ -7999,7 +8024,8 @@
       "Royarni",
       "Slavongiga",
       "Arnsgar",
-      "Cassyette"
+      "Cassyette",
+      "Cheaprevo"
     ]
   },
   "25084": {
@@ -9393,7 +9419,8 @@
     "name": "Belt of Blasting",
     "profession": "Tailoring",
     "crafters": [
-      "Gorzbalxua"
+      "Gorzbalxua",
+      "Cheaprevo"
     ]
   },
   "30040": {
