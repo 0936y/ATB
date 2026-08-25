@@ -8006,14 +8006,16 @@
     "profession": "Enchanting",
     "crafters": [
       "Slavongiga",
-      "Cheaprevo"
+      "Cheaprevo",
+      "Gorzbalxua"
     ]
   },
   "25082": {
     "name": "Enchant Cloak - Greater Nature Resistance",
     "profession": "Enchanting",
     "crafters": [
-      "Cheaprevo"
+      "Cheaprevo",
+      "Gorzbalxua"
     ]
   },
   "25083": {
@@ -8112,7 +8114,8 @@
       "Slavongiga",
       "Arnsgar",
       "Kholistyka",
-      "Evonte"
+      "Evonte",
+      "Gorzbalxua"
     ]
   },
   "25128": {
