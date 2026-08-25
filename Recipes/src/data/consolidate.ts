@@ -100,6 +100,20 @@ export function serializeRegistry(registry: JsonRegistry): string {
   return JSON.stringify(ordered, null, 2) + '\n'
 }
 
+/**
+ * Detects a staged export with NO recognizable `!profession import <base64>`
+ * payload at all — as distinct from a recognized payload that happened to add
+ * nothing new (a legitimate re-export of an already-known recipe book, which
+ * must stay a silent success). `fileCount` is how many `.txt` files were
+ * staged; `chunkCount` is how many `ParsedChunk`s `parseExport` extracted from
+ * all of them combined. Zero chunks from a non-empty file set means the file(s)
+ * were unparseable garbage — e.g. missing the `!profession import` envelope
+ * entirely — not just fully-duplicate data.
+ */
+export function hasUnrecognizedExport(fileCount: number, chunkCount: number): boolean {
+  return fileCount > 0 && chunkCount === 0
+}
+
 export interface RegistryStats {
   /** Distinct recipe IDs — one per valid registry key. */
   recipes: number

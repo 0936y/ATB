@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { consolidate, registryStats, serializeRegistry, serializeStats } from './consolidate'
+import {
+  consolidate,
+  hasUnrecognizedExport,
+  registryStats,
+  serializeRegistry,
+  serializeStats,
+} from './consolidate'
 import type { JsonRegistry } from './jsonRegistry'
 import type { CrafterProfession } from '../types'
 
@@ -63,6 +69,22 @@ describe('consolidate', () => {
     expect(out.endsWith('\n')).toBe(true)
     expect(out.indexOf('"100"')).toBeLessThan(out.indexOf('"200"'))
     expect(out).toContain('\n  "100": {')
+  })
+})
+
+describe('hasUnrecognizedExport', () => {
+  it('flags a non-empty file set that produced zero chunks (garbage/unparseable upload)', () => {
+    expect(hasUnrecognizedExport(1, 0)).toBe(true)
+    expect(hasUnrecognizedExport(3, 0)).toBe(true)
+  })
+
+  it('does not flag a legitimate re-export that added nothing new (chunks > 0)', () => {
+    expect(hasUnrecognizedExport(1, 1)).toBe(false)
+    expect(hasUnrecognizedExport(2, 3)).toBe(false)
+  })
+
+  it('does not flag an empty exports folder (nothing was staged at all)', () => {
+    expect(hasUnrecognizedExport(0, 0)).toBe(false)
   })
 })
 

@@ -19,6 +19,7 @@ import { dirname, join } from 'node:path'
 import { mergeChunks, parseExport } from '../src/parser'
 import {
   consolidate,
+  hasUnrecognizedExport,
   registryStats,
   serializeRegistry,
   serializeStats,
@@ -48,6 +49,17 @@ function main(): void {
   const chunks = files.flatMap((file) => parseExport(readFileSync(join(EXPORTS_DIR, file), 'utf8')))
   const warnings = chunks.reduce((n, c) => n + c.warnings.length, 0)
   const entries = mergeChunks(chunks)
+
+  // Distinct from "warnings > 0" (malformed lines *within* a recognized payload —
+  // see parse.ts). This catches a staged file with NO recognizable
+  // `!profession import <base64>` payload at all, which produces zero chunks and
+  // zero warnings. Without this check, main() still deletes the .txt and CI
+  // commits that deletion as if the import succeeded, even though nothing was
+  // ever extracted from it. A legitimate re-export that adds nothing new (every
+  // recipe already known) still produces chunks — just no new entries in
+  // `summary` below — so it does NOT trip this check. See
+  // `hasUnrecognizedExport`'s unit tests in consolidate.test.ts.
+  const noPayloadsFound = hasUnrecognizedExport(files.length, chunks.length)
 
   const before = loadRegistry()
   const beforeIds = Object.keys(before).length
@@ -79,6 +91,19 @@ function main(): void {
     console.log(`  + credit ${c.id} ${c.name} — ${c.crafter}`)
   }
   console.log(`Cleared ${files.length} file(s) from data/exports/.`)
+
+  if (noPayloadsFound) {
+    console.error(
+      `ERROR: ${files.length} file(s) were staged but none contained a recognizable ` +
+        `'!profession import <base64>' payload — 0 chunks were parsed out of them. ` +
+        `Nothing was added to recipes.json. This is likely a garbage or malformed ` +
+        `upload; the staged file(s) have been cleared, but no commit should be made ` +
+        `for this run.`,
+    )
+    // Not process.exit(1): let the console output above flush before the process
+    // exits with a failing code (CI reads exit code; a human reads the log).
+    process.exitCode = 1
+  }
 }
 
 main()

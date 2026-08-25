@@ -80,7 +80,7 @@ of the addon format (recipe→crafters rather than crafter→recipes):
 same `mergeChunks` path the parser produces. It is picked up from `Recipes/` or
 `Recipes/data/`.
 
-It currently holds **1148 recipes across 25 crafters and 8 professions**. That count
+It currently holds **1151 recipes across 25 crafters and 8 professions**. That count
 is load-bearing: `loadExports.test.ts` asserts it and will fail loudly if a change
 starts dropping data.
 
@@ -157,6 +157,11 @@ can import the app's TypeScript parser directly; it is intentionally outside the
 `tsc -b` project's default `src` folder — `tsconfig.json`'s `include` lists it only via
 `Recipes/src`, not the script itself — so it never blocks the app build.
 
+Two GitHub Actions workflows live in `.github/workflows/`, outside the app tree above:
+`deploy.yml` (build + publish to GitHub Pages, existing) and `import-exports.yml` (folds
+staged exports into `recipes.json` on every push to `Recipes/data/exports/**`, new — see
+"Automated imports via the Discord bot" below).
+
 ### Why `src/shared/` exists
 
 `Recipes/` and `p3-loot-prio/` are fully separate folders — each can be read, tested,
@@ -218,6 +223,32 @@ Because re-importing is idempotent, it is safe to drop a member's *entire* fresh
 in each time — only their genuinely new recipes land in the registry. The test count
 updates itself (via `registry.stats.ts`), so there is nothing to hand-edit when the
 registry legitimately grows.
+
+### Automated imports via the Discord bot
+
+There are now two ways a member's export reaches production:
+
+1. **Manual** (the steps above) — someone drops a `.txt` in `Recipes/data/exports/`,
+   runs `npm run import` locally, then commits and pushes both `recipes.json` and
+   `registry.stats.ts` themselves.
+2. **Automated** — a Discord bot (external to this repo; not tracked here) lets a
+   member upload their raw export as a Discord attachment. The bot stages it straight
+   into `Recipes/data/exports/<name>.txt` via a direct commit to `main` (GitHub
+   Contents API) — it never parses the payload itself, it just commits the bytes
+   verbatim. That commit's path (`Recipes/data/exports/**`) triggers
+   `.github/workflows/import-exports.yml`, which runs the exact same `npm run import`
+   → `npm test` pipeline used locally, then commits `recipes.json` and
+   `registry.stats.ts` back to `main` if anything changed.
+
+The workflow's push-back deliberately authenticates with the `IMPORT_PUSH_TOKEN` repo
+secret (a PAT), not the default `GITHUB_TOKEN`: GitHub blocks pushes made with
+`GITHUB_TOKEN` from triggering further workflow runs, which would silently stop
+`deploy.yml` from firing after every automated import and leave the live site stale.
+
+Full design detail (architecture diagram, the bot's non-parsing "peek" for cosmetic
+filenames, the self-terminating double-CI-run quirk, the `/who_crafts` read path) lives
+in `docs/superpowers/specs/2026-08-25-discord-import-bot-design.md` rather than being
+duplicated here.
 
 ## Armory links
 
@@ -383,7 +414,7 @@ shown immediately and the filters only narrow it.
 
 ## Testing
 
-109 tests across 12 files, split across the two services' folders — Recipes tests live
+112 tests across 12 files, split across the two services' folders — Recipes tests live
 under `Recipes/src/`, loot prio tests under `p3-loot-prio/src/`. The suite deliberately
 mixes synthetic fixtures with **real addon payloads**
 (`Recipes/src/test/fixtures.ts`) so encoding regressions surface immediately.
@@ -392,10 +423,12 @@ mixes synthetic fixtures with **real addon payloads**
   and real payloads.
 - `Recipes/src/data/consolidate.test.ts` covers the fold-in rules (new IDs added,
   existing IDs credited to a new crafter, re-exports skipped, input registry never
-  mutated, case-insensitive/accent-sensitive crafter matching) and the count snapshot
-  helpers.
+  mutated, case-insensitive/accent-sensitive crafter matching), the count snapshot
+  helpers, and `hasUnrecognizedExport` — the check `import-exports.ts` uses to fail
+  loudly when a staged file has no recognizable `!profession import` payload at all,
+  as distinct from a recognized re-export that legitimately added nothing new.
 - `Recipes/src/data/loadExports.test.ts` asserts the committed `recipes.json` loads to
-  exactly the counts recorded in `registry.stats.ts` (currently **1148 recipes / 25
+  exactly the counts recorded in `registry.stats.ts` (currently **1151 recipes / 25
   crafters / 8 professions**).
 - `p3-loot-prio/src/lootData.test.ts` covers filtering and asserts the committed loot
   snapshot still holds **217 rows, each with a resolved item ID** — the same "did an
@@ -408,10 +441,17 @@ written registry, so the expected number tracks the data — there is nothing to
 hand-edit when a member's export adds recipes. Because **only** the import path
 rewrites that snapshot, it still catches the failure that matters: a lossy or corrupt
 edit to `recipes.json` made *without* running import leaves the snapshot stale, and
-`loadExports.test.ts` fails loudly. Do not edit `registry.stats.ts` by hand. If a
-`recipes.json` edit legitimately adds a new profession (not just new recipes/crafters),
-`loadExports.test.ts`'s hardcoded profession list also needs updating by hand — that
-one isn't auto-generated.
+`loadExports.test.ts` fails loudly. Do not edit `registry.stats.ts` by hand.
+
+`loadExports.test.ts`'s profession-coverage test is a **superset check**: it asserts
+the registry contains at least the eight known professions, not exactly those eight.
+A legitimately new 9th profession (e.g. First Aid) landing via import — whether run
+locally or by `import-exports.yml` — does not fail this test, which matters because CI
+has no human watching to hand-fix a hardcoded list before the workflow's commit step;
+a failure there would leave the `.txt` staged forever with no notification (see
+"Automated imports via the Discord bot"). The check still catches the regression that
+matters — a profession silently dropped or corrupted — since every *known* profession
+must still be present.
 
 ## Gotchas
 
