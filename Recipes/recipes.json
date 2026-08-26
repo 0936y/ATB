@@ -59,7 +59,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "2303": {
@@ -77,7 +78,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "2308": {
@@ -137,7 +139,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "2316": {
@@ -831,7 +834,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "4240": {
@@ -879,7 +883,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "4247": {
@@ -911,7 +916,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga",
-      "Streamer"
+      "Streamer",
+      "Konorhino"
     ]
   },
   "4253": {
@@ -945,7 +951,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "4304": {
@@ -1621,7 +1628,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "5958": {
@@ -1654,7 +1662,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "5966": {
@@ -1663,7 +1672,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "5996": {
@@ -2128,7 +2138,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "7277": {
@@ -2138,7 +2149,8 @@
       "Dmze",
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "7278": {
@@ -2223,7 +2235,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "7377": {
@@ -2712,7 +2725,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "8175": {
@@ -2730,7 +2744,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "8185": {
@@ -2772,7 +2787,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "8197": {
@@ -2791,6 +2807,13 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar"
+    ]
+  },
+  "8201": {
+    "name": "Big Voodoo Mask",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Konorhino"
     ]
   },
   "8203": {
@@ -5168,7 +5191,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "15085": {
@@ -5184,7 +5208,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "15087": {
@@ -5271,7 +5296,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "15846": {
@@ -8184,7 +8210,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "25651": {
@@ -8241,7 +8268,8 @@
     "crafters": [
       "Dmze",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "25660": {
@@ -8296,7 +8324,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Streamer",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "25673": {
@@ -8357,7 +8386,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga",
-      "Streamer"
+      "Streamer",
+      "Konorhino"
     ]
   },
   "25685": {
@@ -9119,7 +9149,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Streamer",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "29485": {
@@ -9145,7 +9176,8 @@
     "crafters": [
       "Streamer",
       "Arnsgar",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "29488": {
@@ -9153,7 +9185,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "29494": {
@@ -9309,7 +9342,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "29529": {
@@ -9318,7 +9352,8 @@
     "crafters": [
       "Streamer",
       "Arnsgar",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "29530": {
@@ -9357,14 +9392,16 @@
     "profession": "Leatherworking",
     "crafters": [
       "Arnsgar",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "29535": {
     "name": "Nethercobra Leg Armor",
     "profession": "Leatherworking",
     "crafters": [
-      "Arnsgar"
+      "Arnsgar",
+      "Konorhino"
     ]
   },
   "29536": {
@@ -9372,7 +9409,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Arnsgar",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "29540": {
@@ -10302,7 +10340,8 @@
     "crafters": [
       "Streamer",
       "Arnsgar",
-      "Slavongîga"
+      "Slavongîga",
+      "Konorhino"
     ]
   },
   "34440": {
