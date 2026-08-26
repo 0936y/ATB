@@ -5850,6 +5850,13 @@
       "Streamer"
     ]
   },
+  "20475": {
+    "name": "Adamantite Arrow Maker",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
   "20816": {
     "name": "Delicate Copper Wire",
     "profession": "Jewelcrafting",
@@ -7296,6 +7303,13 @@
       "Bonyfacy"
     ]
   },
+  "23747": {
+    "name": "Felsteel Boomstick",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
   "23758": {
     "name": "Cogspinner Goggles",
     "profession": "Engineering",
@@ -7466,7 +7480,8 @@
     "name": "Rocket Boots Xtreme",
     "profession": "Engineering",
     "crafters": [
-      "Bonyfacy"
+      "Bonyfacy",
+      "Konorhino"
     ]
   },
   "23826": {
@@ -9909,6 +9924,13 @@
       "Arnsgar"
     ]
   },
+  "32756": {
+    "name": "Gyro-balanced Khorium Destroyer",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
+    ]
+  },
   "32772": {
     "name": "Brilliant Pearl Band",
     "profession": "Jewelcrafting",
@@ -10367,6 +10389,13 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga"
+    ]
+  },
+  "34504": {
+    "name": "Adamantite Shell Machine",
+    "profession": "Engineering",
+    "crafters": [
+      "Konorhino"
     ]
   },
   "35581": {
