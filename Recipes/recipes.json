@@ -60,7 +60,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "2303": {
@@ -79,7 +80,8 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "2308": {
@@ -111,7 +113,8 @@
     "name": "Fine Leather Gloves",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Bonyfacy"
     ]
   },
   "2313": {
@@ -835,7 +838,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "4240": {
@@ -884,7 +888,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "4247": {
@@ -908,7 +913,8 @@
     "crafters": [
       "Slavongîga",
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Bonyfacy"
     ]
   },
   "4251": {
@@ -1629,7 +1635,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "5958": {
@@ -1673,7 +1680,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "5996": {
@@ -1868,6 +1876,13 @@
       "Zoremet",
       "Quasolia",
       "Alakay"
+    ]
+  },
+  "6467": {
+    "name": "Deviate Scale Gloves",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Bonyfacy"
     ]
   },
   "6533": {
@@ -2139,7 +2154,8 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "7277": {
@@ -2150,7 +2166,8 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "7278": {
@@ -2220,6 +2237,13 @@
       "Slavongîga",
       "Streamer",
       "Arnsgar"
+    ]
+  },
+  "7373": {
+    "name": "Dusky Leather Leggings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Bonyfacy"
     ]
   },
   "7374": {
@@ -2726,7 +2750,8 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "8175": {
@@ -2813,7 +2838,8 @@
     "name": "Big Voodoo Mask",
     "profession": "Leatherworking",
     "crafters": [
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "8203": {
@@ -2827,7 +2853,8 @@
     "name": "Tough Scorpid Gloves",
     "profession": "Leatherworking",
     "crafters": [
-      "Streamer"
+      "Streamer",
+      "Bonyfacy"
     ]
   },
   "8205": {
@@ -5185,6 +5212,20 @@
       "Arnsgar"
     ]
   },
+  "15082": {
+    "name": "Heavy Scorpid Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
+  "15083": {
+    "name": "Wicked Leather Gauntlets",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Bonyfacy"
+    ]
+  },
   "15084": {
     "name": "Wicked Leather Bracers",
     "profession": "Leatherworking",
@@ -5297,7 +5338,8 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "15846": {
@@ -8226,7 +8268,8 @@
       "Streamer",
       "Slavongîga",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "25651": {
@@ -8284,7 +8327,8 @@
       "Dmze",
       "Streamer",
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "25660": {
@@ -8376,7 +8420,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Bonyfacy"
     ]
   },
   "25681": {
@@ -8416,7 +8461,8 @@
     "name": "Fel Leather Boots",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Bonyfacy"
     ]
   },
   "25687": {
@@ -9165,7 +9211,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "29485": {
@@ -9173,7 +9220,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Streamer",
-      "Arnsgar"
+      "Arnsgar",
+      "Bonyfacy"
     ]
   },
   "29486": {
@@ -9192,7 +9240,8 @@
       "Streamer",
       "Arnsgar",
       "Slavongîga",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "29488": {
@@ -9264,7 +9313,8 @@
     "name": "Netherdrake Helm",
     "profession": "Leatherworking",
     "crafters": [
-      "Streamer"
+      "Streamer",
+      "Bonyfacy"
     ]
   },
   "29511": {
@@ -9368,7 +9418,8 @@
       "Streamer",
       "Arnsgar",
       "Slavongîga",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "29530": {
@@ -9399,7 +9450,8 @@
     "crafters": [
       "Streamer",
       "Slavongîga",
-      "Arnsgar"
+      "Arnsgar",
+      "Bonyfacy"
     ]
   },
   "29534": {
@@ -9416,7 +9468,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Arnsgar",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "29536": {
@@ -9425,7 +9478,8 @@
     "crafters": [
       "Arnsgar",
       "Slavongîga",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "29540": {
@@ -9498,7 +9552,8 @@
     "name": "Belt of Natural Power",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Bonyfacy"
     ]
   },
   "30043": {
@@ -9513,7 +9568,8 @@
     "name": "Monsoon Belt",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Bonyfacy"
     ]
   },
   "30045": {
@@ -10363,7 +10419,8 @@
       "Streamer",
       "Arnsgar",
       "Slavongîga",
-      "Konorhino"
+      "Konorhino",
+      "Bonyfacy"
     ]
   },
   "34440": {
