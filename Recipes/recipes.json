@@ -8783,6 +8783,13 @@
       "Benteha"
     ]
   },
+  "27927": {
+    "name": "Enchant Ring - Stats",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "27944": {
     "name": "Enchant Shield - Tough Shield",
     "profession": "Enchanting",
@@ -8899,6 +8906,13 @@
       "Lightpower",
       "Arnsgar",
       "Kholistyka"
+    ]
+  },
+  "27967": {
+    "name": "Enchant Weapon - Major Striking",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "27968": {
