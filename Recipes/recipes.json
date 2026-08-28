@@ -9915,6 +9915,34 @@
       "Slavongîga"
     ]
   },
+  "32393": {
+    "name": "Redeemed Soul Cinch",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "32396": {
+    "name": "Redeemed Soul Legguards",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "32398": {
+    "name": "Boots of Shackled Souls",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "32399": {
+    "name": "Bracers of Shackled Souls",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "32409": {
     "name": "Relentless Earthstorm Diamond",
     "profession": "Jewelcrafting",
@@ -9956,6 +9984,13 @@
   "32508": {
     "name": "Necklace of the Deep",
     "profession": "Jewelcrafting",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "32580": {
+    "name": "Swiftstrike Bracers",
+    "profession": "Leatherworking",
     "crafters": [
       "Slavongîga"
     ]
