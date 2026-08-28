@@ -2,4 +2,4 @@
 // A committed snapshot of recipes.json's size; loadExports.test.ts asserts the
 // loaded registry still matches it, so a lossy edit to recipes.json fails loudly.
 // Do not edit by hand — it is rewritten after every successful import.
-export const REGISTRY_STATS = { recipes: 1162, crafters: 25 } as const
+export const REGISTRY_STATS = { recipes: 1164, crafters: 25 } as const
