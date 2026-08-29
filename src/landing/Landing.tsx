@@ -21,6 +21,14 @@ export function Landing() {
           <span className="title">P3 Loot Prio</span>
           <span className="desc">Black Temple, Mount Hyjal &amp; crafted gear priority.</span>
         </a>
+        <a
+          className="banner"
+          href="https://classic-armory.org/character/eu/tbc-anniversary/spineshatter/Lightpower"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="title">Lightpower найкращий паладін!</span>
+        </a>
       </div>
     </main>
   )

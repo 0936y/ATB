@@ -239,6 +239,11 @@ main.landing header {
   font-size: 0.875rem;
 }
 
+.landing-links a.banner {
+  align-items: center;
+  text-align: center;
+}
+
 /* ---------------------------------------------------------------- Loot prio */
 
 table.loot {
