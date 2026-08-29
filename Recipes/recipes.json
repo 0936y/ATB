@@ -7063,7 +7063,8 @@
     "name": "Royal Shadow Draenite",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Cassyette"
     ]
   },
   "23110": {
@@ -7849,7 +7850,8 @@
     "name": "Pendant of Shadow's End",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Cassyette"
     ]
   },
   "24106": {
@@ -9667,7 +9669,8 @@
     "name": "Ring of Arcane Shielding",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Sladkakurva"
+      "Sladkakurva",
+      "Cassyette"
     ]
   },
   "30831": {
@@ -9901,18 +9904,188 @@
       "Quasolia"
     ]
   },
+  "32193": {
+    "name": "Bold Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32194": {
+    "name": "Delicate Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32195": {
+    "name": "Teardrop Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32196": {
+    "name": "Runed Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32197": {
+    "name": "Bright Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32198": {
+    "name": "Subtle Crimson Spinel",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32200": {
+    "name": "Solid Empyrean Sapphire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32201": {
+    "name": "Sparkling Empyrean Sapphire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32202": {
+    "name": "Lustrous Empyrean Sapphire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32204": {
+    "name": "Brilliant Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32205": {
+    "name": "Smooth Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
   "32206": {
     "name": "Rigid Lionseye",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Cassyette"
+    ]
+  },
+  "32207": {
+    "name": "Gleaming Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32208": {
+    "name": "Thick Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32213": {
+    "name": "Balanced Shadowsong Amethyst",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32214": {
+    "name": "Infused Shadowsong Amethyst",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32215": {
+    "name": "Glowing Shadowsong Amethyst",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32216": {
+    "name": "Royal Shadowsong Amethyst",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32218": {
+    "name": "Potent Pyrestone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32219": {
+    "name": "Luminous Pyrestone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32220": {
+    "name": "Glinting Pyrestone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32222": {
+    "name": "Wicked Pyrestone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
     ]
   },
   "32223": {
     "name": "Enduring Seaspray Emerald",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Cassyette"
+    ]
+  },
+  "32224": {
+    "name": "Radiant Seaspray Emerald",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32225": {
+    "name": "Dazzling Seaspray Emerald",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32226": {
+    "name": "Jagged Seaspray Emerald",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
     ]
   },
   "32393": {
