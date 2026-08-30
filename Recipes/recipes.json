@@ -10113,12 +10113,33 @@
       "Arnsgar"
     ]
   },
+  "32394": {
+    "name": "Redeemed Soul Moccasins",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
+  "32395": {
+    "name": "Redeemed Soul Wristguards",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
+    ]
+  },
   "32396": {
     "name": "Redeemed Soul Legguards",
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga",
       "Arnsgar"
+    ]
+  },
+  "32397": {
+    "name": "Waistguard of Shackled Souls",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "32398": {
@@ -10135,6 +10156,13 @@
     "crafters": [
       "Slavongîga",
       "Arnsgar"
+    ]
+  },
+  "32400": {
+    "name": "Greaves of Shackled Souls",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Slavongîga"
     ]
   },
   "32409": {
