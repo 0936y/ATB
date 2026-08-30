@@ -109,6 +109,13 @@
       "Slavongîga"
     ]
   },
+  "2311": {
+    "name": "White Leather Jerkin",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
   "2312": {
     "name": "Fine Leather Gloves",
     "profession": "Leatherworking",
@@ -1624,7 +1631,8 @@
     "name": "Murloc Scale Belt",
     "profession": "Leatherworking",
     "crafters": [
-      "Dmze"
+      "Dmze",
+      "Arnsgar"
     ]
   },
   "5957": {
@@ -1883,6 +1891,13 @@
     "profession": "Leatherworking",
     "crafters": [
       "Bonyfacy"
+    ]
+  },
+  "6468": {
+    "name": "Deviate Scale Belt",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
     ]
   },
   "6533": {
@@ -5195,7 +5210,8 @@
     "name": "Devilsaur Leggings",
     "profession": "Leatherworking",
     "crafters": [
-      "Streamer"
+      "Streamer",
+      "Arnsgar"
     ]
   },
   "15066": {
@@ -9585,7 +9601,8 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga",
-      "Bonyfacy"
+      "Bonyfacy",
+      "Arnsgar"
     ]
   },
   "30045": {
@@ -10092,28 +10109,32 @@
     "name": "Redeemed Soul Cinch",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32396": {
     "name": "Redeemed Soul Legguards",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32398": {
     "name": "Boots of Shackled Souls",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32399": {
     "name": "Bracers of Shackled Souls",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32409": {
@@ -10166,6 +10187,13 @@
     "profession": "Leatherworking",
     "crafters": [
       "Slavongîga"
+    ]
+  },
+  "32582": {
+    "name": "Bracers of Renewed Life",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
     ]
   },
   "32664": {
