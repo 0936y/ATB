@@ -4943,6 +4943,13 @@
       "Kholistyka"
     ]
   },
+  "14046": {
+    "name": "Runecloth Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "14048": {
     "name": "Bolt of Runecloth",
     "profession": "Tailoring",
@@ -6707,7 +6714,15 @@
     "name": "Enchanted Runecloth Bag",
     "profession": "Tailoring",
     "crafters": [
-      "Cheaprevo"
+      "Cheaprevo",
+      "Gorzbalxua"
+    ]
+  },
+  "22251": {
+    "name": "Cenarion Herb Bag",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "22451": {
@@ -9552,8 +9567,22 @@
       "Streamer"
     ]
   },
+  "30035": {
+    "name": "Boots of the Long Road",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "30036": {
     "name": "Belt of the Long Road",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "30037": {
+    "name": "Boots of Blasting",
     "profession": "Tailoring",
     "crafters": [
       "Gorzbalxua"
@@ -10107,6 +10136,20 @@
       "Cassyette"
     ]
   },
+  "32390": {
+    "name": "Soulguard Girdle",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "32392": {
+    "name": "Soulguard Bracers",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "32393": {
     "name": "Redeemed Soul Cinch",
     "profession": "Leatherworking",
@@ -10224,6 +10267,13 @@
     "profession": "Leatherworking",
     "crafters": [
       "Arnsgar"
+    ]
+  },
+  "32586": {
+    "name": "Bracers of Nimble Thought",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "32664": {
