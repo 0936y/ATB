@@ -5863,7 +5863,8 @@
     "name": "Enchant Weapon - Crusader",
     "profession": "Enchanting",
     "crafters": [
-      "Cheaprevo"
+      "Cheaprevo",
+      "Gorzbalxua"
     ]
   },
   "20035": {
@@ -10871,6 +10872,13 @@
       "Arnsgar",
       "Kholistyka",
       "Evonte"
+    ]
+  },
+  "42620": {
+    "name": "Enchant Weapon - Greater Agility",
+    "profession": "Enchanting",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "44383": {
