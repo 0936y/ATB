@@ -241,11 +241,9 @@ main.landing header {
 
 /* ------------------------------------------------------------- Lightpower */
 
-.wcl-card,
-.wcl-verdict {
+.wcl-card {
   display: flex;
   text-decoration: none;
-  text-align: left;
   background: #0d0e12;
   border: 1px solid #3a331a;
   border-radius: 12px;
@@ -253,124 +251,20 @@ main.landing header {
   box-shadow: 0 0 24px -8px rgba(240, 198, 116, 0.35);
 }
 
-.wcl-card:hover,
-.wcl-verdict:hover {
+.wcl-card:hover {
   border-color: var(--accent);
 }
 
-.wcl-card {
-  flex-direction: column;
-  gap: 1.5rem;
+.wcl-card--image {
+  padding: 0;
+  overflow: hidden;
 }
 
-.wcl-card__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.wcl-card__name {
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  color: var(--text);
-}
-
-.wcl-card__spec {
-  color: #e879c7;
-  font-weight: 600;
-  margin-top: 0.15rem;
-}
-
-.wcl-card__stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.wcl-card__stat-label {
-  color: var(--muted);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.wcl-card__stat-value {
-  color: var(--text);
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-top: 0.15rem;
-}
-
-.wcl-card__stat-sub {
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.wcl-badge {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 4.5rem;
-  height: 4.5rem;
+.wcl-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 12px;
-  border: 1px solid var(--accent);
-  box-shadow: 0 0 18px -2px rgba(240, 198, 116, 0.6);
-  flex-shrink: 0;
-}
-
-.wcl-badge--verdict {
-  border-radius: 50%;
-}
-
-.wcl-badge__letter {
-  color: var(--accent);
-  font-size: 1.4rem;
-  font-weight: 800;
-  line-height: 1;
-}
-
-.wcl-badge__score {
-  color: var(--muted);
-  font-size: 0.7rem;
-  margin-top: 0.25rem;
-}
-
-.wcl-verdict {
-  align-items: flex-start;
-  gap: 1.5rem;
-}
-
-.wcl-verdict__body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.wcl-verdict__label {
-  color: var(--accent);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-}
-
-.wcl-verdict__headline {
-  margin: 0;
-  color: var(--accent);
-  font-size: 1.3rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 1.25;
-}
-
-.wcl-verdict__body p {
-  margin: 0;
-  color: var(--text);
-  font-size: 0.9rem;
-  line-height: 1.4;
 }
 
 .lp-countdown {
