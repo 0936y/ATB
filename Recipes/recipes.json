@@ -6836,6 +6836,20 @@
       "Bulletdog"
     ]
   },
+  "22757": {
+    "name": "Sylvan Crown",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "22758": {
+    "name": "Sylvan Shoulders",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "22823": {
     "name": "Elixir of Camouflage",
     "profession": "Alchemy",
@@ -8038,11 +8052,25 @@
       "Gorzbalxua"
     ]
   },
+  "24255": {
+    "name": "Unyielding Girdle",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "24256": {
     "name": "Girdle of Ruination",
     "profession": "Tailoring",
     "crafters": [
       "Cheaprevo"
+    ]
+  },
+  "24258": {
+    "name": "Resolute Cape",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "24259": {
@@ -10234,8 +10262,22 @@
       "Cassyette"
     ]
   },
+  "32389": {
+    "name": "Soulguard Leggings",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
   "32390": {
     "name": "Soulguard Girdle",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
+    ]
+  },
+  "32391": {
+    "name": "Soulguard Slippers",
     "profession": "Tailoring",
     "crafters": [
       "Gorzbalxua"
@@ -10329,6 +10371,13 @@
     "crafters": [
       "Konorhino",
       "Bonyfacy"
+    ]
+  },
+  "32420": {
+    "name": "Night's End",
+    "profession": "Tailoring",
+    "crafters": [
+      "Gorzbalxua"
     ]
   },
   "32423": {
