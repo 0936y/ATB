@@ -7718,6 +7718,13 @@
       "Cassyette"
     ]
   },
+  "24032": {
+    "name": "Subtle Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
   "24033": {
     "name": "Solid Star of Elune",
     "profession": "Jewelcrafting",
@@ -7732,6 +7739,13 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva"
+    ]
+  },
+  "24036": {
+    "name": "Flashing Living Ruby",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
     ]
   },
   "24039": {
@@ -7963,11 +7977,19 @@
       "Slavongîga"
     ]
   },
+  "24092": {
+    "name": "Pendant of Frozen Flame",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
   "24093": {
     "name": "Pendant of Thawing",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Sladkakurva"
+      "Sladkakurva",
+      "Cassyette"
     ]
   },
   "24097": {
@@ -7975,6 +7997,13 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Slavongîga",
+      "Cassyette"
+    ]
+  },
+  "24098": {
+    "name": "Pendant of the Null Rune",
+    "profession": "Jewelcrafting",
+    "crafters": [
       "Cassyette"
     ]
   },
@@ -8210,7 +8239,8 @@
       "Slavongiga",
       "Lightpower",
       "Arnsgar",
-      "Quasolia"
+      "Quasolia",
+      "Cassyette"
     ]
   },
   "25080": {
@@ -8223,7 +8253,8 @@
       "Royarni",
       "Arnsgar",
       "Evonte",
-      "Quasolia"
+      "Quasolia",
+      "Cassyette"
     ]
   },
   "25081": {
@@ -8789,6 +8820,20 @@
       "Slavongîga"
     ]
   },
+  "25898": {
+    "name": "Tenacious Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "25899": {
+    "name": "Brutal Earthstorm Diamond",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
   "25901": {
     "name": "Insightful Earthstorm Diamond",
     "profession": "Jewelcrafting",
@@ -8936,7 +8981,8 @@
     "name": "Enchant Ring - Stats",
     "profession": "Enchanting",
     "crafters": [
-      "Gorzbalxua"
+      "Gorzbalxua",
+      "Cassyette"
     ]
   },
   "27944": {
@@ -8998,7 +9044,8 @@
       "Royarni",
       "Killoone",
       "Lightpower",
-      "Evonte"
+      "Evonte",
+      "Cassyette"
     ]
   },
   "27954": {
@@ -9068,7 +9115,8 @@
     "profession": "Enchanting",
     "crafters": [
       "Gorzbalxua",
-      "Quasolia"
+      "Quasolia",
+      "Cassyette"
     ]
   },
   "27968": {
@@ -10172,6 +10220,20 @@
   },
   "32208": {
     "name": "Thick Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32209": {
+    "name": "Mystic Lionseye",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Cassyette"
+    ]
+  },
+  "32212": {
+    "name": "Shifting Shadowsong Amethyst",
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette"
