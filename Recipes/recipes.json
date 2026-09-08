@@ -7835,7 +7835,8 @@
     "name": "Royal Nightseye",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Bulletdog"
     ]
   },
   "24058": {
@@ -7851,7 +7852,8 @@
     "name": "Potent Noble Topaz",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Bulletdog"
     ]
   },
   "24060": {
@@ -10191,6 +10193,13 @@
       "Cassyette"
     ]
   },
+  "32203": {
+    "name": "Stormy Empyrean Sapphire",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
   "32204": {
     "name": "Brilliant Lionseye",
     "profession": "Jewelcrafting",
@@ -10235,12 +10244,20 @@
       "Cassyette"
     ]
   },
+  "32211": {
+    "name": "Sovereign Shadowsong Amethyst",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
+    ]
+  },
   "32212": {
     "name": "Shifting Shadowsong Amethyst",
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Bulletdog"
     ]
   },
   "32213": {
@@ -10269,6 +10286,13 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette"
+    ]
+  },
+  "32217": {
+    "name": "Inscribed Pyrestone",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Bulletdog"
     ]
   },
   "32218": {
