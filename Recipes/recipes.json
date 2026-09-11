@@ -10415,14 +10415,16 @@
     "name": "Redeemed Soul Moccasins",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32395": {
     "name": "Redeemed Soul Wristguards",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32396": {
@@ -10437,7 +10439,8 @@
     "name": "Waistguard of Shackled Souls",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32398": {
@@ -10460,7 +10463,8 @@
     "name": "Greaves of Shackled Souls",
     "profession": "Leatherworking",
     "crafters": [
-      "Slavongîga"
+      "Slavongîga",
+      "Arnsgar"
     ]
   },
   "32409": {
@@ -10513,6 +10517,20 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Slavongîga"
+    ]
+  },
+  "32577": {
+    "name": "Living Earth Bindings",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
+    ]
+  },
+  "32579": {
+    "name": "Living Earth Shoulders",
+    "profession": "Leatherworking",
+    "crafters": [
+      "Arnsgar"
     ]
   },
   "32580": {
