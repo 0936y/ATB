@@ -6007,7 +6007,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20817": {
@@ -6016,7 +6017,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20818": {
@@ -6025,7 +6027,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20820": {
@@ -6034,7 +6037,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20821": {
@@ -6044,7 +6048,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20823": {
@@ -6052,7 +6057,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20826": {
@@ -6060,7 +6066,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20827": {
@@ -6070,7 +6077,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20828": {
@@ -6080,7 +6088,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20830": {
@@ -6088,7 +6097,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20831": {
@@ -6096,7 +6106,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20832": {
@@ -6114,7 +6125,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20907": {
@@ -6122,7 +6134,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20909": {
@@ -6130,7 +6143,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20950": {
@@ -6139,7 +6153,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20954": {
@@ -6155,7 +6170,8 @@
     "crafters": [
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20959": {
@@ -6173,7 +6189,8 @@
     "crafters": [
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20961": {
@@ -6181,7 +6198,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "20963": {
@@ -6191,7 +6209,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "20964": {
@@ -6201,7 +6220,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21072": {
@@ -6259,7 +6279,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21752": {
@@ -6269,7 +6290,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21753": {
@@ -6291,7 +6313,22 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
+    ]
+  },
+  "21756": {
+    "name": "Figurine - Golden Hare",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Einár"
+    ]
+  },
+  "21758": {
+    "name": "Figurine - Black Pearl Panther",
+    "profession": "Jewelcrafting",
+    "crafters": [
+      "Einár"
     ]
   },
   "21760": {
@@ -6308,7 +6345,8 @@
     "crafters": [
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21765": {
@@ -6318,7 +6356,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21766": {
@@ -6334,7 +6373,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21768": {
@@ -6342,7 +6382,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21769": {
@@ -6350,7 +6391,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21775": {
@@ -6359,7 +6401,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21777": {
@@ -6391,7 +6434,8 @@
     "crafters": [
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21791": {
@@ -6749,7 +6793,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "21932": {
@@ -6757,7 +6802,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21933": {
@@ -6765,7 +6811,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "21934": {
@@ -6773,7 +6820,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "22246": {
@@ -7117,7 +7165,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "23099": {
@@ -7127,7 +7176,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23100": {
@@ -7137,7 +7187,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "23101": {
@@ -7146,7 +7197,8 @@
     "crafters": [
       "Sladkakurva",
       "Bulletdog",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23103": {
@@ -7155,7 +7207,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23104": {
@@ -7164,14 +7217,16 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23105": {
     "name": "Enduring Deep Peridot",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Sladkakurva"
+      "Sladkakurva",
+      "Einár"
     ]
   },
   "23108": {
@@ -7198,7 +7253,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23111": {
@@ -7253,7 +7309,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23119": {
@@ -7262,7 +7319,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "23120": {
@@ -7854,7 +7912,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Bulletdog"
+      "Bulletdog",
+      "Einár"
     ]
   },
   "24060": {
@@ -8412,7 +8471,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25439": {
@@ -8420,7 +8480,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25498": {
@@ -8430,7 +8491,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "25521": {
@@ -8736,7 +8798,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25881": {
@@ -8744,7 +8807,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25882": {
@@ -8752,7 +8816,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25883": {
@@ -8761,7 +8826,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25886": {
@@ -8794,7 +8860,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "25895": {
@@ -8844,7 +8911,8 @@
     "crafters": [
       "Bulletdog",
       "Sladkakurva",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "27899": {
@@ -9405,7 +9473,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "29158": {
@@ -9413,7 +9482,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "29159": {
@@ -9421,7 +9491,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "29160": {
@@ -9841,7 +9912,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "30420": {
@@ -9849,7 +9921,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "30421": {
@@ -9857,7 +9930,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "30422": {
@@ -9865,7 +9939,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "30542": {
@@ -9881,7 +9956,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "30816": {
@@ -9938,7 +10014,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Slavongîga",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "31080": {
@@ -9957,7 +10034,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "31367": {
@@ -10072,7 +10150,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Bulletdog",
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "31868": {
@@ -10183,7 +10262,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32201": {
@@ -10277,7 +10357,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32214": {
@@ -10293,7 +10374,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32216": {
@@ -10301,7 +10383,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32217": {
@@ -10316,7 +10399,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32219": {
@@ -10324,7 +10408,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32220": {
@@ -10332,7 +10417,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32222": {
@@ -10340,7 +10426,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32223": {
@@ -10356,7 +10443,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32225": {
@@ -10364,7 +10452,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32226": {
@@ -10372,7 +10461,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "32389": {
@@ -10659,7 +10749,8 @@
       "Bulletdog",
       "Sladkakurva",
       "Cassyette",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "33092": {
@@ -11055,7 +11146,8 @@
     "name": "Chaotic Skyfire Diamond",
     "profession": "Jewelcrafting",
     "crafters": [
-      "Cassyette"
+      "Cassyette",
+      "Einár"
     ]
   },
   "34330": {
@@ -11114,7 +11206,8 @@
     "profession": "Jewelcrafting",
     "crafters": [
       "Sladkakurva",
-      "Slavongîga"
+      "Slavongîga",
+      "Einár"
     ]
   },
   "38225": {
