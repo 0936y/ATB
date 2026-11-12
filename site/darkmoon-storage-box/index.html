@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darkmoon Storage Box</title>
+<style>
+:root{
+  --bg:#f7f5f0;--panel:#ffffff;--text:#1f1d1a;--muted:#6b665d;--line:#e2ddd2;
+  --accent:#6b3fa0;--accent-soft:#efe8f7;--good:#2f7a3d;--good-soft:#e5f3e7;--warn:#9a5b00;--warn-soft:#fbf0dc;
+  --gold:#b8860b;--silver:#7d7d7d;--copper:#b0623a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16141a;--panel:#201d26;--text:#ece8f2;--muted:#a49dae;--line:#363140;
+    --accent:#b48ce6;--accent-soft:#2c2338;--good:#7fcf8c;--good-soft:#1d2e21;--warn:#f0b25a;--warn-soft:#33281a;
+    --gold:#e2b63d;--silver:#c4c4c4;--copper:#e08a5e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16141a;--panel:#201d26;--text:#ece8f2;--muted:#a49dae;--line:#363140;
+  --accent:#b48ce6;--accent-soft:#2c2338;--good:#7fcf8c;--good-soft:#1d2e21;--warn:#f0b25a;--warn-soft:#33281a;
+  --gold:#e2b63d;--silver:#c4c4c4;--copper:#e08a5e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:28px;margin:0 0 4px}
+h2{font-size:20px;margin:36px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:16px;margin:20px 0 8px}
+p{margin:8px 0}
+.sub{color:var(--muted);margin:0 0 20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+.kpi .l{color:var(--muted);font-size:13px}
+.kpi .v{font-size:20px;font-weight:600;margin-top:2px}
+.note{border-left:4px solid var(--accent);background:var(--accent-soft);padding:10px 12px;border-radius:6px;margin:12px 0}
+.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.good{border-left-color:var(--good);background:var(--good-soft)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{color:var(--muted);font-weight:600;font-size:13px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tr.off td{opacity:.4}
+tr.pick td{background:var(--good-soft)}
+input[type=text],input[type=number],textarea,select{
+  font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+input.price{width:92px;text-align:right}
+input.small{width:56px;text-align:right}
+textarea{width:100%;min-height:110px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+button{font:inherit;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:7px 12px;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.row label{display:flex;gap:6px;align-items:center}
+code,pre{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px;white-space:pre-wrap;word-break:break-all;margin:6px 0}
+.g{color:var(--gold)}.s{color:var(--silver)}.c{color:var(--copper)}
+ol li,ul li{margin:4px 0}
+.muted{color:var(--muted)}
+.right{margin-left:auto}
+</style>
+</head>
+<body>
+<main>
+<h1>Darkmoon Storage Box</h1>
+<p class="sub">Гайд і калькулятор для WoW Forever / Classic: як отримати 14-слотову сумку за квитки Darkmoon Faire якомога дешевше.</p>
+
+<div class="kpis">
+  <div class="kpi"><div class="l">Ціна сумки</div><div class="v">50 квитків</div></div>
+  <div class="kpi"><div class="l">NPC обміну</div><div class="v">Gelvas Grimegate</div></div>
+  <div class="kpi"><div class="l">Мін. рівень</div><div class="v">6 (реально 10+)</div></div>
+  <div class="kpi"><div class="l">Слотів</div><div class="v">14, Unique, не soulbound</div></div>
+</div>
+
+<h2>1. Як це працює</h2>
+<ul>
+  <li>Квест <b>«50 Tickets – Darkmoon Storage Box»</b> у Gelvas Grimegate: 50 квитків → сумка. Репутація не потрібна.</li>
+  <li>Квитки дають за <b>здачу реагентів</b> NPC ярмарку. Кожна здача дає квитки одразу і <b>+250 репутації</b> Darkmoon Faire.</li>
+  <li>Ярмарок раз на місяць, тиждень, по черзі <b>Elwynn Forest (~42, 70)</b> і <b>Mulgore (~37, 38)</b>. Дати — у календарі гри.</li>
+  <li>На 1–9 рівні доступні лише здачі по 1 квитку (максимум ~20 квитків), тож для сумки потрібен <b>10+ рівень</b>.</li>
+</ul>
+
+<div class="note warn">
+  <b>Репутація і порядок здач.</b> Усі стартують з 0/3000 Neutral. Нижчі тири <b>закриваються, коли репутація стає надто високою</b>,
+  тож <b>дешевші тири здавай першими</b>. Джерела розходяться щодо порогів:
+  Google-таблиця дає 5 / 11 / 17 / 25 здач для тирів 1–4, а Warcraft Tavern — пороги 401 / 1100 / 1625 / 2500 репутації
+  (≈ 2 / 5 / 7 / 10 здач від нуля). Тир 5 (40+ рівень) — без ліміту.
+  Калькулятор нижче дозволяє обрати модель лімітів; <b>«обережна» безпечніша</b>.
+</div>
+
+<h2>2. Калькулятор</h2>
+
+<div class="card">
+  <h3>Крок 1. Імпорт у Auctionator</h3>
+  <p>Аукціон → <b>Shopping</b> → <b>Import</b> → встав рядок → <b>Search</b> → <b>Export Results</b> (CSV).</p>
+  <pre id="imp"></pre>
+  <button class="ghost" onclick="copyText('imp',this)">Скопіювати</button>
+</div>
+
+<div class="card">
+  <h3>Крок 2. Встав CSV з Auctionator (необов'язково)</h3>
+  <p class="muted">Ціни в CSV — у мідяках (500 = 5с). Можна також вписати ціни вручну в таблицю нижче: <code>1г 20с</code>, <code>1g20s</code>, <code>13s</code> або <code>1300</code>.</p>
+  <textarea id="csv" placeholder='"Price","Name","Item Level","Owned?","Available"&#10;1300,"Green Iron Bracers (28)",33,"",516'></textarea>
+  <div class="row" style="margin-top:8px">
+    <button onclick="importCSV()">Застосувати ціни</button>
+    <span id="csvmsg" class="muted"></span>
+  </div>
+</div>
+
+<div class="card">
+  <h3>Крок 3. Твій персонаж</h3>
+  <div class="row">
+    <label>Рівень <input id="lvl" type="number" class="small" value="20" min="1" max="60"></label>
+    <label>Ліміти здач
+      <select id="capmode">
+        <option value="safe">Обережні (Warcraft Tavern, від 0 репутації)</option>
+        <option value="sheet">Google-таблиця (5/11/17/25)</option>
+        <option value="none">Без лімітів</option>
+      </select>
+    </label>
+    <label>Квитків уже є <input id="have" type="number" class="small" value="0" min="0" max="50"></label>
+  </div>
+</div>
+
+<div class="card scroll">
+  <h3>Крок 4. Реагенти</h3>
+  <table id="items">
+    <thead><tr>
+      <th>Тир</th><th>Реагент</th><th class="n">Рів.</th><th class="n">Шт./здачу</th><th class="n">Квитків</th>
+      <th class="n">Ціна/шт</th><th class="n">Ціна/квиток</th><th class="n">Ліміт</th><th>NPC</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="muted">NPC: <b>Kerri Hicks</b> (ковальство) перевірено за warcraft.wiki.gg; Rinling (інженерія) і Chronos (шкіра) — з пам'яті; NPC частин тварин уточни в грі.
+  Кількість штук за здачу для Copper Modulator і Big Black Mace у джерелах різниться — за потреби виправ у таблиці.</p>
+</div>
+
+<div class="card">
+  <h3>Результат</h3>
+  <div id="result"></div>
+</div>
+
+<div class="card">
+  <h3>Порівняння з іншими сумками</h3>
+  <div class="row">
+    <label>Darkmoon Storage Box на AH <input id="boxah" type="text" class="price" value="6г 15с"></label>
+    <label>Mageweave Bag (12 слотів) <input id="mwb" type="text" class="price" value="1г 3с"></label>
+    <label>Small Silk Pack (10 слотів) <input id="ssp" type="text" class="price" value="25с"></label>
+  </div>
+  <div id="compare" style="margin-top:10px"></div>
+</div>
+
+<h2>3. Порядок дій на ярмарку</h2>
+<ol>
+  <li>Купи реагенти з плану на AH. Ціна в Auctionator — найнижча; дешеві лоти можуть закінчитись, май запас.</li>
+  <li>Прийди на ярмарок і <b>спершу зроби одну здачу</b> — переконайся, що квест доступний.</li>
+  <li>Здавай <b>від нижчого тиру до вищого</b> (порядок у плані вже правильний).</li>
+  <li>Віддай 50 квитків <b>Gelvas Grimegate</b> → Darkmoon Storage Box.</li>
+  <li>Зайві квитки не пропадають — збережи на наступний ярмарок.</li>
+</ol>
+
+<h2>4. Сумки: слоти за Item Level</h2>
+<div class="card scroll">
+<table>
+  <thead><tr><th class="n">Item Level</th><th class="n">Слотів</th><th>Приклади</th></tr></thead>
+  <tbody>
+    <tr><td class="n">5</td><td class="n">6</td><td>Linen Bag, Small Brown Pouch, Red Linen Bag</td></tr>
+    <tr><td class="n">15</td><td class="n">8</td><td>Woolen Bag, Brown Leather Satchel, Green/Red Woolen Bag</td></tr>
+    <tr><td class="n">25</td><td class="n">10</td><td>Small Silk Pack, Murloc Skin Bag, Heavy Brown Bag</td></tr>
+    <tr><td class="n">35</td><td class="n">12</td><td>Mageweave Bag, Red Mageweave Bag</td></tr>
+    <tr><td class="n">45–52</td><td class="n">14</td><td>Darkmoon Storage Box, Journeyman's Backpack, Runecloth Bag</td></tr>
+    <tr><td class="n">55</td><td class="n">16</td><td>Traveler's Backpack</td></tr>
+  </tbody>
+</table>
+<p class="muted">Перевір кількість слотів наведенням мишки. Імпорт сумок у Auctionator:</p>
+<pre id="impbags">Bags Exact^"Small Brown Pouch"^"Brown Leather Satchel"^"Heavy Brown Bag"^"Linen Bag"^"Red Linen Bag"^"Woolen Bag"^"Green Woolen Bag"^"Red Woolen Bag"^"Small Silk Pack"^"Murloc Skin Bag"^"Mageweave Bag"^"Red Mageweave Bag"^"Journeyman's Backpack"^"Runecloth Bag"^"Traveler's Backpack"^"Mooncloth Bag"^"Bottomless Bag"^"Darkmoon Storage Box"</pre>
+<button class="ghost" onclick="copyText('impbags',this)">Скопіювати</button>
+</div>
+
+<h2>5. Джерела</h2>
+<ul>
+  <li><a href="https://docs.google.com/spreadsheets/d/17RyCVOfrmgrJxbRma-FL4LyGNukmAm08zsVVI5oc8dI">DMF ticket calculator (Google Sheets)</a></li>
+  <li><a href="https://warcraft.wiki.gg/wiki/50_Tickets_-_Darkmoon_Storage_Box">50 Tickets – Darkmoon Storage Box (warcraft.wiki.gg)</a></li>
+  <li><a href="https://warcraft.wiki.gg/wiki/Coarse_Weightstone_(quest)">Coarse Weightstone (quest) — Kerri Hicks, +250 rep</a></li>
+  <li><a href="https://www.warcrafttavern.com/guides/wow-classic-darkmoon-faire-guide/">WoW Classic Darkmoon Faire Guide (Warcraft Tavern)</a></li>
+  <li><a href="https://playhub.com/blog/wow-forever/darkmoon-faire-guide-383973">WoW Forever Darkmoon Faire Guide (playhub)</a></li>
+  <li><a href="https://warcraft.wiki.gg/wiki/Darkmoon_Faire_(faction)">Darkmoon Faire (faction)</a></li>
+</ul>
+<p class="muted">Ціни за замовчуванням — AH WoW Forever, 11 листопада 2026.</p>
+</main>
+
+<script>
+const NPC={bs:"Kerri Hicks",eng:"Rinling*",lw:"Chronos*",beast:"уточнити"};
+// tier, name, lvl, per, tickets, price(copper), type
+const ITEMS=[
+ [1,"Small Furry Paw",1,5,1,389,"beast"],
+ [1,"Coarse Weightstone",1,10,1,66,"bs"],
+ [1,"Copper Modulator",1,5,1,500,"eng"],
+ [1,"Embossed Leather Boots",1,3,1,400,"lw"],
+ [2,"Torn Bear Pelt",10,5,4,725,"beast"],
+ [2,"Heavy Grinding Stone",10,7,4,946,"bs"],
+ [2,"Whirring Bronze Gizmo",10,7,4,339,"eng"],
+ [2,"Toughened Leather Armor",10,3,4,800,"lw"],
+ [3,"Soft Bushy Tail",20,5,8,1200,"beast"],
+ [3,"Green Iron Bracers",20,3,8,1300,"bs"],
+ [3,"Barbaric Harness",20,3,8,3100,"lw"],
+ [4,"Vibrant Plume",30,5,12,1500,"beast"],
+ [4,"Big Black Mace",30,1,12,28000,"bs"],
+ [4,"Mechanical Repair Kit",30,6,12,9720,"eng"],
+ [4,"Turtle Scale Leggings",30,1,12,57000,"lw"],
+ [5,"Evil Bat Eye",40,10,20,3195,"beast"],
+ [5,"Glowing Scorpid Blood",40,10,20,2600,"beast"],
+ [5,"Dense Grinding Stone",40,8,20,5000,"bs"],
+ [5,"Thorium Widget",40,6,20,8000,"eng"],
+ [5,"Rugged Armor Kit",40,8,20,4100,"lw"]
+];
+const TIER_LIMIT_REP={1:401,2:1100,3:1625,4:2500,5:Infinity};
+const SHEET_CAP={1:5,2:11,3:17,4:25,5:Infinity};
+const REP_PER=250;
+
+function fmt(c){
+  if(c==null||!isFinite(c))return "—";
+  c=Math.round(c);const g=Math.floor(c/10000),s=Math.floor(c%10000/100),m=c%100;
+  let out=[];if(g)out.push(`<span class="g">${g}г</span>`);if(s||g)out.push(`<span class="s">${s}с</span>`);
+  if(m||(!g&&!s))out.push(`<span class="c">${m}м</span>`);return out.join(" ");
+}
+function parsePrice(v){
+  v=String(v).trim().toLowerCase().replace(/,/g,".");
+  if(!v)return null;
+  if(/^\d+$/.test(v))return parseInt(v,10);
+  let c=0,ok=false;
+  const re=/(\d+(?:\.\d+)?)\s*(г|g|с|s|м|c|m)/g;let mm;
+  while((mm=re.exec(v))){ok=true;const n=parseFloat(mm[1]);const u=mm[2];
+    c+= (u==="г"||u==="g")?n*10000:(u==="с"||u==="s")?n*100:n;}
+  return ok?Math.round(c):null;
+}
+function esc(s){return s.replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]))}
+
+const tbody=document.querySelector("#items tbody");
+ITEMS.forEach((it,i)=>{
+  const tr=document.createElement("tr");tr.id="r"+i;
+  tr.innerHTML=`<td>T${it[0]}</td><td>${esc(it[1])}</td><td class="n">${it[2]}</td>
+  <td class="n"><input class="small" type="number" min="1" id="per${i}" value="${it[3]}"></td>
+  <td class="n">${it[4]}</td>
+  <td class="n"><input class="price" type="text" id="p${i}" value="${(it[5]/100).toString().replace('.',',')}с"></td>
+  <td class="n" id="pt${i}"></td><td class="n" id="cap${i}"></td><td>${NPC[it[6]]}</td>`;
+  tbody.appendChild(tr);
+});
+document.getElementById("imp").textContent="DMF Tickets^"+ITEMS.map(x=>'"'+x[1]+'"').join("^")+'^"Darkmoon Storage Box"';
+
+function capFor(tier,mode){
+  if(mode==="none"||tier===5)return Infinity;
+  if(mode==="sheet")return SHEET_CAP[tier];
+  return null; // safe: computed by rep in planner
+}
+
+function solve(){
+  const lvl=+document.getElementById("lvl").value||1;
+  const mode=document.getElementById("capmode").value;
+  const need=Math.max(0,50-(+document.getElementById("have").value||0));
+  const av=[];
+  ITEMS.forEach((it,i)=>{
+    const per=Math.max(1,+document.getElementById("per"+i).value||it[3]);
+    const p=parsePrice(document.getElementById("p"+i).value);
+    const ok=lvl>=it[2]&&p!=null&&p>0;
+    const pt=p!=null?per*p/it[4]:null;
+    document.getElementById("pt"+i).innerHTML=fmt(pt);
+    let capTxt;
+    if(mode==="safe"&&it[0]<5)capTxt=Math.ceil(TIER_LIMIT_REP[it[0]]/REP_PER)+"*";
+    else {const c=capFor(it[0],mode);capTxt=c===Infinity?"∞":c;}
+    document.getElementById("cap"+i).textContent=capTxt;
+    const row=document.getElementById("r"+i);row.classList.toggle("off",!ok);row.classList.remove("pick");
+    if(ok)av.push({i,tier:it[0],name:it[1],per,t:it[4],p,cost:per*p,type:it[6]});
+  });
+  if(need===0){document.getElementById("result").innerHTML='<div class="note good">У тебе вже є 50 квитків — йди до Gelvas Grimegate.</div>';compare(0);return;}
+
+  let best=null;
+  if(mode==="safe"){
+    // state: tickets(capped at need) x rep-steps (count of turn-ins so far). Process tiers ascending (low tiers first).
+    // turn-in of tier T allowed only while rep < limit(T). rep = steps*250.
+    const MAXS=Math.ceil(need/1)+12;
+    let dp=new Map();dp.set("0|0",{c:0,pick:[]});
+    const order=[...av].sort((a,b)=>a.tier-b.tier||a.cost/a.t-b.cost/b.t);
+    for(const it of order){
+      const nd=new Map(dp);
+      for(const [k,v] of dp){
+        let [tk,st]=k.split("|").map(Number);
+        let c=v.c,pick=v.pick,m=0;
+        while(tk<need){
+          const rep=st*REP_PER;if(rep>=TIER_LIMIT_REP[it.tier])break;
+          tk=Math.min(need,tk+it.t);st++;m++;c+=it.cost;
+          if(st>MAXS)break;
+          const key=tk+"|"+st;const cur=nd.get(key);
+          if(!cur||cur.c>c)nd.set(key,{c,pick:pick.concat([[it,m]])});
+        }
+      }
+      dp=nd;
+    }
+    for(const [k,v] of dp){if(+k.split("|")[0]>=need&&(!best||v.c<best.c))best=v;}
+  } else {
+    let dp=Array(need+1).fill(null);dp[0]={c:0,pick:[]};
+    for(const it of av){
+      const cap=Math.min(capFor(it.tier,mode),Math.ceil(need/it.t));
+      const nd=dp.slice();
+      for(let tk=0;tk<=need;tk++){const v=dp[tk];if(!v)continue;
+        for(let m=1;m<=cap;m++){const nt=Math.min(need,tk+m*it.t);const nc=v.c+m*it.cost;
+          if(!nd[nt]||nd[nt].c>nc)nd[nt]={c:nc,pick:v.pick.concat([[it,m]])};}}
+      dp=nd;
+    }
+    best=dp[need];
+  }
+  const out=document.getElementById("result");
+  if(!best){out.innerHTML='<div class="note warn">З такими рівнем і лімітами не вдається набрати 50 квитків. Підвищ рівень або зміни модель лімітів.</div>';compare(null);return;}
+  const pick=best.pick.slice().sort((a,b)=>a[0].tier-b[0].tier);
+  let tickets=0,rows="",step=1;
+  pick.forEach(([it,m])=>{tickets+=m*it.t;document.getElementById("r"+it.i).classList.add("pick");
+    rows+=`<tr><td class="n">${step++}</td><td>${m*it.per}× ${esc(it.name)}</td><td class="n">${m}</td><td class="n">${m*it.t}</td><td class="n">${fmt(m*it.cost)}</td><td>${NPC[it.type]}</td></tr>`;});
+  out.innerHTML=`<div class="kpis"><div class="kpi"><div class="l">Собівартість сумки</div><div class="v">${fmt(best.c)}</div></div>
+  <div class="kpi"><div class="l">Квитків вийде</div><div class="v">${tickets+(50-need)}</div></div>
+  <div class="kpi"><div class="l">Ціна за слот</div><div class="v">${fmt(best.c/14)}</div></div></div>
+  <div class="scroll" style="margin-top:10px"><table><thead><tr><th class="n">#</th><th>Купити</th><th class="n">Здач</th><th class="n">Квитків</th><th class="n">Сума</th><th>Кому</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="muted">Здавай у цьому порядку — від нижчого тиру до вищого. ${mode==="safe"?"* Ліміт в обережній моделі рахується від 0 репутації, +250 за здачу.":""}</p>`;
+  compare(best.c);
+}
+function compare(cost){
+  const box=parsePrice(document.getElementById("boxah").value),mw=parsePrice(document.getElementById("mwb").value),ss=parsePrice(document.getElementById("ssp").value);
+  const el=document.getElementById("compare");
+  if(cost==null){el.innerHTML="";return;}
+  let h='<div class="scroll"><table><thead><tr><th>Сумка</th><th class="n">Слотів</th><th class="n">Ціна</th><th class="n">За слот</th></tr></thead><tbody>';
+  h+=`<tr class="pick"><td>Darkmoon Storage Box (квитки)</td><td class="n">14</td><td class="n">${fmt(cost)}</td><td class="n">${fmt(cost/14)}</td></tr>`;
+  if(box)h+=`<tr><td>Darkmoon Storage Box (AH)</td><td class="n">14</td><td class="n">${fmt(box)}</td><td class="n">${fmt(box/14)}</td></tr>`;
+  if(mw)h+=`<tr><td>Mageweave Bag</td><td class="n">12</td><td class="n">${fmt(mw)}</td><td class="n">${fmt(mw/12)}</td></tr>`;
+  if(ss)h+=`<tr><td>Small Silk Pack</td><td class="n">10</td><td class="n">${fmt(ss)}</td><td class="n">${fmt(ss/10)}</td></tr>`;
+  h+='</tbody></table></div>';
+  let v=[];
+  if(box)v.push(cost<box?`Через квитки дешевше за готову на AH на <b>${fmt(box-cost)}</b>.`:`Готова сумка на AH дешевша — <b>купуй готову</b>.`);
+  if(mw){const d=cost-mw;v.push(d<=0?`Дешевша навіть за Mageweave Bag — <b>однозначно роби</b>.`:
+    (cost/14<mw/12?`За слот вигідніша за Mageweave Bag; +2 слоти коштують ${fmt(d)}.`:`За слот дорожча за Mageweave Bag: +2 слоти коштують <b>${fmt(d)}</b>. Вирішуй, чи варто.`));}
+  el.innerHTML=h+(v.length?`<div class="note">${v.join("<br>")}</div>`:"");
+}
+function importCSV(){
+  const txt=document.getElementById("csv").value;let n=0;
+  const idx={};ITEMS.forEach((it,i)=>idx[it[1].toLowerCase()]=i);
+  txt.split(/\r?\n/).forEach(line=>{
+    const m=line.match(/^\s*"?(\d+)"?\s*,\s*"([^"]+)"/);if(!m)return;
+    const price=+m[1];const name=m[2].replace(/\s*\(\d+\)\s*$/,"").trim().toLowerCase();
+    if(name in idx){document.getElementById("p"+idx[name]).value=fmtPlain(price);n++;}
+    else if(name==="darkmoon storage box"){document.getElementById("boxah").value=fmtPlain(price);n++;}
+    else if(name==="mageweave bag"){document.getElementById("mwb").value=fmtPlain(price);n++;}
+    else if(name==="small silk pack"){document.getElementById("ssp").value=fmtPlain(price);n++;}
+  });
+  document.getElementById("csvmsg").textContent=n?`Оновлено цін: ${n}`:"Не знайдено жодного рядка з відомим предметом";
+  solve();
+}
+function fmtPlain(c){const g=Math.floor(c/10000),s=Math.floor(c%10000/100),m=c%100;
+  return [g?g+"г":"",s?s+"с":"",m?m+"м":""].filter(Boolean).join(" ")||"0м";}
+function copyText(id,btn){
+  const t=document.getElementById(id).textContent;
+  const done=()=>{const o=btn.textContent;btn.textContent="Скопійовано";setTimeout(()=>btn.textContent=o,1200)};
+  if(navigator.clipboard)navigator.clipboard.writeText(t).then(done,()=>{});else done();
+}
+document.querySelectorAll("input,select").forEach(el=>el.addEventListener("input",solve));
+document.getElementById("capmode").addEventListener("change",solve);
+solve();
+</script>
+</body>
+</html>
